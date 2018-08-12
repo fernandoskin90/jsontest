@@ -1,0 +1,651 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 3309,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "empresa_tiene_tipo_documento_identidad",
+      "sentence": "Informe básico AUTOPARTES SILVER SAS Nit 9005833530 Identificación Bogotá Número Matrícula Sigla Organización Jurídica 02285033 Camara Comercio Categoría Empresa Sociedad por Acciones Simplificada No tiene Principal Tipo de Régimen Grupo Empresarial Estado de la matrícula Fecha de la Matrícula 15/01/2013 Ultima Renovación Indicador de Liquidación Cantidad de Personal1 Importa y Exporta Concordato Año Renovado Anterior 2016 REGIMEN COMUN Fecha de Cancelaciórn Estado Matrícula Estado Actual de la Empresa Estado de Afiliacion 31/03/2017 Activa No liquidada Activa No afiliado Sin Dato Embargo No Embargado Fecha Renov Año Anterior Fecha Renov Año Anterioir Fecha Renov Año Anterior Fecha Renov Año Anterioir 22/03/2016 30/03/2015 28/03/2014 15/01/2013 Año Renovado Anteior 2015 Año Renovado Anteior 2014 Año Renovado Anteior 2013 Información actividad económica código cu Deseripción 4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS)",
+      "score": 0.94287,
+      "arguments": [
+        {
+          "text": "AUTOPARTES SILVER SAS",
+          "location": [
+            804,
+            825
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "AUTOPARTES SILVER SAS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Nit",
+          "location": [
+            826,
+            829
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "Nit",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_documento_identidad",
+      "sentence": "Informe básico AUTOPARTES SILVER SAS Nit 9005833530 Identificación Bogotá Número Matrícula Sigla Organización Jurídica 02285033 Camara Comercio Categoría Empresa Sociedad por Acciones Simplificada No tiene Principal Tipo de Régimen Grupo Empresarial Estado de la matrícula Fecha de la Matrícula 15/01/2013 Ultima Renovación Indicador de Liquidación Cantidad de Personal1 Importa y Exporta Concordato Año Renovado Anterior 2016 REGIMEN COMUN Fecha de Cancelaciórn Estado Matrícula Estado Actual de la Empresa Estado de Afiliacion 31/03/2017 Activa No liquidada Activa No afiliado Sin Dato Embargo No Embargado Fecha Renov Año Anterior Fecha Renov Año Anterioir Fecha Renov Año Anterior Fecha Renov Año Anterioir 22/03/2016 30/03/2015 28/03/2014 15/01/2013 Año Renovado Anteior 2015 Año Renovado Anteior 2014 Año Renovado Anteior 2013 Información actividad económica código cu Deseripción 4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS)",
+      "score": 0.958322,
+      "arguments": [
+        {
+          "text": "AUTOPARTES SILVER SAS",
+          "location": [
+            804,
+            825
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "AUTOPARTES SILVER SAS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "9005833530",
+          "location": [
+            830,
+            840
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "9005833530",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "Informe básico AUTOPARTES SILVER SAS Nit 9005833530 Identificación Bogotá Número Matrícula Sigla Organización Jurídica 02285033 Camara Comercio Categoría Empresa Sociedad por Acciones Simplificada No tiene Principal Tipo de Régimen Grupo Empresarial Estado de la matrícula Fecha de la Matrícula 15/01/2013 Ultima Renovación Indicador de Liquidación Cantidad de Personal1 Importa y Exporta Concordato Año Renovado Anterior 2016 REGIMEN COMUN Fecha de Cancelaciórn Estado Matrícula Estado Actual de la Empresa Estado de Afiliacion 31/03/2017 Activa No liquidada Activa No afiliado Sin Dato Embargo No Embargado Fecha Renov Año Anterior Fecha Renov Año Anterioir Fecha Renov Año Anterior Fecha Renov Año Anterioir 22/03/2016 30/03/2015 28/03/2014 15/01/2013 Año Renovado Anteior 2015 Año Renovado Anteior 2014 Año Renovado Anteior 2013 Información actividad económica código cu Deseripción 4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS)",
+      "score": 0.979617,
+      "arguments": [
+        {
+          "text": "9005833530",
+          "location": [
+            830,
+            840
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "9005833530",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Nit",
+          "location": [
+            826,
+            829
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "Nit",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "Informe básico AUTOPARTES SILVER SAS Nit 9005833530 Identificación Bogotá Número Matrícula Sigla Organización Jurídica 02285033 Camara Comercio Categoría Empresa Sociedad por Acciones Simplificada No tiene Principal Tipo de Régimen Grupo Empresarial Estado de la matrícula Fecha de la Matrícula 15/01/2013 Ultima Renovación Indicador de Liquidación Cantidad de Personal1 Importa y Exporta Concordato Año Renovado Anterior 2016 REGIMEN COMUN Fecha de Cancelaciórn Estado Matrícula Estado Actual de la Empresa Estado de Afiliacion 31/03/2017 Activa No liquidada Activa No afiliado Sin Dato Embargo No Embargado Fecha Renov Año Anterior Fecha Renov Año Anterioir Fecha Renov Año Anterior Fecha Renov Año Anterioir 22/03/2016 30/03/2015 28/03/2014 15/01/2013 Año Renovado Anteior 2015 Año Renovado Anteior 2014 Año Renovado Anteior 2013 Información actividad económica código cu Deseripción 4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS)",
+      "score": 0.980076,
+      "arguments": [
+        {
+          "text": "Fecha de la Matrícula",
+          "location": [
+            1062,
+            1083
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "Fecha de la Matrícula",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "15/01/2013",
+          "location": [
+            1084,
+            1094
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "15/01/2013",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_estado_matricula",
+      "sentence": "Informe básico AUTOPARTES SILVER SAS Nit 9005833530 Identificación Bogotá Número Matrícula Sigla Organización Jurídica 02285033 Camara Comercio Categoría Empresa Sociedad por Acciones Simplificada No tiene Principal Tipo de Régimen Grupo Empresarial Estado de la matrícula Fecha de la Matrícula 15/01/2013 Ultima Renovación Indicador de Liquidación Cantidad de Personal1 Importa y Exporta Concordato Año Renovado Anterior 2016 REGIMEN COMUN Fecha de Cancelaciórn Estado Matrícula Estado Actual de la Empresa Estado de Afiliacion 31/03/2017 Activa No liquidada Activa No afiliado Sin Dato Embargo No Embargado Fecha Renov Año Anterior Fecha Renov Año Anterioir Fecha Renov Año Anterior Fecha Renov Año Anterioir 22/03/2016 30/03/2015 28/03/2014 15/01/2013 Año Renovado Anteior 2015 Año Renovado Anteior 2014 Año Renovado Anteior 2013 Información actividad económica código cu Deseripción 4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS)",
+      "score": 0.636969,
+      "arguments": [
+        {
+          "text": "Estado Matrícula",
+          "location": [
+            1252,
+            1268
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ESTADO_MATRICULA",
+              "text": "Estado Matrícula",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Activa",
+          "location": [
+            1329,
+            1335
+          ],
+          "entities": [
+            {
+              "type": "ESTADO_MATRICULA",
+              "text": "Activa",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_estado_matricula",
+      "sentence": "BOGOTA D.C. 216 BOGOTA D.C. 216 6609984 AUTOPARTESSILVER@GMAIL.COM Correo autopartessilver@gmail.com Dirección Web Estado de la matrícula Fecha de Matrícula Fecha de Cancelación Actividad Económica 15/01/2013 Fecha de Renovación 31/03/2017 Estado Matrícula Activa COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS) PARA Activos Vinculados 20.656.000 LA INFORMACION QUE FIGURA EN BLANCO DENTRO DEL REPORTE, CORRESPONDE A INFORMACIÓN NO REPORTADA POR LA EMPRESA 4 de 4  Cámara de Comercio CO de Bogotá Registro mercantfi- Informe básico Representantes legales Número Documento Cargo Numerd de Cuotas Documento Nombre Valor Aportes Cedula de ciudadania 39686939 ZABALA CANO MARITZA Representación Legal LA INFORMACIÓN QUE FIGURA EN BLANCO DENTRO DEL REPORTE, CORRESPONDE A INFORMACIÓN NO REPORTADA POR LA EMPRESA 3 de 4",
+      "score": 0.925192,
+      "arguments": [
+        {
+          "text": "Estado Matrícula",
+          "location": [
+            2722,
+            2738
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ESTADO_MATRICULA",
+              "text": "Estado Matrícula",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Activa",
+          "location": [
+            2739,
+            2745
+          ],
+          "entities": [
+            {
+              "type": "ESTADO_MATRICULA",
+              "text": "Activa",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "EMPRESA",
+      "text": "AUTOPARTES SILVER SAS",
+      "mentions": [
+        {
+          "text": "AUTOPARTES SILVER SAS",
+          "location": [
+            804,
+            825
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "Nit",
+      "mentions": [
+        {
+          "text": "Nit",
+          "location": [
+            826,
+            829
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "30/03/2015",
+      "mentions": [
+        {
+          "text": "30/03/2015",
+          "location": [
+            1511,
+            1521
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "28/03/2014",
+      "mentions": [
+        {
+          "text": "28/03/2014",
+          "location": [
+            1522,
+            1532
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "15/01/2013",
+      "mentions": [
+        {
+          "text": "15/01/2013",
+          "location": [
+            1533,
+            1543
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS",
+      "mentions": [
+        {
+          "text": "4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS",
+          "location": [
+            1676,
+            1740
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "AUTOPARTES SILVER",
+      "mentions": [
+        {
+          "text": "AUTOPARTES SILVER",
+          "location": [
+            1954,
+            1971
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "15/01/2013",
+      "mentions": [
+        {
+          "text": "15/01/2013",
+          "location": [
+            2680,
+            2690
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "31/03/2017",
+      "mentions": [
+        {
+          "text": "31/03/2017",
+          "location": [
+            2711,
+            2721
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ESTADO_MATRICULA",
+      "text": "Estado Matrícula",
+      "mentions": [
+        {
+          "text": "Estado Matrícula",
+          "location": [
+            2722,
+            2738
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ESTADO_MATRICULA",
+      "text": "Activa",
+      "mentions": [
+        {
+          "text": "Activa",
+          "location": [
+            2739,
+            2745
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS) PARA",
+      "mentions": [
+        {
+          "text": "COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS) PARA",
+          "location": [
+            2746,
+            2811
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "9005833530",
+      "mentions": [
+        {
+          "text": "9005833530",
+          "location": [
+            830,
+            840
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_ORGANIZACION",
+      "text": "Sociedad por Acciones Simplificada",
+      "mentions": [
+        {
+          "text": "Sociedad por Acciones Simplificada",
+          "location": [
+            951,
+            985
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SOCIEDAD_POR_ACCIONES_SIMPLIFICADA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "Fecha de la Matrícula",
+      "mentions": [
+        {
+          "text": "Fecha de la Matrícula",
+          "location": [
+            1062,
+            1083
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "15/01/2013",
+      "mentions": [
+        {
+          "text": "15/01/2013",
+          "location": [
+            1084,
+            1094
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ESTADO_MATRICULA",
+      "text": "Estado Matrícula",
+      "mentions": [
+        {
+          "text": "Estado Matrícula",
+          "location": [
+            1252,
+            1268
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "31/03/2017",
+      "mentions": [
+        {
+          "text": "31/03/2017",
+          "location": [
+            1318,
+            1328
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ESTADO_MATRICULA",
+      "text": "Activa",
+      "mentions": [
+        {
+          "text": "Activa",
+          "location": [
+            1329,
+            1335
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "22/03/2016",
+      "mentions": [
+        {
+          "text": "22/03/2016",
+          "location": [
+            1500,
+            1510
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": "Cámara de Comercio de Bogotá Ubicaclón y contacto Comercial Notificación Dirección Departamento Ciudad Código Postal Teléfon<o Fax Correo CL 64 NO. 25 37 BOGOTA D.C BOGOTA D.C. 216 6609984 Dirección Departamento Ciudad Código Postal Teléfondo Fax CL 64 NO. 25 37 BOGOTA D.C. BOGOTA D.C. 216 6609984 autopartessilver@gmail.co Corred autopartessilver@gmail.co 0 0 Direccion Web Aporte en Activos Aporte en Dinero Aporte Laborales Aporte Laboral 0,00 Capital Autorizado 0,00 Capital Suscrito 0,00 Capital Pagado 0,00 10.000.000,00 10.000.000,00 10.000.000,00 Adicional Nombre Referencia Dirección Referencia Teléfondo Nro. de establecimientos (1)* LA INFORMACIÓN QUE FIGURA EN BLANCO DENTRO DEL REPORTE, CORRESPONDE A INFORMACIÓN NO REPORTADA POR LA EMPRESA  de Comercio Registro mercantíl - Informe básico AUTOPARTES SILVER SAS Nit 9005833530 Identificación Bogotá Número Matrícula Sigla Organización Jurídica 02285033 Camara Comercio Categoría Empresa Sociedad por Acciones Simplificada No tiene Principal Tipo de Régimen Grupo Empresarial Estado de la matrícula Fecha de la Matrícula 15/01/2013 Ultima Renovación Indicador de Liquidación Cantidad de Personal1 Importa y Exporta Concordato Año Renovado Anterior 2016 REGIMEN COMUN Fecha de Cancelaciórn Estado Matrícula Estado Actual de la Empresa Estado de Afiliacion 31/03/2017 Activa No liquidada Activa No afiliado Sin Dato Embargo No Embargado Fecha Renov Año Anterior Fecha Renov Año Anterioir Fecha Renov Año Anterior Fecha Renov Año Anterioir 22/03/2016 30/03/2015 28/03/2014 15/01/2013 Año Renovado Anteior 2015 Año Renovado Anteior 2014 Año Renovado Anteior 2013 Información actividad económica código cu Deseripción 4530 COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS) PARA VEHICULOS AUTOMOTORES Descripción de la Actividad Ecónomica LA INFORMACION QUE FIGURA EN BLANCO DENTRO DEL REPORTE, CORRESPONDE A INFORMACION NO REPORTADA POR LA EMPRESA 1 de 4  Cámara de Comercio de Bogotá AUTOPARTES SILVER. Identificación Nro Matrícula Sigla Identificación Propietario Grupo Empresarial 02285034 Camara Comercio Bogotá No tiene Categoría Empresa Sin Categ Propietario del establecimiento de comercio Identificación No tiene Razón social Propietario No tiene Ubicación y contacteo 추. Comercial Notificación Dirección Departamento comercial BOGOTA D.C. Ciudad Comercial Código Postal Teléfono Fax Correo Direccion Web CL 64 NO. 25 37 Dirección Departamento Ciudad Código Postal Teléfono Fax CL 64 NO. 25 37 BOGOTA DC. BOGOTA D.C. 216 BOGOTA D.C. 216 6609984 AUTOPARTESSILVER@GMAIL.COM Correo autopartessilver@gmail.com Dirección Web Estado de la matrícula Fecha de Matrícula Fecha de Cancelación Actividad Económica 15/01/2013 Fecha de Renovación 31/03/2017 Estado Matrícula Activa COMERCIO DE PARTES, PIEZAS (AUTOPARTES) Y ACCESORIOS (LUJOS) PARA Activos Vinculados 20.656.000 LA INFORMACION QUE FIGURA EN BLANCO DENTRO DEL REPORTE, CORRESPONDE A INFORMACIÓN NO REPORTADA POR LA EMPRESA 4 de 4  Cámara de Comercio CO de Bogotá Registro mercantfi- Informe básico Representantes legales Número Documento Cargo Numerd de Cuotas Documento Nombre Valor Aportes Cedula de ciudadania 39686939 ZABALA CANO MARITZA Representación Legal LA INFORMACIÓN QUE FIGURA EN BLANCO DENTRO DEL REPORTE, CORRESPONDE A INFORMACIÓN NO REPORTADA POR LA EMPRESA 3 de 4 "
+}
