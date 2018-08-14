@@ -1,0 +1,918 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 5449,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CODIGO DE VERIFICACIÓN yXVFhbzmTr CAUCA CERTIFICADO DE MATRICULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matrículas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIón Y DOMICILIO NOMBRE o RAZóN soCIaL: TROCHEZ SANTACRUZ DIEGO FERNANDO ORGANIZACION JURIDICA: PERSONA NATURAL IDENTIFICACIÓN: Cédula de ciudadanía - 1062290703 NIT :1062290703-9 DOMICILIO : SANTANDER DE QUILICHAO MATRICULA - INSCRIPCIÓN MATRICULA NO : 134702 FECHA DE MATRICULA: JUNIO 05 DE 2013 ULTIMO ANO RENOVADo : 2018 EECHA DE RENOVACION DE LA MATRICULA : MARZO 12 DE 2018 AcrIVO TOTAL : 2,000, 000.00 GRUPO NIIF : 4.- GRUPO III -MICROEMPRESAS UBICAC ON Y DATOS GENERALES DIRECCION DEL DOMICILIO PRINCIPAL CL 10 NRO.",
+      "score": 0.995658,
+      "arguments": [
+        {
+          "text": "1062290703",
+          "location": [
+            562,
+            572
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1062290703",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Cédula de ciudadanía",
+          "location": [
+            539,
+            559
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "Cédula de ciudadanía",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_otra",
+      "sentence": "5-10 BRR CENTRO MUNICIPIO: 19142 - CALOTO TELEFONO 1 : 3206767553 CORREO ELECTRONICO : diegofts89@hotmail.com ACTIVIDAD PRINCIPAL : G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO OTRAS ACTIVIDADES : 15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P OTRAS ACTIVIDADES P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA VALOR DEL ESTABLECIMIENTO : 2,000,000 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO CERTIFICA LA INFORMACIÓN ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRÍCULA צ RENOVACIÓN DILIGENCIADO POR EL COMERCIANTE CERTIFICA DE coNFOrMIDAD CON LO ESTABLECIDO EN EL cóDIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO Y DE LA LEY 962 DE 2005, Los ACTOs ADMINISTRATIVOs DE rEGISTRO AQuf CeRTIFICADOs QUEdan EeN FIRME DIEZ (10) Días HÁBILES DESPUES DE LA FEcHA DE INSCRIPCIóN, SIeMPRE QUE No sEAN OBJETO DE RECURsOS.",
+      "score": 0.96976,
+      "arguments": [
+        {
+          "text": "P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA",
+          "location": [
+            3237,
+            3277
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            3219,
+            3236
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_OTRA",
+              "text": "OTRAS ACTIVIDADES",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CODIGO DE VERIFICACIÓN yXVFhbzmTr CAUCA CERTIFICADO DE MATRICULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matrículas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIón Y DOMICILIO NOMBRE o RAZóN soCIaL: TROCHEZ SANTACRUZ DIEGO FERNANDO ORGANIZACION JURIDICA: PERSONA NATURAL IDENTIFICACIÓN: Cédula de ciudadanía - 1062290703 NIT :1062290703-9 DOMICILIO : SANTANDER DE QUILICHAO MATRICULA - INSCRIPCIÓN MATRICULA NO : 134702 FECHA DE MATRICULA: JUNIO 05 DE 2013 ULTIMO ANO RENOVADo : 2018 EECHA DE RENOVACION DE LA MATRICULA : MARZO 12 DE 2018 AcrIVO TOTAL : 2,000, 000.00 GRUPO NIIF : 4.- GRUPO III -MICROEMPRESAS UBICAC ON Y DATOS GENERALES DIRECCION DEL DOMICILIO PRINCIPAL CL 10 NRO.",
+      "score": 0.996385,
+      "arguments": [
+        {
+          "text": "1062290703-9",
+          "location": [
+            578,
+            590
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1062290703-9",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            573,
+            576
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "CODIGO DE VERIFICACIÓN yXVFhbzmTr CAUCA CERTIFICADO DE MATRICULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matrículas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIón Y DOMICILIO NOMBRE o RAZóN soCIaL: TROCHEZ SANTACRUZ DIEGO FERNANDO ORGANIZACION JURIDICA: PERSONA NATURAL IDENTIFICACIÓN: Cédula de ciudadanía - 1062290703 NIT :1062290703-9 DOMICILIO : SANTANDER DE QUILICHAO MATRICULA - INSCRIPCIÓN MATRICULA NO : 134702 FECHA DE MATRICULA: JUNIO 05 DE 2013 ULTIMO ANO RENOVADo : 2018 EECHA DE RENOVACION DE LA MATRICULA : MARZO 12 DE 2018 AcrIVO TOTAL : 2,000, 000.00 GRUPO NIIF : 4.- GRUPO III -MICROEMPRESAS UBICAC ON Y DATOS GENERALES DIRECCION DEL DOMICILIO PRINCIPAL CL 10 NRO.",
+      "score": 0.99341,
+      "arguments": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            672,
+            690
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "FECHA DE MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "JUNIO 05 DE 2013",
+          "location": [
+            692,
+            708
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "JUNIO 05 DE 2013",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "DESCRIPCION DE LA ACIVIDAD ECONOMICA : COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDAD PRINCIPAL : .G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS, ANIMALES VIVOS ACTIVIDAD SECUNDARIA : G4711 -COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO Página 1/3  CAMARA DE COMERCIO DEL CAUCA TROCHEZ SANTACRUZ DIEGO FERNANDO Fecha expedlción: 2018/04126-16:18:51 '\"\" Reclbo No. S000203756*\"\"Num.",
+      "score": 0.993454,
+      "arguments": [
+        {
+          "text": ".G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS, ANIMALES VIVOS",
+          "location": [
+            1518,
+            1597
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": ".G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS, ANIMALES VIVOS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1496,
+            1515
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": "DESCRIPCION DE LA ACIVIDAD ECONOMICA : COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDAD PRINCIPAL : .G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS, ANIMALES VIVOS ACTIVIDAD SECUNDARIA : G4711 -COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO Página 1/3  CAMARA DE COMERCIO DEL CAUCA TROCHEZ SANTACRUZ DIEGO FERNANDO Fecha expedlción: 2018/04126-16:18:51 '\"\" Reclbo No. S000203756*\"\"Num.",
+      "score": 0.977273,
+      "arguments": [
+        {
+          "text": "G4711 -COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+          "location": [
+            1621,
+            1756
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "G4711 -COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1598,
+            1618
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": "CAUCA CODIGO DE VERIFICACIÓN yXVFhbzmTr OTRAS ACTIVIDADES I5619OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS N.C.P OTRAS ACTIVIDADES : P8552 - ENSEñANZA DEPORTIVA ץ RECREATIVA CERIIFICA - ESTABLECIMIENTOS QuE ES PROPIETARIO DE LOS SIGUieNTEs ESTABLECIMIENTOs dE cOMERCIO EN LA JURIsDICCIÓN DE ESTA CÁMARA DE COMERCIO: NOMBRE ESTABLECIMIENTO : TROCHEZ CAFE MATRICULA : 134703 FECHA DE MATRICULA: 20130605 FECHA DE RENOVACION : 20180312 ULTIMO AÑO RENOVADO : 2018 DIRECCION: CL 14 NRO.",
+      "score": 0.993683,
+      "arguments": [
+        {
+          "text": "NOMBRE ESTABLECIMIENTO",
+          "location": [
+            2652,
+            2674
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "NOMBRE ESTABLECIMIENTO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "TROCHEZ CAFE",
+          "location": [
+            2677,
+            2689
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "TROCHEZ CAFE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "CAUCA CODIGO DE VERIFICACIÓN yXVFhbzmTr OTRAS ACTIVIDADES I5619OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS N.C.P OTRAS ACTIVIDADES : P8552 - ENSEñANZA DEPORTIVA ץ RECREATIVA CERIIFICA - ESTABLECIMIENTOS QuE ES PROPIETARIO DE LOS SIGUieNTEs ESTABLECIMIENTOs dE cOMERCIO EN LA JURIsDICCIÓN DE ESTA CÁMARA DE COMERCIO: NOMBRE ESTABLECIMIENTO : TROCHEZ CAFE MATRICULA : 134703 FECHA DE MATRICULA: 20130605 FECHA DE RENOVACION : 20180312 ULTIMO AÑO RENOVADO : 2018 DIRECCION: CL 14 NRO.",
+      "score": 0.99413,
+      "arguments": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            2709,
+            2727
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "FECHA DE MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "20130605",
+          "location": [
+            2729,
+            2737
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "20130605",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "5-10 BRR CENTRO MUNICIPIO: 19142 - CALOTO TELEFONO 1 : 3206767553 CORREO ELECTRONICO : diegofts89@hotmail.com ACTIVIDAD PRINCIPAL : G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO OTRAS ACTIVIDADES : 15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P OTRAS ACTIVIDADES P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA VALOR DEL ESTABLECIMIENTO : 2,000,000 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO CERTIFICA LA INFORMACIÓN ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRÍCULA צ RENOVACIÓN DILIGENCIADO POR EL COMERCIANTE CERTIFICA DE coNFOrMIDAD CON LO ESTABLECIDO EN EL cóDIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO Y DE LA LEY 962 DE 2005, Los ACTOs ADMINISTRATIVOs DE rEGISTRO AQuf CeRTIFICADOs QUEdan EeN FIRME DIEZ (10) Días HÁBILES DESPUES DE LA FEcHA DE INSCRIPCIóN, SIeMPRE QUE No sEAN OBJETO DE RECURsOS.",
+      "score": 0.998642,
+      "arguments": [
+        {
+          "text": "G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+          "location": [
+            2950,
+            3138
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2928,
+            2947
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_otra",
+      "sentence": "5-10 BRR CENTRO MUNICIPIO: 19142 - CALOTO TELEFONO 1 : 3206767553 CORREO ELECTRONICO : diegofts89@hotmail.com ACTIVIDAD PRINCIPAL : G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO OTRAS ACTIVIDADES : 15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P OTRAS ACTIVIDADES P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA VALOR DEL ESTABLECIMIENTO : 2,000,000 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO CERTIFICA LA INFORMACIÓN ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRÍCULA צ RENOVACIÓN DILIGENCIADO POR EL COMERCIANTE CERTIFICA DE coNFOrMIDAD CON LO ESTABLECIDO EN EL cóDIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO Y DE LA LEY 962 DE 2005, Los ACTOs ADMINISTRATIVOs DE rEGISTRO AQuf CeRTIFICADOs QUEdan EeN FIRME DIEZ (10) Días HÁBILES DESPUES DE LA FEcHA DE INSCRIPCIóN, SIeMPRE QUE No sEAN OBJETO DE RECURsOS.",
+      "score": 0.991154,
+      "arguments": [
+        {
+          "text": "15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P",
+          "location": [
+            3159,
+            3218
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            3139,
+            3156
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_OTRA",
+              "text": "OTRAS ACTIVIDADES",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "2018/04/26",
+      "mentions": [
+        {
+          "text": "2018/04/26",
+          "location": [
+            81,
+            91
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "Cédula de ciudadanía",
+      "mentions": [
+        {
+          "text": "Cédula de ciudadanía",
+          "location": [
+            539,
+            559
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": ".G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS, ANIMALES VIVOS",
+      "mentions": [
+        {
+          "text": ".G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS, ANIMALES VIVOS",
+          "location": [
+            1518,
+            1597
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1598,
+            1618
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "G4711 -COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+      "mentions": [
+        {
+          "text": "G4711 -COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+          "location": [
+            1621,
+            1756
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2018/04126-16:18:51",
+      "mentions": [
+        {
+          "text": "2018/04126-16:18:51",
+          "location": [
+            1849,
+            1868
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "NOMBRE ESTABLECIMIENTO",
+      "mentions": [
+        {
+          "text": "NOMBRE ESTABLECIMIENTO",
+          "location": [
+            2652,
+            2674
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "TROCHEZ CAFE",
+      "mentions": [
+        {
+          "text": "TROCHEZ CAFE",
+          "location": [
+            2677,
+            2689
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA DE MATRICULA",
+      "mentions": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            2709,
+            2727
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "20130605",
+      "mentions": [
+        {
+          "text": "20130605",
+          "location": [
+            2729,
+            2737
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "20180312",
+      "mentions": [
+        {
+          "text": "20180312",
+          "location": [
+            2760,
+            2768
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2928,
+            2947
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1062290703",
+      "mentions": [
+        {
+          "text": "1062290703",
+          "location": [
+            562,
+            572
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+      "mentions": [
+        {
+          "text": "G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+          "location": [
+            2950,
+            3138
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_OTRA",
+      "text": "OTRAS ACTIVIDADES",
+      "mentions": [
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            3139,
+            3156
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P",
+      "mentions": [
+        {
+          "text": "15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P",
+          "location": [
+            3159,
+            3218
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_OTRA",
+      "text": "OTRAS ACTIVIDADES",
+      "mentions": [
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            3219,
+            3236
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA",
+      "mentions": [
+        {
+          "text": "P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA",
+          "location": [
+            3237,
+            3277
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "NIT",
+      "mentions": [
+        {
+          "text": "NIT",
+          "location": [
+            573,
+            576
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1062290703-9",
+      "mentions": [
+        {
+          "text": "1062290703-9",
+          "location": [
+            578,
+            590
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA DE MATRICULA",
+      "mentions": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            672,
+            690
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "JUNIO 05 DE 2013",
+      "mentions": [
+        {
+          "text": "JUNIO 05 DE 2013",
+          "location": [
+            692,
+            708
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "MARZO 12 DE 2018",
+      "mentions": [
+        {
+          "text": "MARZO 12 DE 2018",
+          "location": [
+            774,
+            790
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACIVIDAD ECONOMICA : COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS",
+      "mentions": [
+        {
+          "text": "ACIVIDAD ECONOMICA : COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS",
+          "location": [
+            1404,
+            1495
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1496,
+            1515
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CAMARA DE COMERCIO DEL CAUCA TROCHEZ SANTACRUZ DIEGO FERNANDO Fecha expedlclón: 2018/04/26 16:18:51\" Reclbo No. S000203756 Num. Operaclón. 04-MBLCAJ-20180426-0031 EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.i. CODIGO DE VERIFICACIÓN yXVFhbzmTr CAUCA CERTIFICADO DE MATRICULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matrículas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIón Y DOMICILIO NOMBRE o RAZóN soCIaL: TROCHEZ SANTACRUZ DIEGO FERNANDO ORGANIZACION JURIDICA: PERSONA NATURAL IDENTIFICACIÓN: Cédula de ciudadanía - 1062290703 NIT :1062290703-9 DOMICILIO : SANTANDER DE QUILICHAO MATRICULA - INSCRIPCIÓN MATRICULA NO : 134702 FECHA DE MATRICULA: JUNIO 05 DE 2013 ULTIMO ANO RENOVADo : 2018 EECHA DE RENOVACION DE LA MATRICULA : MARZO 12 DE 2018 AcrIVO TOTAL : 2,000, 000.00 GRUPO NIIF : 4.- GRUPO III -MICROEMPRESAS UBICAC ON Y DATOS GENERALES DIRECCION DEL DOMICILIO PRINCIPAL CL 10 NRO. 6A-30 BARRIO : SANTA ANITA III MUNICIPIO / DOMICILIO: 19698 SANTANDER DE QUILICHAO TELÉFONO COMERCIAL 1: 3206767553 TELÉFONO COMERCIAL 2 : NO REPORTó TELÉFONO COMERCIAL 3 : NO REPORTÓ CORREO ELECTRONICO : diegofts89Chotmail.com DiREcCióN PARA NOTIFICaCIóN JUDICIAL : CL 10 NRO. 6A-30 MUNICIPIO : 19698 - SANTANDER DE QUILICHAO BARRIO : SANTA ANITA III TELEFONO 1 : 3206767553 COrREO ELECTRóNICO : diegofts89@hotmail.com CERTIFICA-ACTIVIDAD ECONÓMICa. DESCRIPCION DE LA ACIVIDAD ECONOMICA : COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDAD PRINCIPAL : .G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS, ANIMALES VIVOS ACTIVIDAD SECUNDARIA : G4711 -COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO Página 1/3  CAMARA DE COMERCIO DEL CAUCA TROCHEZ SANTACRUZ DIEGO FERNANDO Fecha expedlción: 2018/04126-16:18:51 '\"\" Reclbo No. S000203756*\"\"Num. Operaclón. 04-MBLCAJ-20180426-0031 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I CAUCA CODIGO DE VERIFICACIÓN yXVFhbzmTr AdianH Sarnesa Flezcher Dirección de Reglstros Público, Y Gerente CAE FINAL DEL CERTIFICADO*** Página 3/3  CAMARA DE COMERCIO DEL CAUCA TROCHEZ SANTACRUZ DIEGO FERNANDO Fecha expedlclón: 2018/04/26-16:18:51 Reclbo No. S000203756\" Num. Operaclón. 04-MBLCAJ-20180426-0031 EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL s . CAUCA CODIGO DE VERIFICACIÓN yXVFhbzmTr OTRAS ACTIVIDADES I5619OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS N.C.P OTRAS ACTIVIDADES : P8552 - ENSEñANZA DEPORTIVA ץ RECREATIVA CERIIFICA - ESTABLECIMIENTOS QuE ES PROPIETARIO DE LOS SIGUieNTEs ESTABLECIMIENTOs dE cOMERCIO EN LA JURIsDICCIÓN DE ESTA CÁMARA DE COMERCIO: NOMBRE ESTABLECIMIENTO : TROCHEZ CAFE MATRICULA : 134703 FECHA DE MATRICULA: 20130605 FECHA DE RENOVACION : 20180312 ULTIMO AÑO RENOVADO : 2018 DIRECCION: CL 14 NRO. 5-10 BRR CENTRO MUNICIPIO: 19142 - CALOTO TELEFONO 1 : 3206767553 CORREO ELECTRONICO : diegofts89@hotmail.com ACTIVIDAD PRINCIPAL : G4620 - COMERCIO AL POR MAYOR DE MATERIAS PRIMAS AGROPECUARIAS; ANIMALES VIVOS ACTIVIDADSECUNDARIA:G4711 ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO OTRAS ACTIVIDADES : 15619 - OTROS TIPOS DE EXPENDIO DE COMIDAS PREPARADAS Ν.C.P OTRAS ACTIVIDADES P8552 - ENSEñANZA DEPORTIVA Y RECREATIVA VALOR DEL ESTABLECIMIENTO : 2,000,000 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO CERTIFICA LA INFORMACIÓN ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRÍCULA צ RENOVACIÓN DILIGENCIADO POR EL COMERCIANTE CERTIFICA DE coNFOrMIDAD CON LO ESTABLECIDO EN EL cóDIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO Y DE LA LEY 962 DE 2005, Los ACTOs ADMINISTRATIVOs DE rEGISTRO AQuf CeRTIFICADOs QUEdan EeN FIRME DIEZ (10) Días HÁBILES DESPUES DE LA FEcHA DE INSCRIPCIóN, SIeMPRE QUE No sEAN OBJETO DE RECURsOS. EL dfA SÁBADO NO SE DEBE CoNTAR CoMO DfA HÁBIL. VALOR DEL CERTIFICADO : $2,700 CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES (SII) IMPORTANTE: La fima digital del secretario de la CAMARA DE COMEACIO DEL CAUCA contenida en este certificado electrónico se encuehtra emitida por una entidad de certificación abierta autorizada y viglada por la Superintendencla de Industria y Comercio, de conformldad con las exigenclas establecldas en la Ley 527 de 1999 para validez jurfdlca y probatoria de los documentos electrónicos La firma digital no es una firma digitalizada o escaneada, por lo tanto, la firma dlgital que acompaña este documento la podrá verificar a través de su aplicativo visor de documentos pdf No obstante, si usted va a imprimir este certificado, lo puede hacer desde su computador, con la certeza de que el mismo fue expedido a través del canal virtual de la cámara de comerclo y que la persona o entidad a la que usted le va a entregar el certificado impreso, puede verificar por una sola vez al contenldo del mismo, ingresando al enlace http://siicauca.conlecamaras.co/cv.php seleccionando la cámara de comercio e indicando el código de verificación yXVFhbzmTr Al realizar la verificación podrá visualizar (y descargar) una imagen exacta del certificado que fue entregado al usuario en el momento que se realizó la transacción. La firma mecánica que se muestra a continuación es la representación gráfica de la firma del secretario jurldico (o de quien haga sus veces) de la Cámara de Comercio quien avala este certificado. La firma iecánlca no reemplaza la firma digital en los documentos electrónicos Página 2/3 "
+}

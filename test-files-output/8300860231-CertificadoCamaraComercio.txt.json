@@ -1,0 +1,565 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 7804,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "1 СЛ : NOMBRAMIENTOS QUE POR ACTA No. 0000014 DE JjntA DE socIOS DEL 8 DE ENERO DE 2008, INSCRITA EL 22 DE MAYO DE 2008 BAJO EL NUMERO 01215943 DEL LIBRO ix, ドUE (RON) NOMBRADO (S) : I DENTItICACION NCMBRH GF.RENTF C.C. 000000051937851 CEPEDA MONDRAGON GUERTTY MAGAI.T SUBGERENTE RAMOS PAREDES ERNESTO C.C. 000000007687707 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: SON ATRIBUCIONES DEL GERENTE: CUMPLIR Y HACER CUMPLIR LAS DECISIONE:S, RESOLUCIONES Y DEMAS CONVOCAR A REUNIONES ACTOS DE: LA JUNTЛ GENERAL DE SOCIOS.",
+      "score": 0.993665,
+      "arguments": [
+        {
+          "text": "RAMOS PAREDES ERNESTO",
+          "location": [
+            4021,
+            4042
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "RAMOS PAREDES ERNESTO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            4043,
+            4047
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "1 СЛ : NOMBRAMIENTOS QUE POR ACTA No. 0000014 DE JjntA DE socIOS DEL 8 DE ENERO DE 2008, INSCRITA EL 22 DE MAYO DE 2008 BAJO EL NUMERO 01215943 DEL LIBRO ix, ドUE (RON) NOMBRADO (S) : I DENTItICACION NCMBRH GF.RENTF C.C. 000000051937851 CEPEDA MONDRAGON GUERTTY MAGAI.T SUBGERENTE RAMOS PAREDES ERNESTO C.C. 000000007687707 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: SON ATRIBUCIONES DEL GERENTE: CUMPLIR Y HACER CUMPLIR LAS DECISIONE:S, RESOLUCIONES Y DEMAS CONVOCAR A REUNIONES ACTOS DE: LA JUNTЛ GENERAL DE SOCIOS.",
+      "score": 0.991607,
+      "arguments": [
+        {
+          "text": "RAMOS PAREDES ERNESTO",
+          "location": [
+            4021,
+            4042
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "RAMOS PAREDES ERNESTO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "000000007687707",
+          "location": [
+            4048,
+            4063
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000007687707",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "1 СЛ : NOMBRAMIENTOS QUE POR ACTA No. 0000014 DE JjntA DE socIOS DEL 8 DE ENERO DE 2008, INSCRITA EL 22 DE MAYO DE 2008 BAJO EL NUMERO 01215943 DEL LIBRO ix, ドUE (RON) NOMBRADO (S) : I DENTItICACION NCMBRH GF.RENTF C.C. 000000051937851 CEPEDA MONDRAGON GUERTTY MAGAI.T SUBGERENTE RAMOS PAREDES ERNESTO C.C. 000000007687707 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: SON ATRIBUCIONES DEL GERENTE: CUMPLIR Y HACER CUMPLIR LAS DECISIONE:S, RESOLUCIONES Y DEMAS CONVOCAR A REUNIONES ACTOS DE: LA JUNTЛ GENERAL DE SOCIOS.",
+      "score": 0.967315,
+      "arguments": [
+        {
+          "text": "000000007687707",
+          "location": [
+            4048,
+            4063
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000007687707",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            4043,
+            4047
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "OE SOCIOS CERTIFICA: ACTIVIDAD PRINCIPAL: 020 (ACTIVIDADES DE CONSULTORIA DE GES ION) DIDO EN 23,000.00 CUCTAS CON CAPITAL Y S CIOS : $23,000,000.00 DIVİ VÀLOR NOMINA.",
+      "score": 0.997751,
+      "arguments": [
+        {
+          "text": "020 (ACTIVIDADES DE CONSULTORIA DE GES ION",
+          "location": [
+            6973,
+            7015
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "020 (ACTIVIDADES DE CONSULTORIA DE GES ION",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            6952,
+            6971
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "27 DE MARZO DE 2018",
+      "mentions": [
+        {
+          "text": "27 DE MARZO DE 2018",
+          "location": [
+            518,
+            537
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE NOVIEMBRE DE 1996",
+      "mentions": [
+        {
+          "text": "18 DE NOVIEMBRE DE 1996",
+          "location": [
+            1711,
+            1734
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "24 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "24 DE MAYO DE 2018",
+          "location": [
+            3610,
+            3628
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "8 DE ENERO DE 2008",
+      "mentions": [
+        {
+          "text": "8 DE ENERO DE 2008",
+          "location": [
+            3810,
+            3828
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "22 DE MAYO DE 2008",
+      "mentions": [
+        {
+          "text": "22 DE MAYO DE 2008",
+          "location": [
+            3842,
+            3860
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "RAMOS PAREDES ERNESTO",
+      "mentions": [
+        {
+          "text": "RAMOS PAREDES ERNESTO",
+          "location": [
+            4021,
+            4042
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C.",
+      "mentions": [
+        {
+          "text": "C.C.",
+          "location": [
+            4043,
+            4047
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000007687707",
+      "mentions": [
+        {
+          "text": "000000007687707",
+          "location": [
+            4048,
+            4063
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            4090,
+            4109
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            6952,
+            6971
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "020 (ACTIVIDADES DE CONSULTORIA DE GES ION",
+      "mentions": [
+        {
+          "text": "020 (ACTIVIDADES DE CONSULTORIA DE GES ION",
+          "location": [
+            6973,
+            7015
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            7661,
+            7680
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "24 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "24 DE MAYO DE 2018",
+          "location": [
+            1868,
+            1886
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "SEQ CONSULTORES LTDA",
+      "mentions": [
+        {
+          "text": "SEQ CONSULTORES LTDA",
+          "location": [
+            2566,
+            2586
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "26 DE MARZO DE 2018",
+      "mentions": [
+        {
+          "text": "26 DE MARZO DE 2018",
+          "location": [
+            2720,
+            2739
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "3 DE ABRIL DE 2001",
+      "mentions": [
+        {
+          "text": "3 DE ABRIL DE 2001",
+          "location": [
+            3171,
+            3189
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "SEQ CONSULTORES LTDA CONSTITUYO LA sOCIEDAD",
+      "mentions": [
+        {
+          "text": "SEQ CONSULTORES LTDA CONSTITUYO LA sOCIEDAD",
+          "location": [
+            3251,
+            3294
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2005/06/29",
+      "mentions": [
+        {
+          "text": "2005/06/29",
+          "location": [
+            3353,
+            3363
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2008/03/18",
+      "mentions": [
+        {
+          "text": "2008/03/18",
+          "location": [
+            3409,
+            3419
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2008/05/22",
+      "mentions": [
+        {
+          "text": "2008/05/22",
+          "location": [
+            3437,
+            3447
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " DE CONT F.DAD LO ESLECIDC N EL CODIGO E ADMINISTF.7vO Y 2005, L ', ÀCTOSİ EN FIR LO CONENCIOSO STRATIVOS PEGISTRO AQUI CERTIFICADOS QUEDAN -ES, ES DE LA FECHA DE LA DIEZ (5 EMP E O SEAN OBJErO DE: RECURSO (LOS SAHADOS 0 SON TENID DE COMFR CS EN CUENTA COMO LIAS HABILES PARA LA CAMARA Or. BOGOTA PRESENTE CFR CADO NO CONSITUYE PERMTSO DF FUNCIONAMIENTO EN NİNGJN CASO INFORMACION COMPLEMENTARIA LOS SIGUIENTES DATOS SOBRE PLANEACION DISTRITAL SON INFORMATIVOS FECHA DE ENVIO DE INFORMACION A PLAN ЕЛС ION DISȚRITAL : 27 DE MARZO DE 2018 3 SU EMPRESA NE ACTIVOS NFERIORES A 30.000 S M../ Y U!ủa PLANTA E PERSONAL DE· NEXOS DE 20C .:.NABAJ TIENE DERECHO A RECIBIR UN DESCUENTO Ei PAGC DE Los PARA ISCALES D 75% EN EI, PRIMER AÑO DE CONSTITUC T ONDE SURMPRESA, DE50C EN EL SEGUNDO AÑO Y DE Ž5% EN FI, TERCER ANO· LEY 590 DE ŽC00 Y DRCRETO 525 DE 2009 RECUERDE İNGRESAR A www.supersociedades EMPRESA ESTA OBLIGADA A REMITIR ESTADOS FINANCIEROS. EVTE SANCIONES .gov . co PARA VERLE, I CARSI SU ESTE CERTIFICADO REFLEJA LA SITJACION TURIDICA DE LA SOC ỊEDΛ D H STA LA FECHA Y HORA DE SU EXPEDICION El SECRETARIO DE LA CAMARA DE COMERCIO ALOH :$5, 500 PARA VERIFICAR QUE EL CONTENIDO DE ESTE CER IFICADO CORRESPONDA CON LA INFORMACION QUE REPOSA EN LOS REGISTROS PUBLICOS DE LA CAMARA DE COMERC1O DE BOGOTA, EL CODIGO DE VERIFICACION PUEDE SER VALIDADO POR SU DESTINATARIO SOLO UNA VEZ, INGRESANDO A WWW. CCB . ORG. CO ESTE CERTIFICADO FUE GENERADO ELECTRONICAMENTE CON FlRMA DICITAL. Y CUENTÀ CON PLENA VALIDEZ JURÍDICA CONFORME A LA LEY 521 DE 1999. * t FIRMA MECANICA DE CON FORM I DAD CON ΞL DECRETO 2150 DE 1995 Y LA AUTORIZACION IMPARTIDA POR LA SUPERINTENDENCIA E INDUSTRIA Y COMERCIO, MEDIANTE Kİ, O ICiO DEL 18 DE NOVIEMBRE DE 1996.  [92«a1344759 CAMARA DE ︶OMERC 10 DE BOC SEDE VIRTUAL CODIGO VERIFICACION : A185328209A2 82 СЭ Samara СЭ de Bogotá' e comercio -kid 24 DE MAYO DE 2018 -RA 16:39:0 AGINA: de 2 AA18532820 ESTE CERTIFICADO FJE GENERADO ELECTRÓNICAMENTE Y CUENTA DE VERIFICACIÓN QUE LE PERMITE SER VALIDADO SOI WWW.cCB. ORG. CO UN COD NGRESAND NA VEZ, RECUERDE QUE ESTE CERTIFICADO LO PUEDE ADQUIRIR --3DESU CASA OFICINA DE EOKMA ドÁCIL, RAPIDA Y SEGURA EN WWW . CCB.ORG . CO PARA SJ SEGURIDAD DEBE VERIFICAR LA VALIDEZ Y AUTENTICIDAD DE ESTE CERTTFTCADO STN COSTO ALGUNO DE FORMA FÁCTI., RÁPIDA Y SFGURA FN WWW.CCB.ORG. CC/CFRTIFICADOSELECTRONICOS/ CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL O INSCRI PCION DE DOCJMENTOS LA CAMARADE COMERCIO DE BOGOTA, CON FUNDAMENTO EN LAS MATRICULAS E INSCRIPCIONES DEL REGISTRO MERCANTIL CERTIFICA: NOMBRE : SEQ CONSULTORES LTDA DOMICILIO BOGOTA D. C MATRTCUI,A NO: 01380084 DFI, 3 DE ABRI, DE 2001 830086023-1 CERTIF1CA: CERTIEFICA: RENOVACION DE LA MATRICULA :26 DE MARZO DE 2018 ULTIMO AÑO RENOVADO 2018 ACTIVO TOTAL: 532,294, 992 TAMANC EMPRESA : PEQUEÑA CERTIICA: DICIAL : CR 94 NO. 152-48 IN 3 OF 302 MUNICI?IO : BOGOTA D.C DE NOTIFICACION JUDICIAL SEQCON SU LT ว่RES@ÝAHOO. ES : DIRECCION COMERCEAL MUNİCIPIO : BOGOTA D. C. EMAI! COME:RCIA. : SiQCONSUI TORES@YAHOO.HS cile 98 70 91 OF 906 CHRTIFICA: CONSTTTUCTON: UF. POR ESCRTTURA PUB LICA NO. 0000534 DE NOTARIA 36 DE 28 DE FEBRERO CE 2001, INScritA EL. 3 DE ABRIL DE 2001 BAJO EL NUMERO 00771340 DEL LIBRO 1X, SE COMERC:A DENOMINADA SEQ CONSULTORES LTDA CONSTITUYO LA sOCIEDAD CERTIFICA: REFORMAS: E FCHA ΝΟΤΛRIA CIUDAD FECIHA 0001366 2005/06/29 0036 BOGOTA D.C. 2005/07/06 00999514 0001125 2008/03/18 0036 BOGOTA D.C. 2008/05/22 01215937 NO. INSC Signature Nut Verifed Irujillo  CAMARA DE COMERCIO DE BOGOT Cámara e Comencio SEDE VIRTUAl de Bogotá C cODIGO VERIFICACION : A1 8 5 32 8209A282 24 DE MAYO DE 2018 HORA 16:39:07 AA18532820 PAGINA: 2 de 2 * X *x ACCIDENTALES con LAs MISMAS ATRIBUCIONES ASIGNADAS A EST CERTIF. 1 СЛ : NOMBRAMIENTOS QUE POR ACTA No. 0000014 DE JjntA DE socIOS DEL 8 DE ENERO DE 2008, INSCRITA EL 22 DE MAYO DE 2008 BAJO EL NUMERO 01215943 DEL LIBRO ix, ドUE (RON) NOMBRADO (S) : I DENTItICACION NCMBRH GF.RENTF C.C. 000000051937851 CEPEDA MONDRAGON GUERTTY MAGAI.T SUBGERENTE RAMOS PAREDES ERNESTO C.C. 000000007687707 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: SON ATRIBUCIONES DEL GERENTE: CUMPLIR Y HACER CUMPLIR LAS DECISIONE:S, RESOLUCIONES Y DEMAS CONVOCAR A REUNIONES ACTOS DE: LA JUNTЛ GENERAL DE SOCIOS. B EXTRAORDINARIAS A LA JUNTA GENERAL DE SOCIOS, CUANDO LO CONSIDERE NECESARĪO O CONVEN ENTE. C SOCIOŞ EN SUS REUNIONES ORDINARIAS DE FIN DE EJERCICIO LAS CUENTAS, INVENTARIOS, Y BALANCE GENERAL DE LOS NEGOCIOS DS LA SOCIEDA「 ACOMPAÑADOS DR UN INFORME SOBRE LA MARCHA DE LA MISMA Y PRESENTARÀ LA JUNTA GENERΛ L DE NOMBRAR LOS EMPI.FADOS CUYOS CARGOS HAYAN SIDO CREADOS POR LA JUNTA GENERAL DE SOCIOS MANTENER BAJO SU CUSTODIA Y VIGILANCIA LOS BIENES, LIBROS Y DIRIGIR LA CONTABILIDAD Y DEMAS DOCUMENTOS DE LA SOCIEDAD. F HACER QUE ESTA SE AJUSTE A LAS DISPOS ICIONES LEGALES SOBRE ASUNTCS CONTABLES COMPR MẾTER, DESISTIR, INT RPONER TO פ° GENERO DE RECURSOS Y COMPARECER EN LOS JUICTOS EN QUE SE DISPUTE LA PROPIEDAD DE LOS BIENES SOCIALLES. H BANCARIAS Y MANEJAR LAS CUENTAS CORRIENTES. I DE LOS B1ENES SOCIALES, POR SU NATURALEZA O DESTINO, Y DARLOS EN PRENDA O HPOTECA, GRAVARLOS LIMITARLOS O ENAJENARLOS. J RFCIBIR DINERO EN MUTUO. SOCIEDAD ENTRE COMO ŠOCTA, O ACCION STA DE OTRA COMPANTA. 1 ENAJENAR ADQUIRIR TRANSIGIR HACER DEPOSITOS EN BANCOS AGENCIAS ALTERAR LA FORM DAR Y CHLEBRAR CONTRATOS HN QUE LA SOCIEDAD Y SU FUNCIONAMIENTO. LL SUS FACJETADES EN APODERADOS JUDICIALES DELEGAR TOTAL O PARCIALMENTE EXTRAJUDICALES QUE CELEBRAR EL CONTRATO COMERCIAL DE CAMBIO EN TCDAS SUS MANIFESTACIONES Y FIRMAR LETRAS, LIBRANZAS Y CUALESQUIERA OTROS TITULOS VALORES, ASI COMO NEGOCIAR ESTOS INSTRUMENTOos, TeNERLOS, COBRARLOS, PAGARLOs, DESCARGARLOS, ENDO SARLOS, 「ROTES ARLOS, ETC SOCIEDAD COMO PERSONA JURIDICA Y EJERCER FUNCiONES QUE LE coMPETEN POR NATURALezA a su CARGO PAGARES, GIROS Y N EN GENERAL REPRESENTAR LA CERTIFICA:  COTA D. .. . :01125 2 1125 2008/05/ 2009/ 2011 36 BOGO_ .c. 2011 / '.. _5 :6224 HALI A. DURAC, TON HASTA ET. FEBREH. 7? 2026 SOCIA_: ACT ES: ESTUDIOS TORIAS TACION: REPRESENTAL:CN ICACION ANIZACIC CALI SEGUI ASI COİ LA EXEL MEDIO TERCERCS EN PARTICIPA CON Eii,T TODOS SORRF 3TENES MUERIES; OTNMUEBLES, 2.JE ŠRAN NRCI..SARỉ5s O CONVEN1ENTES PARA EI. LOGRO DE LOS FINES QUE ELLA PERS1GUE, OQUE PODRAN FAVORECER O DESARROLLAR SJS ACTIVIDADES, O LAS DE ACUF.L.AS EMPRESAS O SOCIEDADES EN LAS CUALES TENGA INTERES Y DMANERA DIRECTA, SE RELAC IONEN CON EL O3JETO SCCIAL, SEGUŅ DETERMINAN EN EL PRESENTE ARTICULO, COMO POK EJEMPLO, IAS SIGUIENTES: ADQUIRTR Y O ENAJENAR BIENES MUFBES O INMUEELES, DARLOS O TOMARLOS EN ARRENDAM LENTO ; PIGNORÀ RLOS HIPOTECÀRLOS SEGUN EI NEGOC LAKT. LA CLASE DE ựドECTOS DE CORERCIO O CIVILES. LA SOCIEDA L NO PODRA CON PROPIAS, CH!, GAC1ONES DISTINTAS DE LAS S JYAS PROPIAS, SALVO QU i, 1 TUIRSE 3ARANTE OBLIGA ONES AJENAS DE LAS SUYAS RE-.JRIE ÀI,3JN R::EFICIO, LO CÍ:AT. CORRESPONDE DECIDIR A 1.A JUNTA GENERA:. OE SOCIOS CERTIFICA: ACTIVIDAD PRINCIPAL: 020 (ACTIVIDADES DE CONSULTORIA DE GES ION) DIDO EN 23,000.00 CUCTAS CON CAPITAL Y S CIOS : $23,000,000.00 DIVİ VÀLOR NOMINA. DE $1,000.00 CADA JNA, DISTRIBUIDO AS: RAMOS CEPEDΛ ΛΝΑ MARIA RAMOS CEPEDA JUAN ERANC1ScO RAMOS PAREDES FRNESTO CEPEDA MONDRAGON GUERTTY MAGAL SOC 10 CAI, I TAL I STA (S) NO. CUOTAS:3, 450.00 NO\" CUO「AS: 3,450.00 NO. CUOTAS: 6, 9 0 . OO VALOR: $3, 450, 000.00 VA!LOR: $3, 450,000.00 VALOR: $6, 900,000.00 VALOR: $9,200, 000.0C VALOR: $23,000,000.00 R.C. 00000AGD0253299 R.C. 000001141514920 C.C. 000000007687707 000000051937851 NO. CUOTAS: 9,200.00 TOTALES NO. CUOTAS: 23,000.00 SOCIEDAD TENDRA UN GERENTE Ý UN REPRESENI'ACION LEGAL: SUBGERENTE. FEL GERENTE ESE REPRESENTANTE LEGAL DE LA SOCIEDAD Y TENDRA DERECHO AL USO Y FIRMA DE LA RAZON SOCIAL EL SUBGEREN KEEMPLAŻAKAAL GERENTE EN SUS EALİAS ABSOLUTAS "
+}

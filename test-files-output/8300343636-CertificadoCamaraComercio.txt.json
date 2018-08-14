@@ -1,0 +1,1251 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 9417,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "empresa_tiene_tipo_documento_identidad",
+      "sentence": "CO/CERTİFICADOSELECTRONICOS CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL O INSCRIPCION DE DOCUMENTOS LA CAMARA DE COMERCIO DE BOGOTA, CON FUNDAMENTO EN LAS MATRICULAS E INSCRIPCIONES DEL REGISTRO MERCANTIL CERTIFICA: NOMBRE: DISTRIBUIDORA JABA S..A.S N.I.T. : 830034363-6 DOMICILIO : BOGOTA D.C CERTIFICA MATRICULA NO: 00812201 DEL 12 DE AGOSTO DE 1997 CERTIFICA: RENOVACON DE LA MATRICULA :23 DE MARZO DE 2018 ULTIMO AÑO RENOVADO: 2018 ACTIVO TOTAL : 1,500,000 TAMANO EMPRESA: MICROEMPRESA CERTI FICA: DIRECCION DE NOTIFICACION JUDICIAL : CL 40 A BIS # 14-83 MUNICIPI : BOGOTA D. C EMAIL DE NOTIFICACION JUDICIAL : jojaba 54Cyahco.es DIRECCION COMERCIAL : CL 40 A BIS # 14-83 MUNICIPIC : BOGOTA D.C. EMAIL COMERCIAL : jojaba一54@yahoo.es CERTIFICA: CONSTITUCION: QUE POR ESCRITURA PUBLICA NO.",
+      "score": 0.920454,
+      "arguments": [
+        {
+          "text": "DISTRIBUIDORA JABA S..A.S",
+          "location": [
+            830,
+            855
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "DISTRIBUIDORA JABA S..A.S",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "N.I.T.",
+          "location": [
+            856,
+            862
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "N.I.T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "FINANCIERO o ADMINISTRATIvOS QUE TENgaN RELACIÓN DIrECTA O INDIRECTA CON EL OBJETO SOCIAL O CUYA FINALIDAD CONSISTA EN EJERCER LOS DERECHOS :Y CUMPLIR CON LAS OBLIGACIONES LEGALES o CONVENCIONALES DE LA SOCIEDAD, BiEN FUERE EN NOMBRE PROPIO, POR CUENTA DE TERCEROS O EN PARTICIPACIÓN CON ELLOs A)ADQUIRIR BIENES MUEBLES E INMUEBLES PARA CERTIFICA: ACTIVIDAD PRINCIPAL: 0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA) ACTIVIDAD SECUNDARIA: 0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA) OTRAS ACTIVIDADES: 0163 (ACTIVIDADES POSTERIORES A LA COSECHA) CERTIFICA: CAPITAL: VALOF NO.",
+      "score": 0.999049,
+      "arguments": [
+        {
+          "text": "0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA)",
+          "location": [
+            7171,
+            7216
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA)",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            7150,
+            7169
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": "FINANCIERO o ADMINISTRATIvOS QUE TENgaN RELACIÓN DIrECTA O INDIRECTA CON EL OBJETO SOCIAL O CUYA FINALIDAD CONSISTA EN EJERCER LOS DERECHOS :Y CUMPLIR CON LAS OBLIGACIONES LEGALES o CONVENCIONALES DE LA SOCIEDAD, BiEN FUERE EN NOMBRE PROPIO, POR CUENTA DE TERCEROS O EN PARTICIPACIÓN CON ELLOs A)ADQUIRIR BIENES MUEBLES E INMUEBLES PARA CERTIFICA: ACTIVIDAD PRINCIPAL: 0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA) ACTIVIDAD SECUNDARIA: 0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA) OTRAS ACTIVIDADES: 0163 (ACTIVIDADES POSTERIORES A LA COSECHA) CERTIFICA: CAPITAL: VALOF NO.",
+      "score": 0.99688,
+      "arguments": [
+        {
+          "text": "0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA)",
+          "location": [
+            7239,
+            7283
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA)",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            7217,
+            7237
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_otra",
+      "sentence": "FINANCIERO o ADMINISTRATIvOS QUE TENgaN RELACIÓN DIrECTA O INDIRECTA CON EL OBJETO SOCIAL O CUYA FINALIDAD CONSISTA EN EJERCER LOS DERECHOS :Y CUMPLIR CON LAS OBLIGACIONES LEGALES o CONVENCIONALES DE LA SOCIEDAD, BiEN FUERE EN NOMBRE PROPIO, POR CUENTA DE TERCEROS O EN PARTICIPACIÓN CON ELLOs A)ADQUIRIR BIENES MUEBLES E INMUEBLES PARA CERTIFICA: ACTIVIDAD PRINCIPAL: 0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA) ACTIVIDAD SECUNDARIA: 0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA) OTRAS ACTIVIDADES: 0163 (ACTIVIDADES POSTERIORES A LA COSECHA) CERTIFICA: CAPITAL: VALOF NO.",
+      "score": 0.996132,
+      "arguments": [
+        {
+          "text": "0163 (ACTIVIDADES POSTERIORES A LA COSECHA)",
+          "location": [
+            7303,
+            7346
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "0163 (ACTIVIDADES POSTERIORES A LA COSECHA)",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            7284,
+            7301
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_OTRA",
+              "text": "OTRAS ACTIVIDADES",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_documento_identidad",
+      "sentence": "CO/CERTİFICADOSELECTRONICOS CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL O INSCRIPCION DE DOCUMENTOS LA CAMARA DE COMERCIO DE BOGOTA, CON FUNDAMENTO EN LAS MATRICULAS E INSCRIPCIONES DEL REGISTRO MERCANTIL CERTIFICA: NOMBRE: DISTRIBUIDORA JABA S..A.S N.I.T. : 830034363-6 DOMICILIO : BOGOTA D.C CERTIFICA MATRICULA NO: 00812201 DEL 12 DE AGOSTO DE 1997 CERTIFICA: RENOVACON DE LA MATRICULA :23 DE MARZO DE 2018 ULTIMO AÑO RENOVADO: 2018 ACTIVO TOTAL : 1,500,000 TAMANO EMPRESA: MICROEMPRESA CERTI FICA: DIRECCION DE NOTIFICACION JUDICIAL : CL 40 A BIS # 14-83 MUNICIPI : BOGOTA D. C EMAIL DE NOTIFICACION JUDICIAL : jojaba 54Cyahco.es DIRECCION COMERCIAL : CL 40 A BIS # 14-83 MUNICIPIC : BOGOTA D.C. EMAIL COMERCIAL : jojaba一54@yahoo.es CERTIFICA: CONSTITUCION: QUE POR ESCRITURA PUBLICA NO.",
+      "score": 0.650262,
+      "arguments": [
+        {
+          "text": "DISTRIBUIDORA JABA S..A.S",
+          "location": [
+            830,
+            855
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "DISTRIBUIDORA JABA S..A.S",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "830034363-6",
+          "location": [
+            865,
+            876
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "830034363-6",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CO/CERTİFICADOSELECTRONICOS CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL O INSCRIPCION DE DOCUMENTOS LA CAMARA DE COMERCIO DE BOGOTA, CON FUNDAMENTO EN LAS MATRICULAS E INSCRIPCIONES DEL REGISTRO MERCANTIL CERTIFICA: NOMBRE: DISTRIBUIDORA JABA S..A.S N.I.T. : 830034363-6 DOMICILIO : BOGOTA D.C CERTIFICA MATRICULA NO: 00812201 DEL 12 DE AGOSTO DE 1997 CERTIFICA: RENOVACON DE LA MATRICULA :23 DE MARZO DE 2018 ULTIMO AÑO RENOVADO: 2018 ACTIVO TOTAL : 1,500,000 TAMANO EMPRESA: MICROEMPRESA CERTI FICA: DIRECCION DE NOTIFICACION JUDICIAL : CL 40 A BIS # 14-83 MUNICIPI : BOGOTA D. C EMAIL DE NOTIFICACION JUDICIAL : jojaba 54Cyahco.es DIRECCION COMERCIAL : CL 40 A BIS # 14-83 MUNICIPIC : BOGOTA D.C. EMAIL COMERCIAL : jojaba一54@yahoo.es CERTIFICA: CONSTITUCION: QUE POR ESCRITURA PUBLICA NO.",
+      "score": 0.992997,
+      "arguments": [
+        {
+          "text": "830034363-6",
+          "location": [
+            865,
+            876
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "830034363-6",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "N.I.T.",
+          "location": [
+            856,
+            862
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "N.I.T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "CO/CERTİFICADOSELECTRONICOS CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL O INSCRIPCION DE DOCUMENTOS LA CAMARA DE COMERCIO DE BOGOTA, CON FUNDAMENTO EN LAS MATRICULAS E INSCRIPCIONES DEL REGISTRO MERCANTIL CERTIFICA: NOMBRE: DISTRIBUIDORA JABA S..A.S N.I.T. : 830034363-6 DOMICILIO : BOGOTA D.C CERTIFICA MATRICULA NO: 00812201 DEL 12 DE AGOSTO DE 1997 CERTIFICA: RENOVACON DE LA MATRICULA :23 DE MARZO DE 2018 ULTIMO AÑO RENOVADO: 2018 ACTIVO TOTAL : 1,500,000 TAMANO EMPRESA: MICROEMPRESA CERTI FICA: DIRECCION DE NOTIFICACION JUDICIAL : CL 40 A BIS # 14-83 MUNICIPI : BOGOTA D. C EMAIL DE NOTIFICACION JUDICIAL : jojaba 54Cyahco.es DIRECCION COMERCIAL : CL 40 A BIS # 14-83 MUNICIPIC : BOGOTA D.C. EMAIL COMERCIAL : jojaba一54@yahoo.es CERTIFICA: CONSTITUCION: QUE POR ESCRITURA PUBLICA NO.",
+      "score": 0.996462,
+      "arguments": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            910,
+            919
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "12 DE AGOSTO DE 1997",
+          "location": [
+            937,
+            957
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "12 DE AGOSTO DE 1997",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cargo_suplente_ocupado_por",
+      "sentence": "001 DE JUNTA DE SOCIOS DEL 15 DE JUNIO DE 2012, INSCRITA EL 6 DE SEPTIEMBRE DE 2012 BAJO EL NUMERO 01664293 DEL LIBRO IX, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REPRESENTANTE LEGAL SUPLENTE BARRETO GOMEZ JOHN JAIRO C.C. 000000003024628 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: LA SOCIEDAD SERÁ GERENCIADA, ADMINISTRADA YREPRESENTADA LEGALMENTE ANTE TERCEROS POR EL REPRESENTANTE LEGAL, QUien no TenDrÁ RESTRICCIONES DE CONTRATACIÓN POR RAZON DE LA NATURALEZA NI DE LA CUANTiA DE LOS ACTOS QUE CELEBRE.",
+      "score": 0.824979,
+      "arguments": [
+        {
+          "text": "REPRESENTANTE LEGAL SUPLENTE",
+          "location": [
+            3536,
+            3564
+          ],
+          "entities": [
+            {
+              "type": "CARGO_SUPLENTE",
+              "text": "REPRESENTANTE LEGAL SUPLENTE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "BARRETO GOMEZ JOHN JAIRO",
+          "location": [
+            3565,
+            3589
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "BARRETO GOMEZ JOHN JAIRO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_SUPLENTE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "001 DE JUNTA DE SOCIOS DEL 15 DE JUNIO DE 2012, INSCRITA EL 6 DE SEPTIEMBRE DE 2012 BAJO EL NUMERO 01664293 DEL LIBRO IX, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REPRESENTANTE LEGAL SUPLENTE BARRETO GOMEZ JOHN JAIRO C.C. 000000003024628 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: LA SOCIEDAD SERÁ GERENCIADA, ADMINISTRADA YREPRESENTADA LEGALMENTE ANTE TERCEROS POR EL REPRESENTANTE LEGAL, QUien no TenDrÁ RESTRICCIONES DE CONTRATACIÓN POR RAZON DE LA NATURALEZA NI DE LA CUANTiA DE LOS ACTOS QUE CELEBRE.",
+      "score": 0.994613,
+      "arguments": [
+        {
+          "text": "BARRETO GOMEZ JOHN JAIRO",
+          "location": [
+            3565,
+            3589
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "BARRETO GOMEZ JOHN JAIRO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_SUPLENTE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            3590,
+            3594
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "001 DE JUNTA DE SOCIOS DEL 15 DE JUNIO DE 2012, INSCRITA EL 6 DE SEPTIEMBRE DE 2012 BAJO EL NUMERO 01664293 DEL LIBRO IX, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REPRESENTANTE LEGAL SUPLENTE BARRETO GOMEZ JOHN JAIRO C.C. 000000003024628 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: LA SOCIEDAD SERÁ GERENCIADA, ADMINISTRADA YREPRESENTADA LEGALMENTE ANTE TERCEROS POR EL REPRESENTANTE LEGAL, QUien no TenDrÁ RESTRICCIONES DE CONTRATACIÓN POR RAZON DE LA NATURALEZA NI DE LA CUANTiA DE LOS ACTOS QUE CELEBRE.",
+      "score": 0.99301,
+      "arguments": [
+        {
+          "text": "BARRETO GOMEZ JOHN JAIRO",
+          "location": [
+            3565,
+            3589
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "BARRETO GOMEZ JOHN JAIRO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_SUPLENTE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "000000003024628",
+          "location": [
+            3595,
+            3610
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000003024628",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "001 DE JUNTA DE SOCIOS DEL 15 DE JUNIO DE 2012, INSCRITA EL 6 DE SEPTIEMBRE DE 2012 BAJO EL NUMERO 01664293 DEL LIBRO IX, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REPRESENTANTE LEGAL SUPLENTE BARRETO GOMEZ JOHN JAIRO C.C. 000000003024628 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: LA SOCIEDAD SERÁ GERENCIADA, ADMINISTRADA YREPRESENTADA LEGALMENTE ANTE TERCEROS POR EL REPRESENTANTE LEGAL, QUien no TenDrÁ RESTRICCIONES DE CONTRATACIÓN POR RAZON DE LA NATURALEZA NI DE LA CUANTiA DE LOS ACTOS QUE CELEBRE.",
+      "score": 0.906159,
+      "arguments": [
+        {
+          "text": "000000003024628",
+          "location": [
+            3595,
+            3610
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000003024628",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            3590,
+            3594
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "LE ESTA PROHIBIDO AL REPRESENTANTE LEGAL Y A LOS DEMAS ADMINISTRADORES DE LA SOCIEDAD, POR SÍ O POR INTERPUESTA PERSONA, OBTENER BAJO CUALQUIEHR FORMA O MODALIDAD JURÍDICA PRÉSTAMOS POR PARTE DE LA SOCIEDAD U OBTENER DE PARTE DE LA SOCIEDAD AVAL, FIANZA O CUALQUIER OTRO TIPO DE GARANTÍA DE SUS OBLIGACIONES PERSONALES CERTI FICA: QUE LA SOCIEDAD TIENE MATRICULADOs LOS SIGUIENTES ESTABLECIMIENTOS; NOMBRE : PARQUEADERO JABA MATRICULA NO: 02292057 DE 7 DE FEBRERO DE 2013 RENOVACION DE LA MATRICULA : EL 23 DE MARZO DE 2018 ULTIMO AÑO RENOVADO 2018 DIRECCION: CL 6 NO.",
+      "score": 0.995961,
+      "arguments": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            4917,
+            4926
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "7 DE FEBRERO DE 2013",
+          "location": [
+            4943,
+            4963
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "7 DE FEBRERO DE 2013",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "28 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "28 DE MAYO DE 2018",
+          "location": [
+            114,
+            132
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "DISTRIBUIDORA JABA S..A.S",
+      "mentions": [
+        {
+          "text": "DISTRIBUIDORA JABA S..A.S",
+          "location": [
+            830,
+            855
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "6 DE SEPTIEMBRE DE 2012",
+      "mentions": [
+        {
+          "text": "6 DE SEPTIEMBRE DE 2012",
+          "location": [
+            1691,
+            1714
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "DISTRIBUIDORA JABA LTDA",
+      "mentions": [
+        {
+          "text": "DISTRIBUIDORA JABA LTDA",
+          "location": [
+            1785,
+            1808
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_ORGANIZACION",
+      "text": "SOCIEDAD POR ACCIONES SIMPLIFICADA",
+      "mentions": [
+        {
+          "text": "SOCIEDAD POR ACCIONES SIMPLIFICADA",
+          "location": [
+            2858,
+            2892
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SOCIEDAD_POR_ACCIONES_SIMPLIFICADA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "11 DE NOVIEMBRE DE 2016",
+      "mentions": [
+        {
+          "text": "11 DE NOVIEMBRE DE 2016",
+          "location": [
+            3139,
+            3162
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            3285,
+            3304
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "С.С",
+      "mentions": [
+        {
+          "text": "С.С",
+          "location": [
+            3305,
+            3308
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "15 DE JUNIO DE 2012",
+      "mentions": [
+        {
+          "text": "15 DE JUNIO DE 2012",
+          "location": [
+            3395,
+            3414
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_SUPLENTE",
+      "text": "REPRESENTANTE LEGAL SUPLENTE",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL SUPLENTE",
+          "location": [
+            3536,
+            3564
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "BARRETO GOMEZ JOHN JAIRO",
+      "mentions": [
+        {
+          "text": "BARRETO GOMEZ JOHN JAIRO",
+          "location": [
+            3565,
+            3589
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_SUPLENTE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C.",
+      "mentions": [
+        {
+          "text": "C.C.",
+          "location": [
+            3590,
+            3594
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "N.I.T.",
+      "mentions": [
+        {
+          "text": "N.I.T.",
+          "location": [
+            856,
+            862
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000003024628",
+      "mentions": [
+        {
+          "text": "000000003024628",
+          "location": [
+            3595,
+            3610
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            3637,
+            3656
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            3746,
+            3765
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            4114,
+            4133
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "PARQUEADERO JABA",
+      "mentions": [
+        {
+          "text": "PARQUEADERO JABA",
+          "location": [
+            4900,
+            4916
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            4917,
+            4926
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "7 DE FEBRERO DE 2013",
+      "mentions": [
+        {
+          "text": "7 DE FEBRERO DE 2013",
+          "location": [
+            4943,
+            4963
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "23 DE MARZO DE 2018",
+      "mentions": [
+        {
+          "text": "23 DE MARZO DE 2018",
+          "location": [
+            4996,
+            5015
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "28 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "28 DE MAYO DE 2018",
+          "location": [
+            5640,
+            5658
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            7150,
+            7169
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "830034363-6",
+      "mentions": [
+        {
+          "text": "830034363-6",
+          "location": [
+            865,
+            876
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA)",
+      "mentions": [
+        {
+          "text": "0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA)",
+          "location": [
+            7171,
+            7216
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            7217,
+            7237
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA)",
+      "mentions": [
+        {
+          "text": "0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA)",
+          "location": [
+            7239,
+            7283
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_OTRA",
+      "text": "OTRAS ACTIVIDADES",
+      "mentions": [
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            7284,
+            7301
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "0163 (ACTIVIDADES POSTERIORES A LA COSECHA)",
+      "mentions": [
+        {
+          "text": "0163 (ACTIVIDADES POSTERIORES A LA COSECHA)",
+          "location": [
+            7303,
+            7346
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE NOVIEMBRE DE 1996",
+      "mentions": [
+        {
+          "text": "18 DE NOVIEMBRE DE 1996",
+          "location": [
+            7862,
+            7885
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "28 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "28 DE MAYO DE 2018",
+          "location": [
+            7988,
+            8006
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "23 DE MARZO DE 2018",
+      "mentions": [
+        {
+          "text": "23 DE MARZO DE 2018",
+          "location": [
+            8429,
+            8448
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            910,
+            919
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "12 DE AGOSTO DE 1997",
+      "mentions": [
+        {
+          "text": "12 DE AGOSTO DE 1997",
+          "location": [
+            937,
+            957
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "23 DE MARZO DE 2018",
+      "mentions": [
+        {
+          "text": "23 DE MARZO DE 2018",
+          "location": [
+            996,
+            1015
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "30 DE JULIO DE 1997",
+      "mentions": [
+        {
+          "text": "30 DE JULIO DE 1997",
+          "location": [
+            1439,
+            1458
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "12 DE AGOSTO DE 1997",
+      "mentions": [
+        {
+          "text": "12 DE AGOSTO DE 1997",
+          "location": [
+            1472,
+            1492
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "15 DE JUNIO DE 2012",
+      "mentions": [
+        {
+          "text": "15 DE JUNIO DE 2012",
+          "location": [
+            1656,
+            1675
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CAMARA DE COMERCIO DE BOGOTA Cámara de Comercio SEDE SALITRE CO de Bogotà CODIGO DE VERIFICACION: 3181211902A96C 28 DE MAYO DE 2018 0318121190 HORA 08:49:00 PAGINA: 1 de 3 ESTE CERTIFICADO FUE GENERADO ELECTRÓNICAMENTE Y CUENTA CON UN CODIGO DE VERIFICACIÓN QUE LE PERMITE SER VALIDADO SOLO UNA VEZ, INGRESANDO A WWW.CCB. ORG.CO RECUERDE QUE ESTE CERTIFICADO LO PUEDE ADQUIRIR DESDE SU CASA U OFICINA DE FORMA FÁCIL, RAPIDA Y SEGURA EN WWW.CCB. ORG. CO PARA SU SEGURIDAD DEBE VERIFICAR LA VALIDEZ Y AUTENTICIDAD DE ESTE CERTIFICADO SIN COSTO ALGUNO DE FORMA FÁCIL, RÁPIDA Y SEGURA En WWW. CCB. ORG . CO/CERTİFICADOSELECTRONICOS CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL O INSCRIPCION DE DOCUMENTOS LA CAMARA DE COMERCIO DE BOGOTA, CON FUNDAMENTO EN LAS MATRICULAS E INSCRIPCIONES DEL REGISTRO MERCANTIL CERTIFICA: NOMBRE: DISTRIBUIDORA JABA S..A.S N.I.T. : 830034363-6 DOMICILIO : BOGOTA D.C CERTIFICA MATRICULA NO: 00812201 DEL 12 DE AGOSTO DE 1997 CERTIFICA: RENOVACON DE LA MATRICULA :23 DE MARZO DE 2018 ULTIMO AÑO RENOVADO: 2018 ACTIVO TOTAL : 1,500,000 TAMANO EMPRESA: MICROEMPRESA CERTI FICA: DIRECCION DE NOTIFICACION JUDICIAL : CL 40 A BIS # 14-83 MUNICIPI : BOGOTA D. C EMAIL DE NOTIFICACION JUDICIAL : jojaba 54Cyahco.es DIRECCION COMERCIAL : CL 40 A BIS # 14-83 MUNICIPIC : BOGOTA D.C. EMAIL COMERCIAL : jojaba一54@yahoo.es CERTIFICA: CONSTITUCION: QUE POR ESCRITURA PUBLICA NO. 0003157 DE NOTARIA 51 DE BOGOTA L.C. DEL 30 DE JULIO DE 1997, INSCRITA EL 12 DE AGOSTO DE 1997 BAJO EL NUMERO 00597109 DEL LIBRO IX, SE CONSTITUYO LA SOCIEDAD COMERCIAL DENOMINADA DISTRIBUIDORA JABA LTDA CERTIFICA QUE POR ACTA NO. 001 DE JUNTA DE SOCIOS DEL 15 DE JUNIO DE 2012, PrINSCRITA EL 6 DE SEPTIEMBRE DE 2012 Bajo EL NOMERo 01664293 DEL LIBRO IX LA SOCIEDAD CAMBIO SU NOMBRE DE: DISTRIBUIDORA JABA LTDA POR EL Constanza Trujillo DE: DIS RIBUIDORA JABA S.A. S  IONN UDLCANAA - 5SG EALLSUUDSNN TMMEAEL U PEECUEG.A RL SOL-AN EEUEOES NENI ICCE VRE LNLANL 1 D UNAS USRA NASDEA.1 UOAM'A C E ESA GA SOAES REB LEDM 29 1, RA A A A S S E T 1 N M D S E A R P S S D E E 1 E 1 L A R N H D P Y N T T EEPTSCD1ADTAEL OCUE 3 E EDNA : DNOS 148236 C NO-IN 662881 S CRII DODS10DEAT LIITT.1 RCRIE 003990 A OUQCLp L 4446 L 12000 fSRCNE MN E RUERUO TME 920990C CA 00111 S EGYL ESA ·PIIPEEERC 9901-0TCTSSF A EIR,AAMA-S N LIALAMSMRR URSECD 2RAR E RLATS, CAA.1 NETCA ESARTACRA11ENM 1000 ERE L EALPAYCT R -NELN E-ACTIO 111SCUCOANIT AD UNEC SEPO'O SRCSE NFE 0000 D TTETE CUDNL C 2 E552221 IAA-330 R-1511S D BR LVESOTpLC NESORAFADE NE UACE! DEVI LONE RR MONEANNRT1 E CI-AYALC F92388 000115 LREL U A ERCSRCB 078811 N990116 Q C ETGD R J 011900 0112 A AN750001 1 TRFSA PILDS M 1 2 2 2 2 0 C OCLTEI FAETUDO ES'CB FC 01-SJ RD003330 V OPACSCFPN_GDREMMEIATECAPSDSTCD4CLGCCTE TTOCTlIARSCCC ACNE-ECT IA OU30777 1ST 002551 G J  CERTIFICA: REPRESENTACION LEGAL: LA REPRESENTACIÓN LEGAL DE LA SOCIEDAD POR ACCIONES SIMPLIFICADA ESTARÁ A CARGO DE UNA PERSONA . NATURAL O JURÍDICA, ACCIONISTA, QUIEN TENDRÁ SUPLENTE, DESIGNADO PARA UN TÉRMINO DE UN AÑO POR LA ASAMBLEA GENERAL DE ACCIONISTAS CERTIFICA: * * NOMBRAMIENTOS ** QUE POR ACTA NO. 003 DE ASAMBLEA DE ACCIONISTAS DEL 11 DE NOVIEMBRE DE 2016,INSCRITA EL 14 DE DICIEMBRE DE 2016 BAJO EL NUMERO 02166027 DEL LIBRO IX, FUE (RON) NOMBRADO (S): NOMBRIE I DENTIFICACION REPRESENTANTE LEGAL С.С. 000000003024628 BARRETO GOMEZ JOHN JAIRO QUE POR ACTA NO. 001 DE JUNTA DE SOCIOS DEL 15 DE JUNIO DE 2012, INSCRITA EL 6 DE SEPTIEMBRE DE 2012 BAJO EL NUMERO 01664293 DEL LIBRO IX, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REPRESENTANTE LEGAL SUPLENTE BARRETO GOMEZ JOHN JAIRO C.C. 000000003024628 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: LA SOCIEDAD SERÁ GERENCIADA, ADMINISTRADA YREPRESENTADA LEGALMENTE ANTE TERCEROS POR EL REPRESENTANTE LEGAL, QUien no TenDrÁ RESTRICCIONES DE CONTRATACIÓN POR RAZON DE LA NATURALEZA NI DE LA CUANTiA DE LOS ACTOS QUE CELEBRE. POR LO TANTO, SE ENTENDERÁ QUE EL REPRESENTANTE LEGAL PODRÁ CELEBRAR O EJECUTAR TODOS LOS ACTOS Y CONTRATOS COMPRENDIDOS EN EL OBJETO SOCIAL o QUE SE RELACIONEN DIRECTAMENTE CON LA EXISTENCIA Y EL FUNCIONAMIENTO DE LA SOCIEDAD. EL REPRESENTANTE LEGAL sE ENTENDERA INVESTIDO DE LOS MAS AMPLIOS PODERES PARA ACTUAR EN TODAS LAS CIRCUNSTANCIAS EN NOMBRE DE LA SOCIEDAD, CON EXCEPCIÓN DE AQUELLAS FACULTADES QUE, DE ACUERDo CON LOS ESTATUTOS, SE HUBIEREN RESERVADO LOS ACCIONISTAS. EN LAS RELACIONES FRENTE A TERCEROS, LA SOCIEDAD QUEDARA OBLIGADA POR LOS ACTOS Y CONTRATOS CELEBRADOs POR EL RePRESEnTANTE LEGAL. LE ESTA PROHIBIDO AL REPRESENTANTE LEGAL Y A LOS DEMAS ADMINISTRADORES DE LA SOCIEDAD, POR SÍ O POR INTERPUESTA PERSONA, OBTENER BAJO CUALQUIEHR FORMA O MODALIDAD JURÍDICA PRÉSTAMOS POR PARTE DE LA SOCIEDAD U OBTENER DE PARTE DE LA SOCIEDAD AVAL, FIANZA O CUALQUIER OTRO TIPO DE GARANTÍA DE SUS OBLIGACIONES PERSONALES CERTI FICA: QUE LA SOCIEDAD TIENE MATRICULADOs LOS SIGUIENTES ESTABLECIMIENTOS; NOMBRE : PARQUEADERO JABA MATRICULA NO: 02292057 DE 7 DE FEBRERO DE 2013 RENOVACION DE LA MATRICULA : EL 23 DE MARZO DE 2018 ULTIMO AÑO RENOVADO 2018 DIRECCION: CL 6 NO. 88 G 03 TELEFONO3125268856 DOMICILIO : BOGOTA D. C EMAIL: JOJOBA 54@YHAOO. ES CERTIFICA: DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO ADMINISTRATIVO Y DE LA LEY 962 DE 2005, LOS ACTOS ADMINISTRATIVOS DE REGISTRO AQUI CERTIFICADOS QUEDAN ENFIRME DIEZ (10) DIAS HABILES DESPUES DE LA FECHA DE LA CORRESPONDIENTE ANOTACIA N. SIEMPRE QUE NO SEAN OBJETO DE RECURSO (LOS SABADOS NO SON TENIDOS EN CUENTA COMO DIAS HABILES PARA LA CAMARA  CAMARA DE COMERCIO DE BOGOTA de Comercio SEDE SALITRE CODIGO DE VERIFICACION: 3181211902A96C 28 DE MAYO DE 2018 0318121190 HORA 08:49:00 PAGINA: 2 de 3 COMPLEMENTARIOS. 9) TODAS LAS DEMÁS ACTIVIDADES RELACIONADAS CON EL SECTOR AGRícOLA Y GANADERO. EN DESARROLLO DE SU OBJETO SOCIAL LA EMPRESAPODRA: USUFRUCTUARLOS, ARRENDARLOS, VENDERLOS, GRAVARLOS O PARA DESARROLLAR EN O CON ELLOS EL. OBJETO SOCIAL DE LA EMPRESA; B) FORMAR PARTE coMO SOCIA o ACCIONISTA DE OTRAS SOCIEDADES QUE SE DEDIQUEN A OBJETos SIMILARES O CONEXOS AL DE LA SOCIEDAD CONSTITUIDA EN LOS TÉRMINOS DE LOS PRESENTES ESTATUTOS; C) ADELANTAR TODA CLASE DE OPERACIONES DE CRÉDITO, NEGOCiar TtTULOS VALORES O ADELANTAR CON ÉSTOS TODA CLASE DE ACTAS JURÍDICOS; D) ABRIR CUENTAS CORRIENTES, DEPÓSITOS A TÉRMINO OA LA VISTA, CONTRAER OBLIGACIONES Y ADQUIRIR CRÉDiTOS con entiDADES FINANCIERAS DEL PAÍS O DEL EXTERIOR Y EN GENERAL CELEBRA TODA CLASE DE ACTASNECESARIOSPARA ADELANTAR OPERACIONES CON LAS ENTIDADES ANTERIORMENTE MENCIONADAS; E) OBTENER U OTORGAR FINANCIACIONES PARA LA ADQUISICIÓN DE LOS BIENES MUEBLES, FUNGIBLES O NO, E INMUEBLES QUE SEAN NECESARIOS PARA ADELANTAR EL OBJeTO SOCIAL DE LA COMPAÑÍA; F) EN GENERAL LA SOCIEDAD PODRÁ EJeCUTAR TODOs LOS ACTOS CIVILES, CoMERCIALES, FINANCIERO o ADMINISTRATIvOS QUE TENgaN RELACIÓN DIrECTA O INDIRECTA CON EL OBJETO SOCIAL O CUYA FINALIDAD CONSISTA EN EJERCER LOS DERECHOS :Y CUMPLIR CON LAS OBLIGACIONES LEGALES o CONVENCIONALES DE LA SOCIEDAD, BiEN FUERE EN NOMBRE PROPIO, POR CUENTA DE TERCEROS O EN PARTICIPACIÓN CON ELLOs A)ADQUIRIR BIENES MUEBLES E INMUEBLES PARA CERTIFICA: ACTIVIDAD PRINCIPAL: 0150 (EXPLOTACION MIXTA (AGRICOLA Y PECUARIA) ACTIVIDAD SECUNDARIA: 0161 〈ACTIVIDADES DE APOYO A LA AGRICULTURA) OTRAS ACTIVIDADES: 0163 (ACTIVIDADES POSTERIORES A LA COSECHA) CERTIFICA: CAPITAL: VALOF NO. DE ACCIONES VALOR NOMINAL *CAPITAL AUTORI ZADO ** $3,000,000.00 3,000.00 $1,000.00 VALOR NO. DE ACCIONES VALOR NOMINAL *CAPITAL SUSCRITO* $3,000,000.00 3,000.00 : $1,000.00 VALOR NO. DE ACCIONES VALOR NOMINAL **CAPITAL PAGADO** $3,000,000.00 3,000.00 $1,000.00  CUENTA CON PLENA vALidez JUrIDIca coNFORME A LA LEY 527 DE 1999. FIRMA MECANICA DE CONFORMIDAD CON EL DECRETO 2150 DE 1995 Y LA AUTORIZACION IMParTIDA POR LA SUPErintENDEncIA DE INDUSTRIA Y COMERCIO, MEDIANTE EL OFICIO deL 18 DE NOVIEMBRE DE 1996  CAMARA DE COMERCIO DE BOGOTA Cámara de Comercio SEDE SALITRE CODIGO DE VERIFICACION : 318|211902A96C 28 DE MAYO DE 2018 0318121190 HORA 08:49:00 PAGINA: 3 de 3 DE COMERCIO DE BOGOTA * **EL PRESENTE CERTIFICADO NO CONSTITUYE PERMISO DE FUNCIONAMIENTO EN NINGUN CASO INFORMACION COMPLEMENTARIA LOS SIGUIENTES DATOS SOBRE RIT Y PLANEACION DISTRITAL SON INFORMATIVos CONTRIBUYENTE INSCRITO EN EL REGISTRO RIT DE LA DIRECCION DISTRITAL DE IMPUESTOS, FECHA DE INSCRIPCION : 4 DE JULIO DE 2017 FECHA DE ENVIO DE INFORMACION A PLANEACION DISTRITAL : 23 DE MARZO DE 2018 SENOR EMPRESARIO, SI SU EMPRESA TIENE ACTIVOS INFERIORES A 30.000 SMLMV Y UNA PLANTA DE PERSONAL DE MENOS DE 200 TRABAJADORES, USTED TIENE DERECHO A RECIBIR UN DESCUENTO EN EL PAGO DE LOS PARAFISCALES DE 75% EN EL PRIMER AÑO DE CONSTITUCION DE SU EMPRESA, DE 50% EN EL SEGUNDO AÑO Y DE 25% EN EL TERCER AÑO. LEY 590 DE 2000 Y DECRETO 525 DE 2009 RECUERDE INGRESAR A www.supersociedades.gov.co PARA VERIFICAR SI SU EMPRESA ESTA OBLIGADA A REMITIR ESTADOS FINANCIEROS. EVITE SANCIONES ESTE CERTIFICADO REFLEJA LA SITUACION JURIDICA DE LA SOCIEDAD ASTA LA FECHA Y HORA DE SU EXPEDICION EL SECRETARIO DE LA CAMARA DE COMERCIO VALOR:$ 5, 500 PARA VERIFICAR QUE EL CONTENIDO DE ESTE CERTIFICADO CORRESPONDA CON LA INFORMACION QUE REPOSA EN LOS REGISTROS PUBLICOS DE LA CAMARA DE COMERCIO DE BOGOTA, EL CODIGO DE VERIFICACION PUEDE SER VALIDADO POR SU DESTINATARIO SOLO UNA VEZ, INGRESANDO A WWw.CCB. ORG.CO ESTE CERTIFICADO FUE GENERADO ELECTRONICAMENTE CON FIRMA DIGITAL Y "
+}

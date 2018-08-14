@@ -1,0 +1,937 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 5272,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "es_actividad_principal",
+      "sentence": "3 de 3  CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16-16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACION: 7S1TwkKqjJ ACTIVOS VINCULADOS AL ESTABLECIMIENTO: $ 4,387,000 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE ***INFORMA: * ** QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA DIRECCION QUE APARECE REPORTADA EN ESTE CERTIFICADO, SE INFORMO A LAS SECRETARIAS DE PLANEACION, SALUD, GOBIERNO, HACIENDA MUNICIPAL DE LA ALCALDIA DE MANIZALES Y BOMBEROS, GENERANDOSE DE FORMA INMEDIATA LA MATRICULA DE INDUSTRIA Y COMERCIO,",
+      "score": 0.9954,
+      "arguments": [
+        {
+          "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            1165,
+            1256
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1144,
+            1163
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": "T. : 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO: 00152228 DEL 26 DE JUNIO DE 2012 'AFI LIA D O' DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO GALERIAS MUNICIPIO: MANIZALES FAX COMERCIAL: 8975175 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO 1: 8821 934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO: MANIZALES E-MAIL COMERCIAL:surtipollosmanizales@hotmail.com E-MAIL NOTİFICACİON JUDICIAL : surtipollosmanizales@hotmail.com CERTIFICA : RENOVACION DE LA MATRICULA: EL 18 DE MARZO DE 2016 ULTIMO AÑO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $ 7,918,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : AVICOLA SURTIPOLLOS DIRECCION: CALLE 23 17-41 TELEFONO 1 :",
+      "score": 0.99221,
+      "arguments": [
+        {
+          "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+          "location": [
+            5000,
+            5036
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "AVICOLA SURTIPOLLOS",
+          "location": [
+            5039,
+            5058
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "AVICOLA SURTIPOLLOS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": "3 de 3  CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16-16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACION: 7S1TwkKqjJ ACTIVOS VINCULADOS AL ESTABLECIMIENTO: $ 4,387,000 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE ***INFORMA: * ** QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA DIRECCION QUE APARECE REPORTADA EN ESTE CERTIFICADO, SE INFORMO A LAS SECRETARIAS DE PLANEACION, SALUD, GOBIERNO, HACIENDA MUNICIPAL DE LA ALCALDIA DE MANIZALES Y BOMBEROS, GENERANDOSE DE FORMA INMEDIATA LA MATRICULA DE INDUSTRIA Y COMERCIO,",
+      "score": 0.952384,
+      "arguments": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE ***INFORMA: * ** QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA",
+          "location": [
+            1278,
+            1514
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE ***INFORMA: * ** QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1257,
+            1277
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "2 de 3  CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16 -16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACION: 7S1TwkKqjJ CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE MANIZALES POR CALDAS, CON FUNDAMENTO EN LAS MATRICULAS DEL REGISTRO MERCANTIL, CERTIFICA: NOMBRE : JARAMILLO PATINO JUAN PABLO C.C. : 01053780671 N. 1 .",
+      "score": 0.987224,
+      "arguments": [
+        {
+          "text": "JARAMILLO PATINO JUAN PABLO",
+          "location": [
+            4049,
+            4076
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "JARAMILLO PATINO JUAN PABLO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            4077,
+            4081
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "2 de 3  CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16 -16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACION: 7S1TwkKqjJ CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE MANIZALES POR CALDAS, CON FUNDAMENTO EN LAS MATRICULAS DEL REGISTRO MERCANTIL, CERTIFICA: NOMBRE : JARAMILLO PATINO JUAN PABLO C.C. : 01053780671 N. 1 .",
+      "score": 0.985198,
+      "arguments": [
+        {
+          "text": "JARAMILLO PATINO JUAN PABLO",
+          "location": [
+            4049,
+            4076
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "JARAMILLO PATINO JUAN PABLO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "01053780671",
+          "location": [
+            4084,
+            4095
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "01053780671",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "2 de 3  CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16 -16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACION: 7S1TwkKqjJ CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE MANIZALES POR CALDAS, CON FUNDAMENTO EN LAS MATRICULAS DEL REGISTRO MERCANTIL, CERTIFICA: NOMBRE : JARAMILLO PATINO JUAN PABLO C.C. : 01053780671 N. 1 .",
+      "score": 0.895732,
+      "arguments": [
+        {
+          "text": "01053780671",
+          "location": [
+            4084,
+            4095
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "01053780671",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            4077,
+            4081
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "T. : 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO: 00152228 DEL 26 DE JUNIO DE 2012 'AFI LIA D O' DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO GALERIAS MUNICIPIO: MANIZALES FAX COMERCIAL: 8975175 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO 1: 8821 934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO: MANIZALES E-MAIL COMERCIAL:surtipollosmanizales@hotmail.com E-MAIL NOTİFICACİON JUDICIAL : surtipollosmanizales@hotmail.com CERTIFICA : RENOVACION DE LA MATRICULA: EL 18 DE MARZO DE 2016 ULTIMO AÑO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $ 7,918,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : AVICOLA SURTIPOLLOS DIRECCION: CALLE 23 17-41 TELEFONO 1 :",
+      "score": 0.946833,
+      "arguments": [
+        {
+          "text": "00001053780671",
+          "location": [
+            4108,
+            4122
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "00001053780671",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "T.",
+          "location": [
+            4103,
+            4105
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "T. : 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO: 00152228 DEL 26 DE JUNIO DE 2012 'AFI LIA D O' DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO GALERIAS MUNICIPIO: MANIZALES FAX COMERCIAL: 8975175 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO 1: 8821 934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO: MANIZALES E-MAIL COMERCIAL:surtipollosmanizales@hotmail.com E-MAIL NOTİFICACİON JUDICIAL : surtipollosmanizales@hotmail.com CERTIFICA : RENOVACION DE LA MATRICULA: EL 18 DE MARZO DE 2016 ULTIMO AÑO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $ 7,918,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : AVICOLA SURTIPOLLOS DIRECCION: CALLE 23 17-41 TELEFONO 1 :",
+      "score": 0.990799,
+      "arguments": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            4152,
+            4161
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "26 DE JUNIO DE 2012",
+          "location": [
+            4179,
+            4198
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "26 DE JUNIO DE 2012",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "T. : 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO: 00152228 DEL 26 DE JUNIO DE 2012 'AFI LIA D O' DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO GALERIAS MUNICIPIO: MANIZALES FAX COMERCIAL: 8975175 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO 1: 8821 934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO: MANIZALES E-MAIL COMERCIAL:surtipollosmanizales@hotmail.com E-MAIL NOTİFICACİON JUDICIAL : surtipollosmanizales@hotmail.com CERTIFICA : RENOVACION DE LA MATRICULA: EL 18 DE MARZO DE 2016 ULTIMO AÑO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $ 7,918,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : AVICOLA SURTIPOLLOS DIRECCION: CALLE 23 17-41 TELEFONO 1 :",
+      "score": 0.995902,
+      "arguments": [
+        {
+          "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            4678,
+            4769
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            4657,
+            4676
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": "T. : 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO: 00152228 DEL 26 DE JUNIO DE 2012 'AFI LIA D O' DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO GALERIAS MUNICIPIO: MANIZALES FAX COMERCIAL: 8975175 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO 1: 8821 934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO: MANIZALES E-MAIL COMERCIAL:surtipollosmanizales@hotmail.com E-MAIL NOTİFICACİON JUDICIAL : surtipollosmanizales@hotmail.com CERTIFICA : RENOVACION DE LA MATRICULA: EL 18 DE MARZO DE 2016 ULTIMO AÑO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $ 7,918,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : AVICOLA SURTIPOLLOS DIRECCION: CALLE 23 17-41 TELEFONO 1 :",
+      "score": 0.977825,
+      "arguments": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+          "location": [
+            4792,
+            4926
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            4770,
+            4790
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "PERSONA",
+      "text": "JUAN PABLO JARAMILLO PATINO",
+      "mentions": [
+        {
+          "text": "JUAN PABLO JARAMILLO PATINO",
+          "location": [
+            167,
+            194
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2016/11/16",
+      "mentions": [
+        {
+          "text": "2016/11/16",
+          "location": [
+            213,
+            223
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "JARAMILLO PATINO JUAN PABLO",
+      "mentions": [
+        {
+          "text": "JARAMILLO PATINO JUAN PABLO",
+          "location": [
+            4049,
+            4076
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C.",
+      "mentions": [
+        {
+          "text": "C.C.",
+          "location": [
+            4077,
+            4081
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "01053780671",
+      "mentions": [
+        {
+          "text": "01053780671",
+          "location": [
+            4084,
+            4095
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "T.",
+      "mentions": [
+        {
+          "text": "T.",
+          "location": [
+            4103,
+            4105
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "00001053780671",
+      "mentions": [
+        {
+          "text": "00001053780671",
+          "location": [
+            4108,
+            4122
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            4152,
+            4161
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "26 DE JUNIO DE 2012",
+      "mentions": [
+        {
+          "text": "26 DE JUNIO DE 2012",
+          "location": [
+            4179,
+            4198
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE MARZO DE 2016",
+      "mentions": [
+        {
+          "text": "18 DE MARZO DE 2016",
+          "location": [
+            4612,
+            4631
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            4657,
+            4676
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+      "mentions": [
+        {
+          "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            4678,
+            4769
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "JUAN PABLO JARAMILLO PATINO",
+      "mentions": [
+        {
+          "text": "JUAN PABLO JARAMILLO PATINO",
+          "location": [
+            941,
+            968
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            4770,
+            4790
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+      "mentions": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+          "location": [
+            4792,
+            4926
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+      "mentions": [
+        {
+          "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+          "location": [
+            5000,
+            5036
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "AVICOLA SURTIPOLLOS",
+      "mentions": [
+        {
+          "text": "AVICOLA SURTIPOLLOS",
+          "location": [
+            5039,
+            5058
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "27 DE JULIO DE 1998",
+      "mentions": [
+        {
+          "text": "27 DE JULIO DE 1998",
+          "location": [
+            5196,
+            5215
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE MARZO DE 2016",
+      "mentions": [
+        {
+          "text": "18 DE MARZO DE 2016",
+          "location": [
+            5240,
+            5259
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2016/11/16-16:02:54",
+      "mentions": [
+        {
+          "text": "2016/11/16-16:02:54",
+          "location": [
+            987,
+            1006
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1144,
+            1163
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+      "mentions": [
+        {
+          "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            1165,
+            1256
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1257,
+            1277
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE ***INFORMA: * ** QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA",
+      "mentions": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE ***INFORMA: * ** QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA",
+          "location": [
+            1278,
+            1514
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "JUAN PABLO JARAMILLO PATINO",
+      "mentions": [
+        {
+          "text": "JUAN PABLO JARAMILLO PATINO",
+          "location": [
+            3728,
+            3755
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2016/11/16",
+      "mentions": [
+        {
+          "text": "2016/11/16",
+          "location": [
+            3774,
+            3784
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16 -16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACIÓN: 7S1TwkKqjJ Al realizar la verificación podrá visualizar (y descargar) una imagen exacta del certificado que fue entregado al usuario en el momento que se realizó la transacción secretario juridico (o que haga sus La firma mecánica que se muestra a continuación es la representación gráfica de la firma del veces) de la cámara de comercio quien avala este certificado. La firma mecánica no reemplaza la firma digital en los documentos electrónicos audro Pag. 3 de 3  CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16-16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACION: 7S1TwkKqjJ ACTIVOS VINCULADOS AL ESTABLECIMIENTO: $ 4,387,000 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE ***INFORMA: * ** QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA DIRECCION QUE APARECE REPORTADA EN ESTE CERTIFICADO, SE INFORMO A LAS SECRETARIAS DE PLANEACION, SALUD, GOBIERNO, HACIENDA MUNICIPAL DE LA ALCALDIA DE MANIZALES Y BOMBEROS, GENERANDOSE DE FORMA INMEDIATA LA MATRICULA DE INDUSTRIA Y COMERCIO, A EXCEPCION DE AQUE LLOS CASOS EN QUE LA ACTIVIDAD NO ESTÁ SUJETA A DICHO IMPUESTO LOS DATOS CONTENIDOS EN ESTA SECCION DE INFORMACION COMPLEMENTARIA NO HACEN PARTE DEL REGISTRO PUBLICO MERCANTIL, NI SON CERTIFICADOS POR LA CAMARA DE COMERCIO EN EJERCICIO DE SUS FUNCIONES LEGALES CERTIFICA: LA INFORMACION ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRICULA DILIGENCIADO POR EL COMERCIANTE DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO Y DE LA LEY 962 DE 2005, LOS ACTOS ADMINISTRATIVOS DE REGISTRO AQUI CERTIFICADOS QUEDAN EN FIRME DIEZ (10) DIAS HABILES DESPUES DE LA FECHA DE INSCRIPCION SIEMPRE QUE NO SEAN OBJETO DE RECURSOS VALOR DEL CERTIFICADO: $2,400 IMPORTANTE: La firma digital del secretario de la CAMARA DE COMERCIO DE MANIZALES POR CALDAS contenida en este certificado electrónico se encuentra emitida por una entidad de certificación abierta autorizada y vigilada por la Superintendencia de Industria y Comercio, de conformidad con las exigencias establecidas en la Ley 527 de 1999 para validez jurídica y probatoria de los documentos electrónicos La firma digital no es una firma digitalizada o escaneada, por lo tanto, la firma digital que acompaña este documento la podrá verificar a través de su aplicativo visor de documentos pdf No obstante, si usted va a imprimir este certificado, lo puede hacer desde su computador, con la certeza de que el mismo fue expedido a través del canal virtual de la cámara de comercio y que la persona o entidad a la que usted le va a entregar el certificado impreso, puede verificar por una sola vez el contenido del mismo, ingresando al enlace http://siiaws4.confecamaras.co/cv.php seleccionando allá la cámara de comercio e indicando el código de verificación 7S1TwkKqjJ Pag. 2 de 3  CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES CON DESTINO A AFILIADOS CERTIFICADO DE MATRICULA MERCANTIL JUAN PABLO JARAMILLO PATINO Fecha expedición: 2016/11/16 -16:02:54, Recibo No. G000198639, Operación No. 01C671116139 CODIGO DE VERIFICACION: 7S1TwkKqjJ CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE MANIZALES POR CALDAS, CON FUNDAMENTO EN LAS MATRICULAS DEL REGISTRO MERCANTIL, CERTIFICA: NOMBRE : JARAMILLO PATINO JUAN PABLO C.C. : 01053780671 N. 1 . T. : 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO: 00152228 DEL 26 DE JUNIO DE 2012 'AFI LIA D O' DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO GALERIAS MUNICIPIO: MANIZALES FAX COMERCIAL: 8975175 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO 1: 8821 934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO: MANIZALES E-MAIL COMERCIAL:surtipollosmanizales@hotmail.com E-MAIL NOTİFICACİON JUDICIAL : surtipollosmanizales@hotmail.com CERTIFICA : RENOVACION DE LA MATRICULA: EL 18 DE MARZO DE 2016 ULTIMO AÑO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $ 7,918,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : AVICOLA SURTIPOLLOS DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO : GALERÍAS MUNICIPIO : MANIZALES FAX COMERCIAL: 8975175 MATRICULA NO: 00079590 DEL 27 DE JULIO DE 1998 RENOVO EL AÑO 2016 , EL 18 DE MARZO DE 2016 Pag. 1 de 3 "
+}

@@ -1,0 +1,413 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 3210,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "1144053231 NIT: 11440532316 CERTIFICA DIRECCIÓN DEL DOMICILIO PRINCIPAL: CL.",
+      "score": 0.687353,
+      "arguments": [
+        {
+          "text": "1144053231",
+          "location": [
+            302,
+            312
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1144053231",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            313,
+            316
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "1144053231 NIT: 11440532316 CERTIFICA DIRECCIÓN DEL DOMICILIO PRINCIPAL: CL.",
+      "score": 0.966115,
+      "arguments": [
+        {
+          "text": "11440532316",
+          "location": [
+            318,
+            329
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "11440532316",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            313,
+            316
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "25 NRO 125-340 MUNICIPIO:CALI-VALLE TELÉFONO PARA NOTIFICACIÓN 1:5554755 TELÉFONO PARA NOTIFICACIÓN 2:3818711 TELÉFONO PARA NOTIFICACIÓN 3:3182385883 FAX PARA NOTIFICACIÓN:NO REPORTADO CORREO ELECTRÓNICO DE NOTIFICACIÓN:kevinp27@hotmail.com CERTIFICA MATRÍCULA MERCANTIL: 848602-1 FECHA DE MATRiCULA EN ESTA CAMARA : 28 DE JUNIO DE 2012 ÚLTIMO AÑO RENOVADO: 2017 CERTIFICA TOTAL ACTIVOS: $45, 000,000 CERTIFICA ACTIVIDAD PRINCIPAL G4719 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO COMPUESTO PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS BEBIDAS Y TABACO ESPECIALIZADOS, CON SURTIDO (vÍvERES EN GENERAL) ACTIVIDAD SECUNDARIA G4752 COMERCIO AL POR MENOR DE ARTÍcULoS DE FERRETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS , PINTURAS Y PRODUCTOS DE VIDRIO CERTIFICA CAMARA DE COMERCIO BAJO EL NRO QUE A NoMBRE DE LA FirMA FIGURA MATRICULADo EN LA 848603 - 2 EL ESTABLECIMIENTO DE cOMERCIO : MISCELANEA CAL Y CEMENTo LA MAYOR UBICADO EN: CL.",
+      "score": 0.98715,
+      "arguments": [
+        {
+          "text": "G4719 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO COMPUESTO PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS BEBIDAS Y TABACO ESPECIALIZADOS, CON SURTIDO (vÍvERES EN GENERAL)",
+          "location": [
+            1039,
+            1218
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "G4719 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO COMPUESTO PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS BEBIDAS Y TABACO ESPECIALIZADOS, CON SURTIDO (vÍvERES EN GENERAL)",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1019,
+            1038
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": "25 NRO 125-340 MUNICIPIO:CALI-VALLE TELÉFONO PARA NOTIFICACIÓN 1:5554755 TELÉFONO PARA NOTIFICACIÓN 2:3818711 TELÉFONO PARA NOTIFICACIÓN 3:3182385883 FAX PARA NOTIFICACIÓN:NO REPORTADO CORREO ELECTRÓNICO DE NOTIFICACIÓN:kevinp27@hotmail.com CERTIFICA MATRÍCULA MERCANTIL: 848602-1 FECHA DE MATRiCULA EN ESTA CAMARA : 28 DE JUNIO DE 2012 ÚLTIMO AÑO RENOVADO: 2017 CERTIFICA TOTAL ACTIVOS: $45, 000,000 CERTIFICA ACTIVIDAD PRINCIPAL G4719 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO COMPUESTO PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS BEBIDAS Y TABACO ESPECIALIZADOS, CON SURTIDO (vÍvERES EN GENERAL) ACTIVIDAD SECUNDARIA G4752 COMERCIO AL POR MENOR DE ARTÍcULoS DE FERRETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS , PINTURAS Y PRODUCTOS DE VIDRIO CERTIFICA CAMARA DE COMERCIO BAJO EL NRO QUE A NoMBRE DE LA FirMA FIGURA MATRICULADo EN LA 848603 - 2 EL ESTABLECIMIENTO DE cOMERCIO : MISCELANEA CAL Y CEMENTo LA MAYOR UBICADO EN: CL.",
+      "score": 0.875851,
+      "arguments": [
+        {
+          "text": "G4752 COMERCIO AL POR MENOR DE ARTÍcULoS DE FERRETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS , PINTURAS Y PRODUCTOS DE VIDRIO",
+          "location": [
+            1240,
+            1362
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "G4752 COMERCIO AL POR MENOR DE ARTÍcULoS DE FERRETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS , PINTURAS Y PRODUCTOS DE VIDRIO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1219,
+            1239
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1144053231",
+      "mentions": [
+        {
+          "text": "1144053231",
+          "location": [
+            302,
+            312
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "NIT",
+      "mentions": [
+        {
+          "text": "NIT",
+          "location": [
+            313,
+            316
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "28 DE JUNIO DEL AÑO 2012",
+      "mentions": [
+        {
+          "text": "28 DE JUNIO DEL AÑO 2012",
+          "location": [
+            1594,
+            1618
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACTIVIDAD COMERCIAL : COMERCIO AL POR MENOR EN ESTABLECIMIENTOS No ESPECIALIZADOs, coN PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS (VÍvERE TABACO SURTIDO COMPUESTO S EN GENERAL), BEBIDASy POR MENOR DE ARTfcULos DE FERRETERfA, PinTURAS Y PRODUCTOS DE VvIdrio EN  Cámara de Comercio de Cali CODIGO DE VERIFICACION:0817ESCY1S NUMERO DE RADICACION",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD COMERCIAL : COMERCIO AL POR MENOR EN ESTABLECIMIENTOS No ESPECIALIZADOs, coN PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS (VÍvERE TABACO SURTIDO COMPUESTO S EN GENERAL), BEBIDASy POR MENOR DE ARTfcULos DE FERRETERfA, PinTURAS Y PRODUCTOS DE VvIdrio EN  Cámara de Comercio de Cali CODIGO DE VERIFICACION:0817ESCY1S NUMERO DE RADICACION",
+          "location": [
+            1643,
+            1995
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "11440532316",
+      "mentions": [
+        {
+          "text": "11440532316",
+          "location": [
+            318,
+            329
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA DE MATRiCULA",
+      "mentions": [
+        {
+          "text": "FECHA DE MATRiCULA",
+          "location": [
+            889,
+            907
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "28 DE JUNIO DE 2012",
+      "mentions": [
+        {
+          "text": "28 DE JUNIO DE 2012",
+          "location": [
+            925,
+            944
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1019,
+            1038
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "G4719 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO COMPUESTO PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS BEBIDAS Y TABACO ESPECIALIZADOS, CON SURTIDO (vÍvERES EN GENERAL)",
+      "mentions": [
+        {
+          "text": "G4719 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO COMPUESTO PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS BEBIDAS Y TABACO ESPECIALIZADOS, CON SURTIDO (vÍvERES EN GENERAL)",
+          "location": [
+            1039,
+            1218
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1219,
+            1239
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "G4752 COMERCIO AL POR MENOR DE ARTÍcULoS DE FERRETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS , PINTURAS Y PRODUCTOS DE VIDRIO",
+      "mentions": [
+        {
+          "text": "G4752 COMERCIO AL POR MENOR DE ARTÍcULoS DE FERRETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS , PINTURAS Y PRODUCTOS DE VIDRIO",
+          "location": [
+            1240,
+            1362
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA MATRICULA",
+      "mentions": [
+        {
+          "text": "FECHA MATRICULA",
+          "location": [
+            1576,
+            1591
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " Cámara de Comercio de Cali CODIGO DE VERIFICACION:0817ESCY1S NUMERO DE RADICACION: FECHA DE IMPRESION: PAGINAS: 20170068769-UNI 16 FEBRERO 2017 02:01 PM REPUBLICA DE COLOMBIA EL SUSCRITO SECRETARIO DE LACAMARA DE COMERCIO DE CAL CERTIFICA NOMBRE (S) Y APELLIDO (S) : PATINO CARDENAS KEVIN ANDREY С.С. 1144053231 NIT: 11440532316 CERTIFICA DIRECCIÓN DEL DOMICILIO PRINCIPAL: CL. 25 NRO 125 340 MUNICIPIO: CALI-VALLE TELÉFONO COMERCIAL 1:5554755 TELÉFONO COMERCIAL 2:3818711 TELÉFONO COMERCIAL 3:3182385883 FAX: NO REPORTADO CORREO ELECTRONICO: kevinp27@hotmail.com DIRECCIÓN PARA NOTIFICACIÓN JUDICIAL : CL. 25 NRO 125-340 MUNICIPIO:CALI-VALLE TELÉFONO PARA NOTIFICACIÓN 1:5554755 TELÉFONO PARA NOTIFICACIÓN 2:3818711 TELÉFONO PARA NOTIFICACIÓN 3:3182385883 FAX PARA NOTIFICACIÓN:NO REPORTADO CORREO ELECTRÓNICO DE NOTIFICACIÓN:kevinp27@hotmail.com CERTIFICA MATRÍCULA MERCANTIL: 848602-1 FECHA DE MATRiCULA EN ESTA CAMARA : 28 DE JUNIO DE 2012 ÚLTIMO AÑO RENOVADO: 2017 CERTIFICA TOTAL ACTIVOS: $45, 000,000 CERTIFICA ACTIVIDAD PRINCIPAL G4719 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO COMPUESTO PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS BEBIDAS Y TABACO ESPECIALIZADOS, CON SURTIDO (vÍvERES EN GENERAL) ACTIVIDAD SECUNDARIA G4752 COMERCIO AL POR MENOR DE ARTÍcULoS DE FERRETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS , PINTURAS Y PRODUCTOS DE VIDRIO CERTIFICA CAMARA DE COMERCIO BAJO EL NRO QUE A NoMBRE DE LA FirMA FIGURA MATRICULADo EN LA 848603 - 2 EL ESTABLECIMIENTO DE cOMERCIO : MISCELANEA CAL Y CEMENTo LA MAYOR UBICADO EN: CL. 25 NRO 125 120 CA 3 DE CALI FECHA MATRICULA : 28 DE JUNIO DEL AÑO 2012 RENOVO: POR EL AÑO 2017 ACTIVIDAD COMERCIAL : COMERCIO AL POR MENOR EN ESTABLECIMIENTOS No ESPECIALIZADOs, coN PRINCIPALMENTE POR PRODUCTOS DIFERENTES DE ALIMENTOS (VÍvERE TABACO SURTIDO COMPUESTO S EN GENERAL), BEBIDASy POR MENOR DE ARTfcULos DE FERRETERfA, PinTURAS Y PRODUCTOS DE VvIdrio EN  Cámara de Comercio de Cali CODIGO DE VERIFICACION:0817ESCY1S NUMERO DE RADICACION: FECHA DE IMPRESION: PAGINAS: 20170068769-UNI 16 FEBRERO 2017 02:01 PM ESTABLECIMIENTOS ESPECIALIZADOS ACTIVO VINCULADO :$45,000,000 CERTIFICA SU MATRICULA MERCANTIL EL 16 DE FEBRERO DE 2017 QUE LA FIRMA EFEcTuo LA RENOvAciON DE CERTIFICA QUE NO FIGURAN oTRAS INSCRIPCIO CERTIFICADC LOS ACTOS ADMINISTRATIVOS DE REGISTRO QUEDAN EN FIRME DIEZ (10 LA fECHA DE SU INscRIPCION, SIEMPRE Y cuANDO DENTRO DE DICHO TERMINO RECURSOS NES QUE MODIFIQUEN TOTAL o PARCIALMENTE EL PRESENTE ) DIAS HABILES DES PUE S DE NO SEAN OBJETO DE LA PERSONA o ENTIDAD A LA QUE USTED LE VA A ENTrE CONTENIDO İNGRESANDO A http://www.ccc.org.co/regis VERIFICACION QUE SE ENCUENTRA EN EL ENCABEZADO DEL PR EL CERTIFICADO A validar cORRESP EL MOMENTO EN QUE SE GENERO EN LAS SEDES o A Traves DE LA CAMARA GAR EL cERTIFICADO PUEDE VERIFICAR su traya/ Y DIGİTANDO EL CODIGO DE ESENTE DOCUMENTO ONDE A LA IMAGEN Y CONTENIDO DEL CERTIFICADO CREADO EN PLATAFORMA VIrTUAL DE LA DECRETO 2150 DE 1.995 y LA AuTORIZACION IMPARTIDA POR LA MECANICA QUE APARECE A CONTINUACION SUPERINTENDENCIA DE INDUSTRIA Y COMERCIO LA FIrMA TIENE PLENA VALIDEZ PARA TODOS LOS EFECTOS LEGALES. DADO EN CALI A LOS 16 DIAS DEL MES DE FEBRERO DEL AÑO 2017 HORA: 02:01:48 PM "
+}

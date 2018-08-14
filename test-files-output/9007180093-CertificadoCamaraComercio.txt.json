@@ -1,0 +1,413 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 9571,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "02-NAYSLLE-201805200008 CODIGO DE VERIFICACIÓN 2HkerEYN GERENTE COTES CANTILLO JORGE IVAN CC 1,082, 851,034 POR ACTa NtMERO 7 DeL 17 dE aBRIL DE 2018.",
+      "score": 0.905656,
+      "arguments": [
+        {
+          "text": "1,082, 851,034",
+          "location": [
+            239,
+            253
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1,082, 851,034",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "CC",
+          "location": [
+            236,
+            238
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "CC",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "de ASAMBlEa generaL exTraorDiNariA, REGIsTRaDo en eSta ciMara Dz COMERCIO BAJO EL NOMERO 53655 DEL LIBRO IX DEL REGISTRO MERCANTIL EL 18 DE λBRIL DE 2018, ruERON NO BRADOS GERENTE CANTILLO ROMERO CLARA ISABEL CC 57,402,202 ADMINISTRACIÓN: REPRESENTACIÓN LeGai, GeReNTE: lA SocIeDaD TENDRA DoS GERENTES Quienzs sOs LEGALES, TENDRÁN λ S CARGO LA ADMINISTRACIÓN GESTIÓN DE LOS NEGOCIOS SOCIALES ESTOS ESTATUTOS, A LOS REGLAMENTOS צ DECISIONES DE LÀ ASA BLEA DE ACCIONISTAS, ESTE A SU VEZ TENDRÁ UN SUBGERENTE FACOLtADES DEL GERENE: EL REPRESENtANTE COMPRENDIDOS EN EL OBJETO sOcIAL O QUE SE RELAC LÀ SOCIEDAD, SALVO LAS LIMITACIONES POR CUANTÍA QUE REQUIERAN EXPRESA λυτ。RlZACION DE LA ASAMBLEA LIMITACIONES צ ATRIBUCIONES DE LA ASAMBLEA DE ACCIONİSTAS: 9.",
+      "score": 0.983259,
+      "arguments": [
+        {
+          "text": "CANTILLO ROMERO CLARA ISABEL",
+          "location": [
+            477,
+            505
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "CANTILLO ROMERO CLARA ISABEL",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "CC",
+          "location": [
+            506,
+            508
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "CC",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "de ASAMBlEa generaL exTraorDiNariA, REGIsTRaDo en eSta ciMara Dz COMERCIO BAJO EL NOMERO 53655 DEL LIBRO IX DEL REGISTRO MERCANTIL EL 18 DE λBRIL DE 2018, ruERON NO BRADOS GERENTE CANTILLO ROMERO CLARA ISABEL CC 57,402,202 ADMINISTRACIÓN: REPRESENTACIÓN LeGai, GeReNTE: lA SocIeDaD TENDRA DoS GERENTES Quienzs sOs LEGALES, TENDRÁN λ S CARGO LA ADMINISTRACIÓN GESTIÓN DE LOS NEGOCIOS SOCIALES ESTOS ESTATUTOS, A LOS REGLAMENTOS צ DECISIONES DE LÀ ASA BLEA DE ACCIONISTAS, ESTE A SU VEZ TENDRÁ UN SUBGERENTE FACOLtADES DEL GERENE: EL REPRESENtANTE COMPRENDIDOS EN EL OBJETO sOcIAL O QUE SE RELAC LÀ SOCIEDAD, SALVO LAS LIMITACIONES POR CUANTÍA QUE REQUIERAN EXPRESA λυτ。RlZACION DE LA ASAMBLEA LIMITACIONES צ ATRIBUCIONES DE LA ASAMBLEA DE ACCIONİSTAS: 9.",
+      "score": 0.889042,
+      "arguments": [
+        {
+          "text": "CANTILLO ROMERO CLARA ISABEL",
+          "location": [
+            477,
+            505
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "CANTILLO ROMERO CLARA ISABEL",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "57,402,202",
+          "location": [
+            509,
+            519
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "57,402,202",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "de ASAMBlEa generaL exTraorDiNariA, REGIsTRaDo en eSta ciMara Dz COMERCIO BAJO EL NOMERO 53655 DEL LIBRO IX DEL REGISTRO MERCANTIL EL 18 DE λBRIL DE 2018, ruERON NO BRADOS GERENTE CANTILLO ROMERO CLARA ISABEL CC 57,402,202 ADMINISTRACIÓN: REPRESENTACIÓN LeGai, GeReNTE: lA SocIeDaD TENDRA DoS GERENTES Quienzs sOs LEGALES, TENDRÁN λ S CARGO LA ADMINISTRACIÓN GESTIÓN DE LOS NEGOCIOS SOCIALES ESTOS ESTATUTOS, A LOS REGLAMENTOS צ DECISIONES DE LÀ ASA BLEA DE ACCIONISTAS, ESTE A SU VEZ TENDRÁ UN SUBGERENTE FACOLtADES DEL GERENE: EL REPRESENtANTE COMPRENDIDOS EN EL OBJETO sOcIAL O QUE SE RELAC LÀ SOCIEDAD, SALVO LAS LIMITACIONES POR CUANTÍA QUE REQUIERAN EXPRESA λυτ。RlZACION DE LA ASAMBLEA LIMITACIONES צ ATRIBUCIONES DE LA ASAMBLEA DE ACCIONİSTAS: 9.",
+      "score": 0.8513,
+      "arguments": [
+        {
+          "text": "57,402,202",
+          "location": [
+            509,
+            519
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "57,402,202",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "CC",
+          "location": [
+            506,
+            508
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "CC",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "20180529",
+      "mentions": [
+        {
+          "text": "20180529",
+          "location": [
+            88,
+            96
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "CC",
+      "mentions": [
+        {
+          "text": "CC",
+          "location": [
+            236,
+            238
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            8636,
+            8655
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "17 DE ABRIL DE 2018",
+      "mentions": [
+        {
+          "text": "17 DE ABRIL DE 2018",
+          "location": [
+            9368,
+            9387
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1,082, 851,034",
+      "mentions": [
+        {
+          "text": "1,082, 851,034",
+          "location": [
+            239,
+            253
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "CANTILLO ROMERO CLARA ISABEL",
+      "mentions": [
+        {
+          "text": "CANTILLO ROMERO CLARA ISABEL",
+          "location": [
+            477,
+            505
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "CC",
+      "mentions": [
+        {
+          "text": "CC",
+          "location": [
+            506,
+            508
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "57,402,202",
+      "mentions": [
+        {
+          "text": "57,402,202",
+          "location": [
+            509,
+            519
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "02 DE ABRIL DE 2014",
+      "mentions": [
+        {
+          "text": "02 DE ABRIL DE 2014",
+          "location": [
+            4007,
+            4026
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "02 DE ABRIL DE 2014",
+      "mentions": [
+        {
+          "text": "02 DE ABRIL DE 2014",
+          "location": [
+            4156,
+            4175
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_VIGENCIA",
+      "text": "VIGENCIA",
+      "mentions": [
+        {
+          "text": "VIGENCIA",
+          "location": [
+            4937,
+            4945
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "02 DE ABRIL DE 2019",
+      "mentions": [
+        {
+          "text": "02 DE ABRIL DE 2019",
+          "location": [
+            4959,
+            4978
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CAMARA DE COMERCIO DE SANTA MARTA PARA EL MAGDALENA SUPPLY MEDICAL,CARE SAS apadlclón: 20180529 15:4808\"*\"* Racibo No. S000274098*Num Oparnaión. 02-NAYSLLE-201805200008 CODIGO DE VERIFICACIÓN 2HkerEYN GERENTE COTES CANTILLO JORGE IVAN CC 1,082, 851,034 POR ACTa NtMERO 7 DeL 17 dE aBRIL DE 2018. de ASAMBlEa generaL exTraorDiNariA, REGIsTRaDo en eSta ciMara Dz COMERCIO BAJO EL NOMERO 53655 DEL LIBRO IX DEL REGISTRO MERCANTIL EL 18 DE λBRIL DE 2018, ruERON NO BRADOS GERENTE CANTILLO ROMERO CLARA ISABEL CC 57,402,202 ADMINISTRACIÓN: REPRESENTACIÓN LeGai, GeReNTE: lA SocIeDaD TENDRA DoS GERENTES Quienzs sOs LEGALES, TENDRÁN λ S CARGO LA ADMINISTRACIÓN GESTIÓN DE LOS NEGOCIOS SOCIALES ESTOS ESTATUTOS, A LOS REGLAMENTOS צ DECISIONES DE LÀ ASA BLEA DE ACCIONISTAS, ESTE A SU VEZ TENDRÁ UN SUBGERENTE FACOLtADES DEL GERENE: EL REPRESENtANTE COMPRENDIDOS EN EL OBJETO sOcIAL O QUE SE RELAC LÀ SOCIEDAD, SALVO LAS LIMITACIONES POR CUANTÍA QUE REQUIERAN EXPRESA λυτ。RlZACION DE LA ASAMBLEA LIMITACIONES צ ATRIBUCIONES DE LA ASAMBLEA DE ACCIONİSTAS: 9. DECRETAR IA ENAJENACIÓN TOTAL DE LOS HABERES de la socieDaD. 10. Delegar eN el GerENTe AQUtliAS FUnCIONES cuYa DEleGacióN no este proHiBida PoR la LeY REpRESENTANTLs CON SOJECIÓN λ λ LEY, λ QUIEN TENDRÁ LAS MISMAS FACUTADES צ .LO REEMPLAZARA EN SUS FALTAS ABSOLUTAS TEMPORALES LEGAL PODRλ CELEBRλR EJECUTAR TODOS LOS CTOS ỵ CONTRλτ。s iONEN DIRECTAMENTE coN LA eXISTenCiA Y el rUNcIONAMIENTO DE QUE ES PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCI ZN LÀ JURISDICCIÓN DE ESTA CÁMARλ DE COMERCIO: ****CHw ESABECIHnO : SUPPLY MEDICAL CARE rSa DD MICUL : 20140402 Dmcc1ow : CLL 11A NRO 21-02 OFC 1001 ED . VERONλ JARRIO : LOS OLIVOS кл cr10 : 47001 - SANTA MARTA TCmO 1 : 3137521743 2 : 3002867774 COIO tiCrROuICO : ventassmcsasSgmai1.com ACrivtDAD PR*CrPai : G4645 - COMERCIO AL POR MAYOR DE PRODUCTOS FARMACEUTICOS, MEDICINALES, COSMETICOS Y DE TOCADOR ACTIVTOAD SECONDARIA : G4659- COMERCIO AL POR MAYOR DE OTROS TIPOS DE MAQUINλRIA צ EQUIPO N.С. P. QUE LA MaTrfculA del CoMErCIANTe Y/o EStABLECIMIENTO DE coMERCIO LoCALIZADO EN lA DIrEcCcIÓn QUE APARECE REPORTADλ EN ESTE CERTIFICADO, SE INFORMÓ A LAS SECRETARÍAS DE PLANEACIÓN, SALUD, GOBIERNO, HACIENDA MUNICIPAL DE LÀ ALCALDIA DE SANTA MARTA צ BOMBEROS , EXCEPCIÓN DE AQUELLOS CASOS QUE NO APLIQUE. LOS DATOS CONTENIDOS EN ESTA SECCiÓN dE INFORMACIóN coMPLEMENTARIA, NO haCEn PArtE DEL REGISTRo PtBLico MeRcaNtIL, NI SON CERTIFICλDOS POR LÀ CÁORÀ DE CON ERCIO EN EJERCICIO DE SUS FUNCIONES LEGλLES LA INFORMACIÓN ANTERIOR Ha SIDO TOMADA DIRECTAMENTE DEL FORMOLARIO De MATRfcoLA Y RENOVACIóN DILIGENCIADo POR EL COMERCIANTE DE CONFORMIDAD CON LO ESTABLECIDO EN EL CÓDIGO DE PROCEDIMIENTO ADMINISTRATIVO צ DE LO CONTENCIOSO צ DĖ LÀ LEY 962 DE 2005, LOS ACTOS ADMINISTRATIVOS DE REGISTRO AQUÍ CERTIFICADOS QUEDAN EN FIRME DIEZ (10) DÍAs HÁBILES DESPUES DE LA FECHA DE INSCRIPCióN, SIEMPRE QUE NO SEAN OBJETO DE RECURSOS. EL DfA SÁBADO NO SE DEBE CONtaR COMO DfA HÁBIL VALOR DEL CERTIFICADO : $5,500 Página 3/4  CAMARA DE COMEACIO DE SANTA MARTA PARA EL MAGDALENA SUPPLY KEDICAL CARESA.S Floha expadieión: 2018/05/29-15:4808 Reclbo No. S000274008Num, Oparnoión 02-NAYSLLE-20180529-0006 CODIGO DE VERIFRICACION 2HkeSruEYN Con fundamento en las matriculas e inscripciones del Registro Mercantil, orauizacióm juRtoica: socIEDAD poR AcCioNeS SIMPLIFICADA carzeonta : PERSONA JURtDICA PRINCIPAL IIT : 900718009-3 DOMICILIO; SANTA MARTA ViRICULA O : 159364 ACVO JOxAL : 20,030,000.00 GWPO Xx 4.- GRUPO III - HICROEMPRESAS DDICCIO' DTI DO ICILIO PRICIPAL : CLL IIA NRO 21-02 OPC 1001 ED, VERONλ CDİO/ DO ICILIO: 47001-SANTA MARTA TELCNO CO RCIAL. 2 : 3137521743 cos^mO ^Critrco : ventasamcsaa«gmai1.com 8INIO : LOS OLIVOS mano 1 : 3002867774 alo 2 3137521743 ACTIVZO D PRnICIPAL : G4645 - COMERCI AL POR MAYOR DR PROUCTOS FARMACEUTICOS, MEDICINALES, COSMETICOS X DE TOCADOR DAD ECO DAR1λ : G4 б 59 _ COMERCIO AL POR MAYOR DE OTROS TIPOS DE MAQƠINAR1λ צ EQUIPO N.С. P. POR DOcUMENTO PRIVADo NOMerO 1 DEL 02 DE ABRIL DE 2014 DE LA ASAMBLeA DE ACCIONiSTAS, REGISTRADO EN ESTA ciMarA DE COMERCIO BAJO EL NOMERO 38184 DEL LIBRO IX DEL REGISTRO MERCANTIL EL 02 DE ABRIL DE 2014, SE INSCRIBE : CONSTITUCIÓN DE PERSONA JURÍDICA DENOMINADA SUPPLצ MEDICAL CARE S . A. S. INSCRIPCION DOCUMENTO FECHA AC-6 PROCEDENCIÀ DOCUMENTO ACTA EXTRAORDINARIA 20180410 DE 20180411 Página 1/4  CAMARA DE COMERCIO DE SANTA MARTA PARA EL MAGDALENA SUPPLYEDICAL CARE 8As CODIGO DE VERIFICACION HaSruEYN CERTIFICADO EXPEDO A TRAVES DEL PORTAL DE SERVICİOS VIRTUALES (SI) MPORTANTE:Latm . doni do.ooraano de l. CAMARA DE COMERCIO DE SANTA MARTA PARA EL MAGDALENA oonten en. oertloed acrónloo dooumetoe pdl. Ptgina 4/4  CAMARA DE COMERCO DE SANTA MARTA PARA BL MAaDALENA SUPPLYEDICAL CARE 8AS Fooh.podilón : 201800/29-15:48:06灬.Audbe No. 8000274096·一Mm. Opor olón. 02-HAYSu E-20180629-000B CODIGO DE VERIFICACIÓN 2Hke9ruEYN QUz LA DURACIóN DE LA PERSONA JURiDICA (VIGENCIA) ES HASTA EL 02 DE ABRIL DE 2019 OBJETO SOCIAL: LA SOCIEDAD, SE DEDICARAA: λ Ιλ COMPRA, VENTA, COMERCIALIZACION, IMPORTACION, EXPORTACION צ DISTRIBUCION DE: NRDICAMENTOS FARMACEUTICOS . ODONTOLOGICOS , EQUIPOS KRDICOS . EQUIPOS ODONTOLOGICOS EQUIPOS DE LABORATORIO CLINICO. REACTIVOS QUIMICOS PARA LA INDUSTRIA צ EL AREA DE DIAGNOSTICO, MATERIAL EDICO QUIRURGICO GENERAL HOSPITALARIOS Y DOTACION EHGENERAL,VIVERES PERFUMERIA. B. PRESTACION DE SERVICIOS DE AMBULANCIA EN TODAS SUS MODALIDADES ES DECIR BASICA MEDICALIZADO . C. ASESORÍAS LOS FAMILIARES SOBRE LA REMISION Y LA BICACİON DE LOS PACIENTES EN ENTIDADE MEDICAS Y HOSPITALARIAS . D. COLABORACION EN TRAMITES HOSPITALARIOS. E. TRAMITES DE CITAS CONSECUCION PROTESIS ORTOPEDICAS. PAPELERIA, CACHARRERIA, EN EQ0IPOS DE OFICINA, MUEBLES Y ENCERES, TIPOGRAFIA, TEIAS Y CONFECCIONES DE ONIFORMEs Y ABARROTES , VIENES CONSUMIBLES DE COSMETOLOG1λ Y MATERIAL DE OSTEOSINTESIS De CENTROS MEDICOSPARA CONSULIAS. F. ASESORIAS PARA LA AFILIACION DE LOS DIFŁRENTES REGIMENES D SALUD EPS'ARPYARS, G. MANĖJO צ RECUPERACION DE CARTERA HOSPITALÀRIA. H. CONSULTA MEDICA DOMICILIARIA. L. TERAP Ιλ rlSICA צ RESPIRATORIA. J. SERVICIO DE INYECTOLOGIA Y ENFERMERIA. K. ASESORIA ץ CONSULTORIA CIENTIFICA, TECNICA, ADMINISTRATIVA, CONTABLE Y LEGAL A ENTIDADES DEL SECTOR SALUD O QUe DESARROLLEN OBJETOS SOCIALES AALOGOS Y COMPLE EXTARLO, BIEN SRA PUBLICA PRIVADλ O DE CUALQUIER NATURALEZA JURIDICA, NACIONAL O EXTRANJERA QUE PRESTEN SERVICIO CON O SIN ANIMO DE LUCRO TENGAN SUS SEDES DENTRO O FUERλ DEL PAIS. L. REALIZACION DE ACTIVIDADES צ EL DISEÑO DE PROGRAMAS SOFTWARE DE FACTURACION AUDITORIA HEDICA, CLINICA, DE SERVICIOS DE SALUD, EN ENTIDADES DEL SECTOR DENTRO צ rUERA DEL PAIS. LL REALIZACION DE ESTODIOS TECNICOS, DE MERCADO, DE TACTIBILIDAD DE PROYECTOS O DE CUALQUIER OTRO TIPO CON DESTINO λ ENTIDADES O INSTITUCIONES DEL SECTOR SALUD AFINES A EL, TANTO NACIONALES COMO EXTRANJEROS. M PARTICIPACION EN PROYECTOs DE MONTAJE NMPLIACION, PUESTA EN SERVICIOS DE ENTIDADES O ESTABLECIMIINTOs DEDICADOS λ PRESTAR DIRECTA O INDIRECTAMENTE SERVICIOS DE SALUD . N. PRESTACION DE SERVICIOS MEDICOS EN TODOS LOS CAMPOS Y ESPECIALIDADES EN EORMA DIRECTA O ATREVES DE PROFESIONALES IDONEOS AL SERVIC1O DE ㅧ SOCIEDAD, N. PRESTACION DEASESORÍA GERENCIAL, TECNICA, ADMINISTRATIVA, OPERATIVA FINANCIERA EN TODos LOS CAMPOS RELACIONADOS CON LA SOCIEDAD FABRICACION, RRPARACİON, ADAPTACION COMPLEMENTACION, MANTENIMIENTO DE TODλ CLASE DE BIENES,EQUIPOS MEDICO QUIRURGICOS, HOSPITALARIOS, ODONTOLOGICOS, OPTICOS, LABORATORIO CLINICO RAYOS X EN CUALQUIERA DE SUS ESPECIALIDADES . P, REPRESENTACION Y DISTRIBUCION O AGENCIAMİENTO Dt COMPAÑÍAS NACIONALES O KXTRANJERAS, DE TODOS SUS PRODUCTOS EN TODOS· LOS RAMOS DEL COMERCIO, EN ESPECIAİ Dg LOS BIENES RELACIONADOS CON SERVICIOS PUBLICOS O PRIVADAS O CONCURSOS DE MERITOS PROCESOS SİMPLARES PUBLICOs Y PRIVADOS. Q. REALIZACION DE ACTIVIDADES Y EL DISENO DE PROGRAMAS DE INTERvENTORIA \"MEDICa CLINICA NANTENIKIENTO HOSPITALARIO· S· LA SOCIEDAD PODRA COMPRAR, VENDER, ADQUIRIR, RNAJENAR λ CUALQUIER TITULO YODλ CIASE DE BIENES MUEBLES E INMUEBLES CUALQUIER「ORMA SUS BIENES MUEBLES INMUEBLES, DAR EN PRENDA LOS PRIMEROS E HIPOTECÀR LOS SEGUNDOS, GIRAR ENDOSAR, ADOUIRIR, ACZPTAR, PROTESTAR, PAGARO CANCELAR TODA CLASE DE TITULos VAlORES Y ACEPTARLOS É PAGO, PROMOVER Y FORMAR EMPRESAS DE MISMA INDOLE O DE NEGOCIOS, PARAGRAFO PRIMERO: LA SOCIEDAD NO PODRA SER GλRANTE EN OBLIGACIONES DE LOS ADMINISTRADORES, SOCIOS, NI DE TERCERAS PERSONAS, COODEUDORES, NI COARRENDATARIO8 EN CONTRATOS DB LOS ADMINISTRADORES, SOcios AUTORICE EXPRESAMENTE ㅧ ASAMBLEA GENERAL DE ACCIONISTAS, SIEMPRE CUANDO TENGAN RELACION DIRECTA' CON LA ACTIVIDAD PRINCIPAL DE ㅧ COMPAÑIA, NINGUNO DE LOS SOCIOS PODRA SER COODEUDOR DE OBLIGACIONES DE TERCEROS SALVo QUE SE TRATE DE OBLIGACIONES DEL CONYUGE O DE PARIENTES DENTRO DEL PRiMER GRADO DE LOS MISMOs SOCIOS DE LA COMPARTA Y QUE ㅧ ASAMBLEA DE ACCIONISTAS LO APRUEBE . PARAGRAFO : LA EMPRESA EJERCLRA SU OBJETO DE MANERA DIRECTA, O A TRAVES DE TERCEROS O EN CONVENIOS CON ELLOS DE SERVICIOS DE SLUD EN ENTIDADES DEL SECTOR OAFINES DENTRO Y FULRA DEL PAIS. Ri TOMAR O DAR DINERO EN PRESTAMO λ INTERES, GRAVAR EN NI DE TERCERAS PERSONAS, SALVOQUE LO TIPO DE CAPIA VALOR 20.000.000, 00 20.000.000,00 20.000.000, 00 ACCIONES 1.000, 00 1.000,00 1.000, 00 VALOR NOMINAL 20,000.00 20,000.00 20,000.00 CAPIL PACADO POR ACTA NÜMERO 7 DEL 17 DE ABRIL DE 2018 DB ASAMBLEA GENZRAL EXTRAORDINARIA, REGISTRADO EN ESTA CAMARA DE CoMeRCIO BAJO EL NÚMERO 53655 DEL LIBRO IX DEL REGISTRO MERCANTIL EL 18 DE ABriL de 2018, FuzrON NOMBRADos Pácina 2/4 "
+}

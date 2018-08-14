@@ -1,0 +1,823 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 2469,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.994902,
+      "arguments": [
+        {
+          "text": "GONZALEZ ARIAS JORGE LUIS",
+          "location": [
+            344,
+            369
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "GONZALEZ ARIAS JORGE LUIS",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            370,
+            374
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "CR 12 19 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR MATRICULA NO: 00087861 DEL 31 DE OCTUBRE DE 2008 RENOVO EL AÑO 2011 , EL 19 DE ENERO DE 2011 ACTIVOS VINCULADOS AL ESTABLECIMIENTO : $ ADMINISTRADOR: GONZALEZ HERRERA JORGE ELIECER , DENT: 00073084797 ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL B 15 1,550,000 CERTIFICA: QUE SEGUN DOCUMENTO PRIVADO DE FECHA 30 DE OCTUBRE DE 2008 INSCRITO EL 6 DE NOVIEMBRE DE 2008 BAJO EL N. 62 DEL LIBRO  No. 1946626 CÁMARA DE COMERCIO DE VALLEDUPAR Número de operación:01 M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 2 RESPECTIvo, susCRITO POr LOS SRES JORGE ELIECER GONZALEZ HERRERA С.С.",
+      "score": 0.95882,
+      "arguments": [
+        {
+          "text": "GONZALEZ HERRERA",
+          "location": [
+            1555,
+            1571
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "GONZALEZ HERRERA",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "С.С",
+          "location": [
+            1572,
+            1575
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "С.С",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.992397,
+      "arguments": [
+        {
+          "text": "GONZALEZ ARIAS JORGE LUIS",
+          "location": [
+            344,
+            369
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "GONZALEZ ARIAS JORGE LUIS",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "01065637601",
+          "location": [
+            377,
+            388
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "01065637601",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.97254,
+      "arguments": [
+        {
+          "text": "GONZALEZ ARIAS JORGE LUIS",
+          "location": [
+            344,
+            369
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "GONZALEZ ARIAS JORGE LUIS",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "N.I.T.",
+          "location": [
+            389,
+            395
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "N.I.T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.976528,
+      "arguments": [
+        {
+          "text": "GONZALEZ ARIAS JORGE LUIS",
+          "location": [
+            344,
+            369
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "GONZALEZ ARIAS JORGE LUIS",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "00000700059841-1",
+          "location": [
+            397,
+            413
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "00000700059841-1",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.936902,
+      "arguments": [
+        {
+          "text": "01065637601",
+          "location": [
+            377,
+            388
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "01065637601",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            370,
+            374
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.489909,
+      "arguments": [
+        {
+          "text": "00000700059841-1",
+          "location": [
+            397,
+            413
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "00000700059841-1",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            370,
+            374
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.997031,
+      "arguments": [
+        {
+          "text": "00000700059841-1",
+          "location": [
+            397,
+            413
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "00000700059841-1",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "N.I.T.",
+          "location": [
+            389,
+            395
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "N.I.T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.998804,
+      "arguments": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            414,
+            423
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "31 DE OCTUBRE DE 2008",
+          "location": [
+            441,
+            462
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "31 DE OCTUBRE DE 2008",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": "CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION:",
+      "score": 0.98809,
+      "arguments": [
+        {
+          "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+          "location": [
+            857,
+            893
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "PINTAYESO",
+          "location": [
+            896,
+            905
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "PINTAYESO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "20111129",
+      "mentions": [
+        {
+          "text": "20111129",
+          "location": [
+            155,
+            163
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GONZALEZ ARIAS JORGE LUIS",
+      "mentions": [
+        {
+          "text": "GONZALEZ ARIAS JORGE LUIS",
+          "location": [
+            344,
+            369
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+      "mentions": [
+        {
+          "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+          "location": [
+            857,
+            893
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "PINTAYESO",
+      "mentions": [
+        {
+          "text": "PINTAYESO",
+          "location": [
+            896,
+            905
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "31 DE OCTUBRE DE 2008",
+      "mentions": [
+        {
+          "text": "31 DE OCTUBRE DE 2008",
+          "location": [
+            1005,
+            1026
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "19 DE ENERO DE 2011",
+      "mentions": [
+        {
+          "text": "19 DE ENERO DE 2011",
+          "location": [
+            1051,
+            1070
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GONZALEZ HERRERA JORGE ELIECER",
+      "mentions": [
+        {
+          "text": "GONZALEZ HERRERA JORGE ELIECER",
+          "location": [
+            1128,
+            1158
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL B 15 1,550,000",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL B 15 1,550,000",
+          "location": [
+            1179,
+            1256
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "30 DE OCTUBRE DE 2008",
+      "mentions": [
+        {
+          "text": "30 DE OCTUBRE DE 2008",
+          "location": [
+            1305,
+            1326
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GONZALEZ HERRERA",
+      "mentions": [
+        {
+          "text": "GONZALEZ HERRERA",
+          "location": [
+            1555,
+            1571
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "С.С",
+      "mentions": [
+        {
+          "text": "С.С",
+          "location": [
+            1572,
+            1575
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "LUIS GONZALEZ ARIAS",
+      "mentions": [
+        {
+          "text": "LUIS GONZALEZ ARIAS",
+          "location": [
+            1696,
+            1715
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C.",
+      "mentions": [
+        {
+          "text": "C.C.",
+          "location": [
+            370,
+            374
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "01065637601",
+      "mentions": [
+        {
+          "text": "01065637601",
+          "location": [
+            377,
+            388
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "N.I.T.",
+      "mentions": [
+        {
+          "text": "N.I.T.",
+          "location": [
+            389,
+            395
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "00000700059841-1",
+      "mentions": [
+        {
+          "text": "00000700059841-1",
+          "location": [
+            397,
+            413
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            414,
+            423
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "31 DE OCTUBRE DE 2008",
+      "mentions": [
+        {
+          "text": "31 DE OCTUBRE DE 2008",
+          "location": [
+            441,
+            462
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "19 DE ENERO DE 2011",
+      "mentions": [
+        {
+          "text": "19 DE ENERO DE 2011",
+          "location": [
+            664,
+            683
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL",
+          "location": [
+            721,
+            783
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " . CAMARA DE COMERCIO DE VALLEDUPAR No.1946626 CAMARA DE COMERCIO DE VALLEDUPAR CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE VALLEDUPAR MATRÍCULAS DEL REGISTRO MERCANTIL, CERTIFICA: CON FUNDAMENTO EN LAS NOMBRE GONZALEZ ARIAS JORGE LUIS C.C. : 01065637601 N.I.T. :00000700059841-1 MATRICULA NO: 00087860 DEL 31 DE OCTUBRE DE 2008 DIRECCION: CR 12 19B 15 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CR 12 19B 15 MUNICIPIO : VALLEDUPAR CERTIFICA RENOVACION DE LA MATRICULA: EL 19 DE ENERO DE 2011 ULTIMO AÑO RENOVADO: 2011 CERTIFICA: ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL TOTAL ACTIVOS : $ 1,550,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE : PINTAYESO DIRECCION: CR 12 19 TELEFONO FIJO 1 : 3107409347 MUNICIPIO : VALLEDUPAR MATRICULA NO: 00087861 DEL 31 DE OCTUBRE DE 2008 RENOVO EL AÑO 2011 , EL 19 DE ENERO DE 2011 ACTIVOS VINCULADOS AL ESTABLECIMIENTO : $ ADMINISTRADOR: GONZALEZ HERRERA JORGE ELIECER , DENT: 00073084797 ACTIVIDAD ECONOMICA: VENTA DE PINTURAS Y FERRETERIA EN GENERAL B 15 1,550,000 CERTIFICA: QUE SEGUN DOCUMENTO PRIVADO DE FECHA 30 DE OCTUBRE DE 2008 INSCRITO EL 6 DE NOVIEMBRE DE 2008 BAJO EL N. 62 DEL LIBRO  No. 1946626 CÁMARA DE COMERCIO DE VALLEDUPAR Número de operación:01 M051129003 Fecha: 20111129 Hora: 11:47:17 Pagina: 2 RESPECTIvo, susCRITO POr LOS SRES JORGE ELIECER GONZALEZ HERRERA С.С. 73.084.797 DE CHINU/CORDOBA Y LUZ STELLA ARIAS RUIZ С.С 49.765.597 DE VALLedupar, en CAlIDAD DE PADRES DEL MeNOR JORGE LUIS GONZALEZ ARIAS, LO AUTORIZAN PARA EJERCER EL COMERCIO CERTIFICA: LA INFORMACIONANTERIOR HA SIDO TOMADA DIRECTAMENTE DE L FORMULARIO DE MATRICULA DILIGENCIADO POR EL CoMERCIAnTE DE ACUERDO CON LO PREVISTO EN LA LEY 962 DE 2005, LOs ACTOS DE INSCRIPCION QUE SE CERTIFİQUEN, QUEDAN EN FIRME CINCO (5) DIAS DESPUES DE SU REGISTRO, SIEMPRE Y CUANDO NO SEAN oBJETO DE LOs RECURSOS EN LA VIA guBERNatIVA (REPOSICION, APELACION o QUEJA) VALOR DEL CERTIFICADO : $1900 DE CONFORMIDAD CON EL DECRETO 2150 DE 1995 LA AUTORIZACION IMPARTIDA POR LA SUpeRINTENDENCIA dE INDUSTRia Y COMERCiO, MeDiaNTE EL oFICIO DEL 18 DB NoviEMBRE DE 1996, La FIRMA MEcaNiCA Que apareCB A coNtInUaciOn TieNe Plena VALIDEZ PARA TODOS LOS EFECTOS LEGALES ESPACIN IRRF FN RİANCO ESPACIO LIBRE EN BLANCO "
+}

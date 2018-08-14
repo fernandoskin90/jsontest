@@ -1,0 +1,651 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 3360,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "LA FIRMA MBCANICA QUE APARECE A COnTInUaCION TlENE PLENA VALIDEZ PARA TODOs LOS EFBCTOS LEGALES 왈 La Cámara de Comercio de Manizales por Caldas no se responsabiliza por el contenido de este certificado si es empleado en fotocopia  ccmpc 2873623 CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01C670404245 Fecha: 20140404 Hora: 16:29:18 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE MANIZALES POR CALDAS , CON FUNDAMENTO EN LiAS MATRICULAS DEL REGISTRO MERCANTIL, CERTIFICA: NOMBRE : JARAMILLO PATIÑO JUAN PABLO С.С.",
+      "score": 0.935752,
+      "arguments": [
+        {
+          "text": "JARAMILLO PATIÑO JUAN PABLO",
+          "location": [
+            1384,
+            1411
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "JARAMILLO PATIÑO JUAN PABLO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "С.С",
+          "location": [
+            1412,
+            1415
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "С.С",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "T.: 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO : 00152228 DEL 26 DE JUNIO DE 20ї2 DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO: GALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 897517 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO NOTIFICACION JUDICIAL: 8821934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO : MANIZALES CERTIFICA RENOVACION DE LA MATRICULA: EL 29 DE MARZO DE 2014 ULTIMO ANO RENÓVADO : 2014 ACTIVIDADPRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $7,300,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIo NOMBRE : AVICOLA SURTIPOLLOS DIRECCION CALLE 23 17-41 TELEFONO 1: 8821934 BARRIOGALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 8975175 MATRICULA NO:",
+      "score": 0.946833,
+      "arguments": [
+        {
+          "text": "00001053780671",
+          "location": [
+            1441,
+            1455
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "00001053780671",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "T.",
+          "location": [
+            1437,
+            1439
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "T.: 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO : 00152228 DEL 26 DE JUNIO DE 20ї2 DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO: GALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 897517 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO NOTIFICACION JUDICIAL: 8821934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO : MANIZALES CERTIFICA RENOVACION DE LA MATRICULA: EL 29 DE MARZO DE 2014 ULTIMO ANO RENÓVADO : 2014 ACTIVIDADPRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $7,300,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIo NOMBRE : AVICOLA SURTIPOLLOS DIRECCION CALLE 23 17-41 TELEFONO 1: 8821934 BARRIOGALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 8975175 MATRICULA NO:",
+      "score": 0.995598,
+      "arguments": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            1485,
+            1494
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "26 DE JUNIO DE 20ї2",
+          "location": [
+            1513,
+            1532
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "26 DE JUNIO DE 20ї2",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": "T.: 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO : 00152228 DEL 26 DE JUNIO DE 20ї2 DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO: GALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 897517 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO NOTIFICACION JUDICIAL: 8821934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO : MANIZALES CERTIFICA RENOVACION DE LA MATRICULA: EL 29 DE MARZO DE 2014 ULTIMO ANO RENÓVADO : 2014 ACTIVIDADPRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $7,300,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIo NOMBRE : AVICOLA SURTIPOLLOS DIRECCION CALLE 23 17-41 TELEFONO 1: 8821934 BARRIOGALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 8975175 MATRICULA NO:",
+      "score": 0.979732,
+      "arguments": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+          "location": [
+            2018,
+            2152
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1996,
+            2016
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "00079590 DEL 27 DE JULIO DE 1998 RENOVO EL AÑO 2014, EL 29 DE MARZo DE 2014 ACTIVOSVINCULADOS AL ESTABLECIMIENTO : $ 4,000,000 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS COSMETICOS ARTICULOS DE TOCADOR EN ***INFORMA: QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA DIRECCION QUE APARECE REPORTADA EN ESTE CERTIFICADO, SE INFORMO A LAS SECRETARIAS DE PLANEACION, SALUD, GOBIERNO, HACIENDA MUNICIPAL DE LA ALCALDIA DE MANIZALES BOMBEROS, GENERANDOSE DE FORMA INMEDIATA LA MATRICULA DE INDUSTRIA ỵ COMERCIO,",
+      "score": 0.998582,
+      "arguments": [
+        {
+          "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            2550,
+            2641
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2529,
+            2548
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": "00079590 DEL 27 DE JULIO DE 1998 RENOVO EL AÑO 2014, EL 29 DE MARZo DE 2014 ACTIVOSVINCULADOS AL ESTABLECIMIENTO : $ 4,000,000 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS COSMETICOS ARTICULOS DE TOCADOR EN ***INFORMA: QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA DIRECCION QUE APARECE REPORTADA EN ESTE CERTIFICADO, SE INFORMO A LAS SECRETARIAS DE PLANEACION, SALUD, GOBIERNO, HACIENDA MUNICIPAL DE LA ALCALDIA DE MANIZALES BOMBEROS, GENERANDOSE DE FORMA INMEDIATA LA MATRICULA DE INDUSTRIA ỵ COMERCIO,",
+      "score": 0.990072,
+      "arguments": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS COSMETICOS ARTICULOS DE TOCADOR EN ***INFORMA",
+          "location": [
+            2664,
+            2807
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS COSMETICOS ARTICULOS DE TOCADOR EN ***INFORMA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            2642,
+            2662
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "20140404",
+      "mentions": [
+        {
+          "text": "20140404",
+          "location": [
+            41,
+            49
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE NOVIEMBRE DE 1996",
+      "mentions": [
+        {
+          "text": "18 DE NOVIEMBRE DE 1996",
+          "location": [
+            792,
+            815
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            1996,
+            2016
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+      "mentions": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE",
+          "location": [
+            2018,
+            2152
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "AVICOLA SURTIPOLLOS",
+      "mentions": [
+        {
+          "text": "AVICOLA SURTIPOLLOS",
+          "location": [
+            2263,
+            2282
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            2388,
+            2397
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "27 DE JULIO DE 1998",
+      "mentions": [
+        {
+          "text": "27 DE JULIO DE 1998",
+          "location": [
+            2415,
+            2434
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "29 DE MARZo DE 2014",
+      "mentions": [
+        {
+          "text": "29 DE MARZo DE 2014",
+          "location": [
+            2458,
+            2477
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2529,
+            2548
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+      "mentions": [
+        {
+          "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            2550,
+            2641
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            2642,
+            2662
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS COSMETICOS ARTICULOS DE TOCADOR EN ***INFORMA",
+      "mentions": [
+        {
+          "text": "4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS COSMETICOS ARTICULOS DE TOCADOR EN ***INFORMA",
+          "location": [
+            2664,
+            2807
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "JARAMILLO PATIÑO JUAN PABLO",
+      "mentions": [
+        {
+          "text": "JARAMILLO PATIÑO JUAN PABLO",
+          "location": [
+            1384,
+            1411
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "С.С",
+      "mentions": [
+        {
+          "text": "С.С",
+          "location": [
+            1412,
+            1415
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "T.",
+      "mentions": [
+        {
+          "text": "T.",
+          "location": [
+            1437,
+            1439
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "00001053780671",
+      "mentions": [
+        {
+          "text": "00001053780671",
+          "location": [
+            1441,
+            1455
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            1485,
+            1494
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "26 DE JUNIO DE 20ї2",
+      "mentions": [
+        {
+          "text": "26 DE JUNIO DE 20ї2",
+          "location": [
+            1513,
+            1532
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "29 DE MARZO DE 2014",
+      "mentions": [
+        {
+          "text": "29 DE MARZO DE 2014",
+          "location": [
+            1837,
+            1856
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+      "mentions": [
+        {
+          "text": "4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            1904,
+            1995
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " Número de operación:01C670404245 Fecha: 20140404 Hora: 16:29:18 Pagina: 2 NO HACEN PArTE DEL ReGISTRO PUBLIco MERCaNTIL, nI soN CERTIFICADos PoR LA CAMARA DE COMERCIO EN EJErCiCIO DE sus FUNCIONES LEGALES CERTIFICA: LA INFORMACION ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRICULA DILIGENCIADO POR EL COMERCIANTE dz cONFOrMIDAD cON LO ESTABLECIDO EN EL CODIGO DE ciOso r de la LEY 962 DE 2005, Los AcTos De ADMINISTRAtivos De RzGIsTRo AQu1 cErTIFICADOS QUe DAN EN FIRME DIEZ (10) DIAS HABILES DESPUES DE ㅧ FECHλ DE INSCRIPCION, SIEMPRE QUE NO SEAN OBJETO DE RECURSOS EN LA VIA GUBERNATIVI PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTEN DE CONFOrMIDaD coN eL DECReTO 2150 DE 1995 Y LA AutOrizaCION iMPARTIDA POR LA SUPERINTENDENCIA DE INDuSTriA Y cOMERCIO, MEDIANTE EL OFICIO DEL 18 DE NOVIEMBRE DE 1996. LA FIRMA MBCANICA QUE APARECE A COnTInUaCION TlENE PLENA VALIDEZ PARA TODOs LOS EFBCTOS LEGALES 왈 La Cámara de Comercio de Manizales por Caldas no se responsabiliza por el contenido de este certificado si es empleado en fotocopia  ccmpc 2873623 CAMARA DE COMERCIO DE MANIZALES POR CALDAS CERTIFICADO DE MATRICULA MERCANTIL Número de operación:01C670404245 Fecha: 20140404 Hora: 16:29:18 Pagina: 1 CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE MANIZALES POR CALDAS , CON FUNDAMENTO EN LiAS MATRICULAS DEL REGISTRO MERCANTIL, CERTIFICA: NOMBRE : JARAMILLO PATIÑO JUAN PABLO С.С. : 01053780671 N.1 . T.: 00001053780671-I ADMINISTRACION : MANIZALES MATRICULA NO : 00152228 DEL 26 DE JUNIO DE 20ї2 DIRECCION: CALLE 23 17-41 TELEFONO 1 : 8821934 BARRIO: GALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 897517 CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL : CALLE 23 17-41 TELEFONO NOTIFICACION JUDICIAL: 8821934 BARRIO NOTIFICACION: GALERIAS MUNICIPIO : MANIZALES CERTIFICA RENOVACION DE LA MATRICULA: EL 29 DE MARZO DE 2014 ULTIMO ANO RENÓVADO : 2014 ACTIVIDADPRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS Y TOCADOR EN COSMETICOS ARTICULOS DE TOTAL ACTIVOS : $7,300,000.00 CERTIFICA : PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIo NOMBRE : AVICOLA SURTIPOLLOS DIRECCION CALLE 23 17-41 TELEFONO 1: 8821934 BARRIOGALERIAS MUNICIPIO : MANIZALES FAX COMERCIAL: 8975175 MATRICULA NO: 00079590 DEL 27 DE JULIO DE 1998 RENOVO EL AÑO 2014, EL 29 DE MARZo DE 2014 ACTIVOSVINCULADOS AL ESTABLECIMIENTO : $ 4,000,000 ACTIVIDAD PRINCIPAL: 4759 COMERCIO AL POR MENOR DE OTROS ARTICULOS DOMESTICOS EN ESTABLECIMIENTOS ESPECIALIZADOS ACTIVIDAD SECUNDARIA: 4773 MEDICINALES ESTABLECIMIENTOS ESPECIALIZADOS COMERCIO AL POR MENOR DE PRODUCTOS FARMACEUTICOS COSMETICOS ARTICULOS DE TOCADOR EN ***INFORMA: QUE DE LA MATRICULA DEL COMERCIANTE Y/O ESTABLECIMIENTO DE COMERCIO LOCALIZADO EN LA DIRECCION QUE APARECE REPORTADA EN ESTE CERTIFICADO, SE INFORMO A LAS SECRETARIAS DE PLANEACION, SALUD, GOBIERNO, HACIENDA MUNICIPAL DE LA ALCALDIA DE MANIZALES BOMBEROS, GENERANDOSE DE FORMA INMEDIATA LA MATRICULA DE INDUSTRIA ỵ COMERCIO, A EXCEPCION DE AQUE LLOS CASOS EN QUE LA ACTIVIDAD NO ESTA SUJETA A DICHO IMPUESTO LEMENTARIA La Cómara de Comercio de Manizales por Caldas no se responsabiliza por el contenído de este certificado si es empleado en fotocopia "
+}

@@ -1,0 +1,1052 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 5475,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "es_actividad_principal",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRÍCULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICcULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.1.1 CODIGO DE VERIFICACIÓN piPczEnbiR CAMARA DE COMERCIO TELEFONO 1 : 3206871323 TELEFONO 3 3206871323 CORREO ELECTRONICO : cesarnico1047@hotmail.com ACTIVIDAD PRINCIPAI COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDADSECUNDARIA ESTABLECIMIENTOS ESPECIALIZADOS OTRAS ACTIVIDADES: R9200 - ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS VALOR DEL ESTABLECIMIENTO : 12, 000,000 G4711 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO G4721 COMERCIO AL POR MENOR DE PRODUCTOS AGRICOLAS PARA EL CONSUMO EN CERTIFICA LA INFORMACIÓN ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRÍCULA Y RENOVACIÓN DILIGENCIADO pOR EL COMERCIANTE CERTIFICA DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO צ DE LA LEY 962 DE 2005,",
+      "score": 0.919913,
+      "arguments": [
+        {
+          "text": "COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDADSECUNDARIA ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            570,
+            678
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDADSECUNDARIA ESTABLECIMIENTOS ESPECIALIZADOS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAI",
+          "location": [
+            550,
+            569
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAI",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.996175,
+      "arguments": [
+        {
+          "text": "1055916390-0",
+          "location": [
+            3870,
+            3882
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1055916390-0",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            3864,
+            3867
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.996012,
+      "arguments": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            3948,
+            3966
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "FECHA DE MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "MARZO 09 DE 2009",
+          "location": [
+            3969,
+            3985
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "MARZO 09 DE 2009",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_secundaria",
+      "sentence": ": G4711 - COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDAD SECUNDARIA : G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES CERTIEICA -ESTABLECIMIENTOS QUE ES PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : TIENDA CAÑAVERAL JOSE AGUSTIN MATRICULA : 21868 FECHA DE MATRICULA: 20020719 FECHA DE RENOVACION: 20180129 ULTIMO AÑO RENOVADO: 2018 DIRECCION : CR 5 10 21 BR CENTRO BARRIO: SIN INFORMACION MUNICIPIO 17867 - VICTORIA Página 1/:2",
+      "score": 0.987912,
+      "arguments": [
+        {
+          "text": "G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES",
+          "location": [
+            5000,
+            5076
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            4977,
+            4997
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+              "text": "ACTIVIDAD SECUNDARIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": ": G4711 - COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDAD SECUNDARIA : G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES CERTIEICA -ESTABLECIMIENTOS QUE ES PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : TIENDA CAÑAVERAL JOSE AGUSTIN MATRICULA : 21868 FECHA DE MATRICULA: 20020719 FECHA DE RENOVACION: 20180129 ULTIMO AÑO RENOVADO: 2018 DIRECCION : CR 5 10 21 BR CENTRO BARRIO: SIN INFORMACION MUNICIPIO 17867 - VICTORIA Página 1/:2",
+      "score": 0.98639,
+      "arguments": [
+        {
+          "text": "NOMBRE ESTABLECIMIENTO",
+          "location": [
+            5221,
+            5243
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "NOMBRE ESTABLECIMIENTO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "TIENDA CAÑAVERAL JOSE AGUSTIN",
+          "location": [
+            5246,
+            5275
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "TIENDA CAÑAVERAL JOSE AGUSTIN",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": ": G4711 - COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDAD SECUNDARIA : G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES CERTIEICA -ESTABLECIMIENTOS QUE ES PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : TIENDA CAÑAVERAL JOSE AGUSTIN MATRICULA : 21868 FECHA DE MATRICULA: 20020719 FECHA DE RENOVACION: 20180129 ULTIMO AÑO RENOVADO: 2018 DIRECCION : CR 5 10 21 BR CENTRO BARRIO: SIN INFORMACION MUNICIPIO 17867 - VICTORIA Página 1/:2",
+      "score": 0.993562,
+      "arguments": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            5294,
+            5312
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "FECHA DE MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "20020719",
+          "location": [
+            5314,
+            5322
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "20020719",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_otra",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRÍCULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICcULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.1.1 CODIGO DE VERIFICACIÓN piPczEnbiR CAMARA DE COMERCIO TELEFONO 1 : 3206871323 TELEFONO 3 3206871323 CORREO ELECTRONICO : cesarnico1047@hotmail.com ACTIVIDAD PRINCIPAI COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDADSECUNDARIA ESTABLECIMIENTOS ESPECIALIZADOS OTRAS ACTIVIDADES: R9200 - ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS VALOR DEL ESTABLECIMIENTO : 12, 000,000 G4711 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO G4721 COMERCIO AL POR MENOR DE PRODUCTOS AGRICOLAS PARA EL CONSUMO EN CERTIFICA LA INFORMACIÓN ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRÍCULA Y RENOVACIÓN DILIGENCIADO pOR EL COMERCIANTE CERTIFICA DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO צ DE LA LEY 962 DE 2005,",
+      "score": 0.995644,
+      "arguments": [
+        {
+          "text": "R9200 - ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS",
+          "location": [
+            698,
+            746
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "R9200 - ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            679,
+            696
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_OTRA",
+              "text": "OTRAS ACTIVIDADES",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.961055,
+      "arguments": [
+        {
+          "text": "RAZÓN SOCIAL",
+          "location": [
+            3729,
+            3741
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "RAZÓN SOCIAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "CUARTAS MOLINA YEYSON FERNANDO",
+          "location": [
+            3743,
+            3773
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "CUARTAS MOLINA YEYSON FERNANDO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_tipo_documento_identidad",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.83495,
+      "arguments": [
+        {
+          "text": "CUARTAS MOLINA YEYSON FERNANDO",
+          "location": [
+            3743,
+            3773
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "CUARTAS MOLINA YEYSON FERNANDO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Cédula de ciudadanía",
+          "location": [
+            3830,
+            3850
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "Cédula de ciudadanía",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_documento_identidad",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.929215,
+      "arguments": [
+        {
+          "text": "CUARTAS MOLINA YEYSON FERNANDO",
+          "location": [
+            3743,
+            3773
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "CUARTAS MOLINA YEYSON FERNANDO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "1055916390",
+          "location": [
+            3853,
+            3863
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1055916390",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_tipo_documento_identidad",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.972026,
+      "arguments": [
+        {
+          "text": "CUARTAS MOLINA YEYSON FERNANDO",
+          "location": [
+            3743,
+            3773
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "CUARTAS MOLINA YEYSON FERNANDO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            3864,
+            3867
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_documento_identidad",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.734142,
+      "arguments": [
+        {
+          "text": "CUARTAS MOLINA YEYSON FERNANDO",
+          "location": [
+            3743,
+            3773
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "CUARTAS MOLINA YEYSON FERNANDO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "1055916390-0",
+          "location": [
+            3870,
+            3882
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1055916390-0",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.991554,
+      "arguments": [
+        {
+          "text": "1055916390",
+          "location": [
+            3853,
+            3863
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1055916390",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Cédula de ciudadanía",
+          "location": [
+            3830,
+            3850
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "Cédula de ciudadanía",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III -",
+      "score": 0.818528,
+      "arguments": [
+        {
+          "text": "1055916390",
+          "location": [
+            3853,
+            3863
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1055916390",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            3864,
+            3867
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "2018/03/28",
+      "mentions": [
+        {
+          "text": "2018/03/28",
+          "location": [
+            110,
+            120
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAI",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAI",
+          "location": [
+            550,
+            569
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1055916390-0",
+      "mentions": [
+        {
+          "text": "1055916390-0",
+          "location": [
+            3870,
+            3882
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA DE MATRICULA",
+      "mentions": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            3948,
+            3966
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "MARZO 09 DE 2009",
+      "mentions": [
+        {
+          "text": "MARZO 09 DE 2009",
+          "location": [
+            3969,
+            3985
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "FEBRERO 02 DE 2018",
+      "mentions": [
+        {
+          "text": "FEBRERO 02 DE 2018",
+          "location": [
+            4050,
+            4068
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACIVIDAD ECONÓMICA : COMERCIO AL POR MENOR EN ESTABLECIMIENTOs NO ESPECIALIZADOS coN SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+      "mentions": [
+        {
+          "text": "ACIVIDAD ECONÓMICA : COMERCIO AL POR MENOR EN ESTABLECIMIENTOs NO ESPECIALIZADOS coN SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO",
+          "location": [
+            4667,
+            4816
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            4817,
+            4836
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_SECUNDARIA",
+      "text": "ACTIVIDAD SECUNDARIA",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD SECUNDARIA",
+          "location": [
+            4977,
+            4997
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES",
+      "mentions": [
+        {
+          "text": "G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES",
+          "location": [
+            5000,
+            5076
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "NOMBRE ESTABLECIMIENTO",
+      "mentions": [
+        {
+          "text": "NOMBRE ESTABLECIMIENTO",
+          "location": [
+            5221,
+            5243
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "TIENDA CAÑAVERAL JOSE AGUSTIN",
+      "mentions": [
+        {
+          "text": "TIENDA CAÑAVERAL JOSE AGUSTIN",
+          "location": [
+            5246,
+            5275
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDADSECUNDARIA ESTABLECIMIENTOS ESPECIALIZADOS",
+      "mentions": [
+        {
+          "text": "COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDADSECUNDARIA ESTABLECIMIENTOS ESPECIALIZADOS",
+          "location": [
+            570,
+            678
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA DE MATRICULA",
+      "mentions": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            5294,
+            5312
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "20020719",
+      "mentions": [
+        {
+          "text": "20020719",
+          "location": [
+            5314,
+            5322
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "20180129",
+      "mentions": [
+        {
+          "text": "20180129",
+          "location": [
+            5344,
+            5352
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_OTRA",
+      "text": "OTRAS ACTIVIDADES",
+      "mentions": [
+        {
+          "text": "OTRAS ACTIVIDADES",
+          "location": [
+            679,
+            696
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "R9200 - ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS",
+      "mentions": [
+        {
+          "text": "R9200 - ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS",
+          "location": [
+            698,
+            746
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "RAZÓN SOCIAL",
+      "mentions": [
+        {
+          "text": "RAZÓN SOCIAL",
+          "location": [
+            3729,
+            3741
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "CUARTAS MOLINA YEYSON FERNANDO",
+      "mentions": [
+        {
+          "text": "CUARTAS MOLINA YEYSON FERNANDO",
+          "location": [
+            3743,
+            3773
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "Cédula de ciudadanía",
+      "mentions": [
+        {
+          "text": "Cédula de ciudadanía",
+          "location": [
+            3830,
+            3850
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1055916390",
+      "mentions": [
+        {
+          "text": "1055916390",
+          "location": [
+            3853,
+            3863
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "NIT",
+      "mentions": [
+        {
+          "text": "NIT",
+          "location": [
+            3864,
+            3867
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CAMARA DE COMERCIO DE LA DORADA PUERTO BOYACA PUERTO SALGAR CUARTAS MOLINA YEYSON FERNANDO Fecha expediclón: 2018/03/28 - 16:25:40 *Reclbo No. S000053219* Num. Operación. 01-CRODRIG-20180328-0028 LA MATRÍCULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICcULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.1.1 CODIGO DE VERIFICACIÓN piPczEnbiR CAMARA DE COMERCIO TELEFONO 1 : 3206871323 TELEFONO 3 3206871323 CORREO ELECTRONICO : cesarnico1047@hotmail.com ACTIVIDAD PRINCIPAI COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDADSECUNDARIA ESTABLECIMIENTOS ESPECIALIZADOS OTRAS ACTIVIDADES: R9200 - ACTIVIDADES DE JUEGOS DE AZAR Y APUESTAS VALOR DEL ESTABLECIMIENTO : 12, 000,000 G4711 COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO G4721 COMERCIO AL POR MENOR DE PRODUCTOS AGRICOLAS PARA EL CONSUMO EN CERTIFICA LA INFORMACIÓN ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRÍCULA Y RENOVACIÓN DILIGENCIADO pOR EL COMERCIANTE CERTIFICA DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO צ DE LA LEY 962 DE 2005, LOS ACTOS ADMINISTRATIVOS DE REGISTRO AQUÍ CERTIFICADOS QUEdaN eN FIrME DIEZ (10) DÍAS HÁBILES DESPUES DE LA FECHA DE INSCRIPCIÓN, SIEMPRE QUE NO SEAN OBJETO DE RECURSOS. EL DfA SÁBADO NO SE DEBE CONTAR COMO DÍA HÁBIL VALOR DEL CERTIFICADO : $2,700 CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES (SII) IMPORTANTE: La firma digital del secretario de la CAMARA DE COMERCIO DE LA DORADA PUERTO BOYACA PUERTO SALGAR contenida en este certificado electrónico se encuentra emitida por una entidad de certificación abierta autorizada y vigilada por la Superintendencia de Industria y Comercio, de conformidad con las exigencias establecidas en la Ley 527 de 1999 para validez jurídica y probatoria de los documentos electrónicos. La firma digital no es una firma digitalizada o escaneada, por lo tanto, la firma digital que acompaña este documento la podrá verificar a través de su aplicativo visor de documentos pdf. No obstante, si usted va a imprimir este certificado, lo puede hacer desde su computador, con la certeza de que el mismo fue expedido a través del canal virtual de la cámara de comercio y que la persona o entidad a la que usted le va a entregar el certificado impreso, puede verificar por una sola vez el contenido del mismo, ingresando al enlace https://siidorada.confecamaras.co/cv.php seleccionando la cámara de comercio e indicando el código de verificación p1PczEnbiR Al realizar la verificación podrá visualizar (y descargar) una imagen exacta del certificado que fue entregado al usuario en el momento que se realizó la transacción. La firma mecánica que se muestra a continuación es la representación gráfica de la firma del secretario jurídico (o de quien haga sus veces) de la Cámara de Comercio quien avala este certificado. La firma mecánica no reemplaza la firma digital en los documentos electrónicos. FINAL DEL CERTIFICADO Página 2/:2  CAMARA DE COMERCIO DE LA DORADA PUERTO BOYACA PUERTO SALGAR CUARTAS MOLINA YEYSON FERNANDO Fecha expedlclón: 2018/03/28- 16:25:40* Reclbo No. S000053219Num. Operaclón. 01-CRODRIG-20180328-0028 LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRICULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.V EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I. ** CODIGO DE VERIFICACIÓN piPczEnb1R (CAMAnA DE COAERCIO CERTIFICADO DE MATRícUlA MERCANTIl DE PERSONA NATURAL, Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICILIO NOMBRE o RAZÓN SOCIAL: CUARTAS MOLINA YEYSON FERNANDO ORGANIZACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadanía - 1055916390 NIT : 1055916390-0 DOMICILIO: VICTORIA MATRICULA - INSCRIPCIÓN MATR CULA NO : 32034 FECHA DE MATRICULA : MARZO 09 DE 2009 ULTIMO AÑO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCULA : FEBRERO 02 DE 2018 ACTIVO TOTAL : 10,000,000.00 GRUPO NIIF: 4.-GRUPO III - MICROEMPRESAS UBICACION צ DATOS GENERALES DIRECCION DEL DOMICILIO PRINCIPAL: CARRERA 5 10 21 BARRIO : SIN INFORMACION MUNICIPIO / DOMICILIO: 17867 - VICTORIA TELÉFONO COMERCIAL 1: 3206871323 TELÉFONO COMERCIAL 2 : NO REPORTÓ TELÉFONO COMERCIAL 3 : 3206871323 CORREO ELECTRÓNICO: fernandoacevedo933@hotmail.com DIRECCION PARA NOTIFICACION JUDICIAL: CARRERA 5 10 21 MUNICIPIO : 17867 - VICTORIA BARRIO : SIN INFORMACION TELEFONO 1 : 3206871323 CORREO ELECTRÓNICO: fernandoacevedo933@hotmail.com CERTIFICA -ACTIVIDAD ECONOMICA DESCRIPCIÓN DE LA ACIVIDAD ECONÓMICA : COMERCIO AL POR MENOR EN ESTABLECIMIENTOs NO ESPECIALIZADOS coN SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDAD PRINCIPAL. : G4711 - COMERCIO AL POR MENOR EN ESTABLECIMIENTOS NO ESPECIALIZADOS CON SURTIDO COMPUESTO PRINCIPALMENTE POR ALIMENTOS, BEBIDAS O TABACO ACTIVIDAD SECUNDARIA : G4789 - COMERCIO AL POR MENOR DE OTROS PRODUCTOS EN PUESTOS DE VENTA MOVILES CERTIEICA -ESTABLECIMIENTOS QUE ES PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : TIENDA CAÑAVERAL JOSE AGUSTIN MATRICULA : 21868 FECHA DE MATRICULA: 20020719 FECHA DE RENOVACION: 20180129 ULTIMO AÑO RENOVADO: 2018 DIRECCION : CR 5 10 21 BR CENTRO BARRIO: SIN INFORMACION MUNICIPIO 17867 - VICTORIA Página 1/:2 "
+}

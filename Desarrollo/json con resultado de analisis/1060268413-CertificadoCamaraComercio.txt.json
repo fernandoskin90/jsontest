@@ -1,0 +1,928 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 5050,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.648485,
+      "arguments": [
+        {
+          "text": "MONTES RAMIREZ MIGUEL ANGEL",
+          "location": [
+            453,
+            480
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "MONTES RAMIREZ MIGUEL ANGEL",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Cédula de ciudadania",
+          "location": [
+            537,
+            557
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "Cédula de ciudadania",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": "NO REPORTó CorReo ELECTRÓniCO : miguemigue92@hotmail.com DIRECCIÓN PARA NOTIFICACIÓN JUDICIAL : CALLE 41 NO.24A-48 MUNICIPIO 50001VILLAVICENCIO BARRIO: GRAMA TELÉFONO 1: 6814703 TELÉFONO 2 : 3186517711 CORREO ELECTRÓNICO : miguemigue92@hotmail.com CERTIFICA - ACTIVIDAD ECONÓMICA DESCRIPCIÓN DE ㅧACIVIDAD ECONOMICA : PELUQUERÍA Y OTROS TRATAMIENTOS DE BELLEZA ACTIVIDAD PRINCIPAL: S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA CERTIFICA - ESTABLECIMIENTOS QUE ES PROP 1 ETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : LA PELUQUERIA C.M.W MATRICULA: 256439 FECHA DE MATRICULA: 20131015 FECHA DE RENOVACION: 20180214 ULTIMO ANO RENOVADO : 2018 DIRECCION CALLE 41 N 24A -46 BARRIO GRAMA MUNICIPIO 50001 - VILLAVICENCIO TELEFONO 1 6814703 Página 1/2  CAMARA DE COMERCIO DE VILLAVICENCIO MONTES RAMIREZ MIGUEL ANGEL Fecha expedición: 2018/05/18-09:55:57*\"\" Recibo No. S000421072**\" Num.",
+      "score": 0.985859,
+      "arguments": [
+        {
+          "text": "NOMBRE ESTABLECIMIENTO",
+          "location": [
+            1693,
+            1715
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "NOMBRE ESTABLECIMIENTO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "LA PELUQUERIA C.M.W",
+          "location": [
+            1718,
+            1737
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "LA PELUQUERIA C.M.W",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "NO REPORTó CorReo ELECTRÓniCO : miguemigue92@hotmail.com DIRECCIÓN PARA NOTIFICACIÓN JUDICIAL : CALLE 41 NO.24A-48 MUNICIPIO 50001VILLAVICENCIO BARRIO: GRAMA TELÉFONO 1: 6814703 TELÉFONO 2 : 3186517711 CORREO ELECTRÓNICO : miguemigue92@hotmail.com CERTIFICA - ACTIVIDAD ECONÓMICA DESCRIPCIÓN DE ㅧACIVIDAD ECONOMICA : PELUQUERÍA Y OTROS TRATAMIENTOS DE BELLEZA ACTIVIDAD PRINCIPAL: S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA CERTIFICA - ESTABLECIMIENTOS QUE ES PROP 1 ETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : LA PELUQUERIA C.M.W MATRICULA: 256439 FECHA DE MATRICULA: 20131015 FECHA DE RENOVACION: 20180214 ULTIMO ANO RENOVADO : 2018 DIRECCION CALLE 41 N 24A -46 BARRIO GRAMA MUNICIPIO 50001 - VILLAVICENCIO TELEFONO 1 6814703 Página 1/2  CAMARA DE COMERCIO DE VILLAVICENCIO MONTES RAMIREZ MIGUEL ANGEL Fecha expedición: 2018/05/18-09:55:57*\"\" Recibo No. S000421072**\" Num.",
+      "score": 0.993342,
+      "arguments": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            1756,
+            1774
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "FECHA DE MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "20131015",
+          "location": [
+            1776,
+            1784
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "20131015",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "** CODIGO DE VERIFICACIÓN YN7RtFQcttn K LNCİO TELEFONO 2 : 3186517711 CORREO ELECTRONICO: miguemigue92@hotmal.com ACTIVIDAD PRINCIPAL : S9602 -PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA VALOR DEL ESTABLECIMIENTO : 2,100,000 INFORMA-REPORTE λ ENTIDADES MUNICIPALES QUE la MATrfCULA DEL coMERCIANTe Y/O ESTABLECIMIENtO DE coMERCiO LOcaLIZADO en La DIRECCIÓN QUE ApArECE REPORTADA EN ESTE CERTIFICADO, SE INFORMó A LAs SECRETARfaS DE PLANEACIÓN, SALUD, GOBIERNo, HACIENDA MUNICIPAL DE LA ALCALDIA DE VILLAVICENCIO Y BOMBEROS, A EXCEPCIÓN DE AQUELLOS CASOS QUE NO APLIQUE, LOS DATOS CONTENIDos EN ESTA SECCIÓN DE INFORMACIÓN COMPLEMENTARIA, NO HACEN PARTE DEL REGISTRO PÚBLICO MERCANTIL, NI SON CERTIFICADOS POR LA CÁMARA DE COMERCIO EN EJERCICIO DE SUS FUNCIONES LEGALES CERTIFICA LA INFOrMACIÓN ANTErIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO De MATRfculA Y RENOVACIÓN.",
+      "score": 0.994051,
+      "arguments": [
+        {
+          "text": "S9602 -PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+          "location": [
+            2319,
+            2368
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "S9602 -PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2297,
+            2316
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.972434,
+      "arguments": [
+        {
+          "text": "MONTES RAMIREZ MIGUEL ANGEL",
+          "location": [
+            453,
+            480
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "MONTES RAMIREZ MIGUEL ANGEL",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "1060268413",
+          "location": [
+            560,
+            570
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1060268413",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.931406,
+      "arguments": [
+        {
+          "text": "MONTES RAMIREZ MIGUEL ANGEL",
+          "location": [
+            453,
+            480
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "MONTES RAMIREZ MIGUEL ANGEL",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            571,
+            574
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.682041,
+      "arguments": [
+        {
+          "text": "MONTES RAMIREZ MIGUEL ANGEL",
+          "location": [
+            453,
+            480
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "MONTES RAMIREZ MIGUEL ANGEL",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_PERSONA_NATURAL"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "1060268413-9",
+          "location": [
+            576,
+            588
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1060268413-9",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.995122,
+      "arguments": [
+        {
+          "text": "1060268413",
+          "location": [
+            560,
+            570
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1060268413",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Cédula de ciudadania",
+          "location": [
+            537,
+            557
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "Cédula de ciudadania",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.549488,
+      "arguments": [
+        {
+          "text": "1060268413",
+          "location": [
+            560,
+            570
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1060268413",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            571,
+            574
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.997675,
+      "arguments": [
+        {
+          "text": "1060268413-9",
+          "location": [
+            576,
+            588
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "1060268413-9",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "NIT",
+          "location": [
+            571,
+            574
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "NIT",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 :",
+      "score": 0.950014,
+      "arguments": [
+        {
+          "text": "FECHA DE MATRicULA",
+          "location": [
+            695,
+            713
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "FECHA DE MATRicULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "OCTUBRE 15 DE 2013",
+          "location": [
+            716,
+            734
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "OCTUBRE 15 DE 2013",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "NO REPORTó CorReo ELECTRÓniCO : miguemigue92@hotmail.com DIRECCIÓN PARA NOTIFICACIÓN JUDICIAL : CALLE 41 NO.24A-48 MUNICIPIO 50001VILLAVICENCIO BARRIO: GRAMA TELÉFONO 1: 6814703 TELÉFONO 2 : 3186517711 CORREO ELECTRÓNICO : miguemigue92@hotmail.com CERTIFICA - ACTIVIDAD ECONÓMICA DESCRIPCIÓN DE ㅧACIVIDAD ECONOMICA : PELUQUERÍA Y OTROS TRATAMIENTOS DE BELLEZA ACTIVIDAD PRINCIPAL: S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA CERTIFICA - ESTABLECIMIENTOS QUE ES PROP 1 ETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : LA PELUQUERIA C.M.W MATRICULA: 256439 FECHA DE MATRICULA: 20131015 FECHA DE RENOVACION: 20180214 ULTIMO ANO RENOVADO : 2018 DIRECCION CALLE 41 N 24A -46 BARRIO GRAMA MUNICIPIO 50001 - VILLAVICENCIO TELEFONO 1 6814703 Página 1/2  CAMARA DE COMERCIO DE VILLAVICENCIO MONTES RAMIREZ MIGUEL ANGEL Fecha expedición: 2018/05/18-09:55:57*\"\" Recibo No. S000421072**\" Num.",
+      "score": 0.991111,
+      "arguments": [
+        {
+          "text": "S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+          "location": [
+            1497,
+            1545
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1476,
+            1495
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "2018/05/18",
+      "mentions": [
+        {
+          "text": "2018/05/18",
+          "location": [
+            83,
+            93
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "RAZÓN SOCIAL",
+      "mentions": [
+        {
+          "text": "RAZÓN SOCIAL",
+          "location": [
+            438,
+            450
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1476,
+            1495
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+      "mentions": [
+        {
+          "text": "S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+          "location": [
+            1497,
+            1545
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "NOMBRE ESTABLECIMIENTO",
+      "mentions": [
+        {
+          "text": "NOMBRE ESTABLECIMIENTO",
+          "location": [
+            1693,
+            1715
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "LA PELUQUERIA C.M.W",
+      "mentions": [
+        {
+          "text": "LA PELUQUERIA C.M.W",
+          "location": [
+            1718,
+            1737
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA DE MATRICULA",
+      "mentions": [
+        {
+          "text": "FECHA DE MATRICULA",
+          "location": [
+            1756,
+            1774
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "20131015",
+      "mentions": [
+        {
+          "text": "20131015",
+          "location": [
+            1776,
+            1784
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "20180214",
+      "mentions": [
+        {
+          "text": "20180214",
+          "location": [
+            1806,
+            1814
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "MONTES RAMIREZ MIGUEL ANGEL",
+      "mentions": [
+        {
+          "text": "MONTES RAMIREZ MIGUEL ANGEL",
+          "location": [
+            1983,
+            2010
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2018/05/18-09:55:57",
+      "mentions": [
+        {
+          "text": "2018/05/18-09:55:57",
+          "location": [
+            2029,
+            2048
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2297,
+            2316
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "MONTES RAMIREZ MIGUEL ANGEL",
+      "mentions": [
+        {
+          "text": "MONTES RAMIREZ MIGUEL ANGEL",
+          "location": [
+            453,
+            480
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "S9602 -PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+      "mentions": [
+        {
+          "text": "S9602 -PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA",
+          "location": [
+            2319,
+            2368
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "Cédula de ciudadania",
+      "mentions": [
+        {
+          "text": "Cédula de ciudadania",
+          "location": [
+            537,
+            557
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1060268413",
+      "mentions": [
+        {
+          "text": "1060268413",
+          "location": [
+            560,
+            570
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "NIT",
+      "mentions": [
+        {
+          "text": "NIT",
+          "location": [
+            571,
+            574
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "1060268413-9",
+      "mentions": [
+        {
+          "text": "1060268413-9",
+          "location": [
+            576,
+            588
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "FECHA DE MATRicULA",
+      "mentions": [
+        {
+          "text": "FECHA DE MATRicULA",
+          "location": [
+            695,
+            713
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "OCTUBRE 15 DE 2013",
+      "mentions": [
+        {
+          "text": "OCTUBRE 15 DE 2013",
+          "location": [
+            716,
+            734
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "FEBRERO 14 DE 2018",
+      "mentions": [
+        {
+          "text": "FEBRERO 14 DE 2018",
+          "location": [
+            799,
+            817
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CAMARA DE COMERCIO DE VILLAVICENCIO MONTES RAMIREZ MIGUEL ANGEL Fecha expedición: 2018/05/18- 09:55:56 * Recibo No. S000421072\"\" Num. Operación. 01-ANDRESC-20180518-0004 \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.I.\" CODIGO DE VERIFICACIÓN YN7RtFQctn CERTIFICADO DE MATRfCULA MERCANTIL DE PERSONA NATURAL Con fundamento en las matriculas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE, SIGLA, IDENTIFICACIÓN Y DOMICiLio NO BRE RAZÓN SOCIAL : MONTES RAMIREZ MIGUEL ANGEL ORGANIzACIÓN JURÍDICA: PERSONA NATURAL IDENTIFICACIÓN : Cédula de ciudadania - 1060268413 NIT: 1060268413-9 ADMINISTRACIÓN DIAN : VILLAVICENCIO DONICILIO VILLAVICENCIO MATRICULA - INSCRIPCIÓN MATRÍCULA NO : 256438 FECHA DE MATRicULA : OCTUBRE 15 DE 2013 ULTIMO ANO RENOVADO: 2018 FECHA DE RENOVACION DE LA MATRÍCuLA : FEBRERO 14 DE 2018 ACTIVO TOTAL: 3,100, 000.00 GRUPO NIIF : 4.- GRUPO III - MICROEMPRESAS UBICACIÓN Y DATOS GENERALESs DIRECCIÓN DEL DOMICILIO PRINCIPAL : CALLE 41 NO.24A-48 BARRIO GRAMA MUNICIPIO DOMICILIO: 50001 - VILLAVICENCIO TELÉFONO COMERCIAL 1: 6814703 TELÉFONO COMERCIAL 2 : 3186517711 TELÉFONO COMERCIAL 3 : NO REPORTó CorReo ELECTRÓniCO : miguemigue92@hotmail.com DIRECCIÓN PARA NOTIFICACIÓN JUDICIAL : CALLE 41 NO.24A-48 MUNICIPIO 50001VILLAVICENCIO BARRIO: GRAMA TELÉFONO 1: 6814703 TELÉFONO 2 : 3186517711 CORREO ELECTRÓNICO : miguemigue92@hotmail.com CERTIFICA - ACTIVIDAD ECONÓMICA DESCRIPCIÓN DE ㅧACIVIDAD ECONOMICA : PELUQUERÍA Y OTROS TRATAMIENTOS DE BELLEZA ACTIVIDAD PRINCIPAL: S9602 PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA CERTIFICA - ESTABLECIMIENTOS QUE ES PROP 1 ETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO EN LA JURISDICCIÓN DE ESTA CÁMARA DE COMERCIO: ***NOMBRE ESTABLECIMIENTO : LA PELUQUERIA C.M.W MATRICULA: 256439 FECHA DE MATRICULA: 20131015 FECHA DE RENOVACION: 20180214 ULTIMO ANO RENOVADO : 2018 DIRECCION CALLE 41 N 24A -46 BARRIO GRAMA MUNICIPIO 50001 - VILLAVICENCIO TELEFONO 1 6814703 Página 1/2  CAMARA DE COMERCIO DE VILLAVICENCIO MONTES RAMIREZ MIGUEL ANGEL Fecha expedición: 2018/05/18-09:55:57*\"\" Recibo No. S000421072**\" Num. Operación. 01-ANDRESC-20180518-0004 CAMARA oE COMERCIO \"EXPEDIDO A TRAVÉS DEL SISTEMA VIRTUAL S.I.1. ** CODIGO DE VERIFICACIÓN YN7RtFQcttn K LNCİO TELEFONO 2 : 3186517711 CORREO ELECTRONICO: miguemigue92@hotmal.com ACTIVIDAD PRINCIPAL : S9602 -PELUQUERIA Y OTROS TRATAMIENTOS DE BELLEZA VALOR DEL ESTABLECIMIENTO : 2,100,000 INFORMA-REPORTE λ ENTIDADES MUNICIPALES QUE la MATrfCULA DEL coMERCIANTe Y/O ESTABLECIMIENtO DE coMERCiO LOcaLIZADO en La DIRECCIÓN QUE ApArECE REPORTADA EN ESTE CERTIFICADO, SE INFORMó A LAs SECRETARfaS DE PLANEACIÓN, SALUD, GOBIERNo, HACIENDA MUNICIPAL DE LA ALCALDIA DE VILLAVICENCIO Y BOMBEROS, A EXCEPCIÓN DE AQUELLOS CASOS QUE NO APLIQUE, LOS DATOS CONTENIDos EN ESTA SECCIÓN DE INFORMACIÓN COMPLEMENTARIA, NO HACEN PARTE DEL REGISTRO PÚBLICO MERCANTIL, NI SON CERTIFICADOS POR LA CÁMARA DE COMERCIO EN EJERCICIO DE SUS FUNCIONES LEGALES CERTIFICA LA INFOrMACIÓN ANTErIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO De MATRfculA Y RENOVACIÓN. DILIGENCIAD0 POR EL COMERCIANTE CERTIFICA DE CONFORMIDAD CON LO ESTABLECIDO EN EL CÓDIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSO Y DE LA LEY 962 DE 2005, Los ACTOS ADMINISTRATIVOs DE REGISTRO AQUf CERTIFICADOs QUEDAN EN FIRME DIEZ (10) DíAs HÁBILES DESPUES DE LA FECHA DE INSCRIPCIÓN, SIEMPRE QUE NO SEan OBJETO DE RECURSOS. EL DÍA SÁBADO NO SE DEBE CONTAR COMO DíA HÁBIL VALOR DEL CERTIFICADO $2,700 CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES (SII) IMPORTANTE: La firma digital del secretario de la CAMARA DE COMERCIO DE VILLAVICENCIO contenida en este certificado electrónico se encuentra emitida por una entidad de certificación abierta autorizada y vigilada por la Superintendencia de Industria y Comercio, de conformidad con las exigencias establecidas en la Ley 527 de 1999 para validez jurldica y probatoria de los documentos electrónicos. La firma digital no es una firma digitalizada o escaneada, por lo tanto, la firma digital que acompaña este documento la podrá verificar a través de su aplicativo visor de oS No obstante, si usted va a imprimir este certificado, lo puede hacer desde su computador, con la certeza de que el mismo fue expedido a través del canal virtual de la cámara de comercio y que la persona o entidad a la que usted le va a entregar el certificado impreso, puede verificar por una sola vez el contenido del mismo ingresando al enlace https:/virtual.ccv.org.co/cv.php seleccionando la cámara de comercio e indicando el código de verificación YN7RtFQctn Al realizar la verificación podrá visualizar (y descargar) una imagen exacta del certificado que fue entregado al usuario en el momento que se realizó la transacción. La firma mecánica que se muestra a continuación es la representación gráfica de la firma del secretario jurídico (o de quien haga sus veces) de la Cámara de Comercio quien avala este certificado. La firma mecánica no reemplaza la firma digital en los documentos electrónicos. FINAL DEL CERTIFICADO Página 2/2 "
+}

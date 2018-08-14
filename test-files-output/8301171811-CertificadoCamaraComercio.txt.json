@@ -1,0 +1,1951 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 9832,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE EOGOTA de Comercio sEDE virtuaL CODIGO VERIFICACION: A18509839CC7A5 17 DE MAYO DE 2018 AA1 8 5 0 9839 ORA 11:50:31 PAGINA: 2 de 3 DENTIFICACION c.c」 000000051749199 C.C」 000000052476358 C.C 000000052215819 C.C 000000019455186 C.C 000001018420445 NOMBRE MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA GARZON SALINAS NUBIA YOLANDA GOMEZ PATIÑO DILIA PAOLA CUBILLOS CADENA ERIKA LILIANA ROCCA RIVERA LUIS ALFONSO JOSE FELIPE ACEVEDO PEÑALOZA LUIS FERNANDO CERTIFICA: REPRESENTACIÓN LEGAL : EL PRESIDENTE SERÁ EL!",
+      "score": 0.90059,
+      "arguments": [
+        {
+          "text": "000000051749199",
+          "location": [
+            172,
+            187
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000051749199",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "c.c」",
+          "location": [
+            167,
+            171
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "c.c」",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) ŅΦΜΒRADO (S) ; NOMBRE DENTIFICACION PRESI DENTE PABON MORA ALBERTO C.CI 000000005554790 VICEPRESIDENTE GARZON SALINAS NUBIA YOLANDA C.C 000000051749199 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: EL DIRECTOR EJECUTIVO TeNDRA LAS FUNCIONES DE: 1.",
+      "score": 0.92161,
+      "arguments": [
+        {
+          "text": "GARZON SALINAS NUBIA YOLANDA",
+          "location": [
+            1017,
+            1045
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "GARZON SALINAS NUBIA YOLANDA",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_OTRA_PERSONA"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "000000051749199",
+          "location": [
+            1050,
+            1065
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000051749199",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) ŅΦΜΒRADO (S) ; NOMBRE DENTIFICACION PRESI DENTE PABON MORA ALBERTO C.CI 000000005554790 VICEPRESIDENTE GARZON SALINAS NUBIA YOLANDA C.C 000000051749199 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: EL DIRECTOR EJECUTIVO TeNDRA LAS FUNCIONES DE: 1.",
+      "score": 0.983807,
+      "arguments": [
+        {
+          "text": "000000051749199",
+          "location": [
+            1050,
+            1065
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000051749199",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C",
+          "location": [
+            1046,
+            1049
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_tipo_documento_identidad",
+      "sentence": "CO/CERTIFICADOSELECTRONICOS/ RAPIDA Y SEGURA EN CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL DE LA ENTIDAD SIN ANIMO DE LUCRO: COLEGIO DE ABOGADOS DE COLOMBIA INSCRIPCION NO: S0019287 DEL 7 DE MARZO DE 2003 N.I.T. : 830117181-1 ADMINISTRACION : DIRECCION SECCIONAL DE IMPUESTOS DE BOGOTA TIPO ENTIDAD FUNDACIONES Y ENTIDADES DOMICILIO : BOGOTA D. C OTRAS ORGANIZACIONES CIVILES CORPORACIONES, EL SUSCRITO SECRETARIO DE LA CAMARA DE COMERCIO DE BOGOTA, EN EI EJERCICIO DE LA FACULTAD CONFERİDA POR LOS ARTÍCULOS 43 Y 144 DEL DECRETO NUMERO 2150 DE 1995 CERTIFICA: RENOVACION DE LA INSCRIPCION : 22 DE FEBRERO DE 2018 ULTIMO AÑO RENOVADO: ACTIVO TOTAL: 2,586, 830 PATRIMONIO 0 2018 CERTIFICA: 37-06 OF 202 DIRECCION DE NOTIFICACION JUDICIAL : CALLE 59 MUNICIPIO BOGOTA D.C EMAIL DE NOTIFICACION JUDICIAL : conciliacion.colabogados@gmai1.com DIRECCION COMERCIAL : CALLE 59 NO 37-06 OF 202 MUNICIPIO:",
+      "score": 0.7427,
+      "arguments": [
+        {
+          "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+          "location": [
+            2812,
+            2843
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "N.I.T.",
+          "location": [
+            2892,
+            2898
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "N.I.T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "empresa_tiene_documento_identidad",
+      "sentence": "CO/CERTIFICADOSELECTRONICOS/ RAPIDA Y SEGURA EN CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL DE LA ENTIDAD SIN ANIMO DE LUCRO: COLEGIO DE ABOGADOS DE COLOMBIA INSCRIPCION NO: S0019287 DEL 7 DE MARZO DE 2003 N.I.T. : 830117181-1 ADMINISTRACION : DIRECCION SECCIONAL DE IMPUESTOS DE BOGOTA TIPO ENTIDAD FUNDACIONES Y ENTIDADES DOMICILIO : BOGOTA D. C OTRAS ORGANIZACIONES CIVILES CORPORACIONES, EL SUSCRITO SECRETARIO DE LA CAMARA DE COMERCIO DE BOGOTA, EN EI EJERCICIO DE LA FACULTAD CONFERİDA POR LOS ARTÍCULOS 43 Y 144 DEL DECRETO NUMERO 2150 DE 1995 CERTIFICA: RENOVACION DE LA INSCRIPCION : 22 DE FEBRERO DE 2018 ULTIMO AÑO RENOVADO: ACTIVO TOTAL: 2,586, 830 PATRIMONIO 0 2018 CERTIFICA: 37-06 OF 202 DIRECCION DE NOTIFICACION JUDICIAL : CALLE 59 MUNICIPIO BOGOTA D.C EMAIL DE NOTIFICACION JUDICIAL : conciliacion.colabogados@gmai1.com DIRECCION COMERCIAL : CALLE 59 NO 37-06 OF 202 MUNICIPIO:",
+      "score": 0.86236,
+      "arguments": [
+        {
+          "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+          "location": [
+            2812,
+            2843
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "830117181-1",
+          "location": [
+            2901,
+            2912
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "830117181-1",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "CO/CERTIFICADOSELECTRONICOS/ RAPIDA Y SEGURA EN CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL DE LA ENTIDAD SIN ANIMO DE LUCRO: COLEGIO DE ABOGADOS DE COLOMBIA INSCRIPCION NO: S0019287 DEL 7 DE MARZO DE 2003 N.I.T. : 830117181-1 ADMINISTRACION : DIRECCION SECCIONAL DE IMPUESTOS DE BOGOTA TIPO ENTIDAD FUNDACIONES Y ENTIDADES DOMICILIO : BOGOTA D. C OTRAS ORGANIZACIONES CIVILES CORPORACIONES, EL SUSCRITO SECRETARIO DE LA CAMARA DE COMERCIO DE BOGOTA, EN EI EJERCICIO DE LA FACULTAD CONFERİDA POR LOS ARTÍCULOS 43 Y 144 DEL DECRETO NUMERO 2150 DE 1995 CERTIFICA: RENOVACION DE LA INSCRIPCION : 22 DE FEBRERO DE 2018 ULTIMO AÑO RENOVADO: ACTIVO TOTAL: 2,586, 830 PATRIMONIO 0 2018 CERTIFICA: 37-06 OF 202 DIRECCION DE NOTIFICACION JUDICIAL : CALLE 59 MUNICIPIO BOGOTA D.C EMAIL DE NOTIFICACION JUDICIAL : conciliacion.colabogados@gmai1.com DIRECCION COMERCIAL : CALLE 59 NO 37-06 OF 202 MUNICIPIO:",
+      "score": 0.985315,
+      "arguments": [
+        {
+          "text": "INSCRIPCION",
+          "location": [
+            2844,
+            2855
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "INSCRIPCION",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "7 DE MARZO DE 2003",
+          "location": [
+            2873,
+            2891
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "7 DE MARZO DE 2003",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CO/CERTIFICADOSELECTRONICOS/ RAPIDA Y SEGURA EN CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL DE LA ENTIDAD SIN ANIMO DE LUCRO: COLEGIO DE ABOGADOS DE COLOMBIA INSCRIPCION NO: S0019287 DEL 7 DE MARZO DE 2003 N.I.T. : 830117181-1 ADMINISTRACION : DIRECCION SECCIONAL DE IMPUESTOS DE BOGOTA TIPO ENTIDAD FUNDACIONES Y ENTIDADES DOMICILIO : BOGOTA D. C OTRAS ORGANIZACIONES CIVILES CORPORACIONES, EL SUSCRITO SECRETARIO DE LA CAMARA DE COMERCIO DE BOGOTA, EN EI EJERCICIO DE LA FACULTAD CONFERİDA POR LOS ARTÍCULOS 43 Y 144 DEL DECRETO NUMERO 2150 DE 1995 CERTIFICA: RENOVACION DE LA INSCRIPCION : 22 DE FEBRERO DE 2018 ULTIMO AÑO RENOVADO: ACTIVO TOTAL: 2,586, 830 PATRIMONIO 0 2018 CERTIFICA: 37-06 OF 202 DIRECCION DE NOTIFICACION JUDICIAL : CALLE 59 MUNICIPIO BOGOTA D.C EMAIL DE NOTIFICACION JUDICIAL : conciliacion.colabogados@gmai1.com DIRECCION COMERCIAL : CALLE 59 NO 37-06 OF 202 MUNICIPIO:",
+      "score": 0.964778,
+      "arguments": [
+        {
+          "text": "830117181-1",
+          "location": [
+            2901,
+            2912
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "830117181-1",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "N.I.T.",
+          "location": [
+            2892,
+            2898
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "N.I.T.",
+              "disambiguation": {
+                "subtype": [
+                  "NIT"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "PROCURAR EL PROGRESO INTELECTUAL DE CERTIFICA: ACTIVIDAD PRINCIPAL: 8424 (ADMINISTRACION DE JUSTICIA) CERTIFICA: ** ORGANOS DE ADMINISTRACION ** QUE POR ACTA NO.",
+      "score": 0.980279,
+      "arguments": [
+        {
+          "text": "8424 (ADMINISTRACION DE JUSTICIA)",
+          "location": [
+            6653,
+            6686
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "8424 (ADMINISTRACION DE JUSTICIA)",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            6632,
+            6651
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "0000001 DE ASAMBLEA DF ASOCIADOS DEL 18 DE FEBRERO DE 2003, INSCRITA EL 7 DE MARZO DE 2003 BAJO EL NUMERO 00057667 DEL LIBRO I DE LAS ENTIDADES SIN ANIMO DE LUCRQ, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REVISOR FiSCAL FONSECA PINEDA WILSON ERNESTO C.C. 000000C19493655 CERTIFICA: QUE EN ESTA CAMARA DE COMERCIO NO APARECEN INSCRIPCIONES POSTERIORES DE DOCUMENTOSREFERENTES A REFORMA, DISOLUCION LIQUIDACION O NOMBRAMIENTOS DE REPRESENTANTES LEGALES DE LA MENCIONADA ENTIDAD CERTIFICA EL REGISTRO ANTE LAS CAMARAS DE COMERCIO NO CONSTITUYE APROBACION DE ESTATUTOS.",
+      "score": 0.969549,
+      "arguments": [
+        {
+          "text": "FONSECA PINEDA WILSON ERNESTO",
+          "location": [
+            7594,
+            7623
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "FONSECA PINEDA WILSON ERNESTO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_OTRA_PERSONA"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            7624,
+            7628
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "0000001 DE ASAMBLEA DF ASOCIADOS DEL 18 DE FEBRERO DE 2003, INSCRITA EL 7 DE MARZO DE 2003 BAJO EL NUMERO 00057667 DEL LIBRO I DE LAS ENTIDADES SIN ANIMO DE LUCRQ, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REVISOR FiSCAL FONSECA PINEDA WILSON ERNESTO C.C. 000000C19493655 CERTIFICA: QUE EN ESTA CAMARA DE COMERCIO NO APARECEN INSCRIPCIONES POSTERIORES DE DOCUMENTOSREFERENTES A REFORMA, DISOLUCION LIQUIDACION O NOMBRAMIENTOS DE REPRESENTANTES LEGALES DE LA MENCIONADA ENTIDAD CERTIFICA EL REGISTRO ANTE LAS CAMARAS DE COMERCIO NO CONSTITUYE APROBACION DE ESTATUTOS.",
+      "score": 0.973834,
+      "arguments": [
+        {
+          "text": "FONSECA PINEDA WILSON ERNESTO",
+          "location": [
+            7594,
+            7623
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "FONSECA PINEDA WILSON ERNESTO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_OTRA_PERSONA"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "000000C19493655",
+          "location": [
+            7629,
+            7644
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000C19493655",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "0000001 DE ASAMBLEA DF ASOCIADOS DEL 18 DE FEBRERO DE 2003, INSCRITA EL 7 DE MARZO DE 2003 BAJO EL NUMERO 00057667 DEL LIBRO I DE LAS ENTIDADES SIN ANIMO DE LUCRQ, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REVISOR FiSCAL FONSECA PINEDA WILSON ERNESTO C.C. 000000C19493655 CERTIFICA: QUE EN ESTA CAMARA DE COMERCIO NO APARECEN INSCRIPCIONES POSTERIORES DE DOCUMENTOSREFERENTES A REFORMA, DISOLUCION LIQUIDACION O NOMBRAMIENTOS DE REPRESENTANTES LEGALES DE LA MENCIONADA ENTIDAD CERTIFICA EL REGISTRO ANTE LAS CAMARAS DE COMERCIO NO CONSTITUYE APROBACION DE ESTATUTOS.",
+      "score": 0.902113,
+      "arguments": [
+        {
+          "text": "000000C19493655",
+          "location": [
+            7629,
+            7644
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000C19493655",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C.",
+          "location": [
+            7624,
+            7628
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C.",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE EOGOTA de Comercio sEDE virtuaL CODIGO VERIFICACION: A18509839CC7A5 17 DE MAYO DE 2018 AA1 8 5 0 9839 ORA 11:50:31 PAGINA: 2 de 3 DENTIFICACION c.c」 000000051749199 C.C」 000000052476358 C.C 000000052215819 C.C 000000019455186 C.C 000001018420445 NOMBRE MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA GARZON SALINAS NUBIA YOLANDA GOMEZ PATIÑO DILIA PAOLA CUBILLOS CADENA ERIKA LILIANA ROCCA RIVERA LUIS ALFONSO JOSE FELIPE ACEVEDO PEÑALOZA LUIS FERNANDO CERTIFICA: REPRESENTACIÓN LEGAL : EL PRESIDENTE SERÁ EL!",
+      "score": 0.976808,
+      "arguments": [
+        {
+          "text": "000000052476358",
+          "location": [
+            193,
+            208
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000052476358",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C」",
+          "location": [
+            188,
+            192
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C」",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE EOGOTA de Comercio sEDE virtuaL CODIGO VERIFICACION: A18509839CC7A5 17 DE MAYO DE 2018 AA1 8 5 0 9839 ORA 11:50:31 PAGINA: 2 de 3 DENTIFICACION c.c」 000000051749199 C.C」 000000052476358 C.C 000000052215819 C.C 000000019455186 C.C 000001018420445 NOMBRE MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA GARZON SALINAS NUBIA YOLANDA GOMEZ PATIÑO DILIA PAOLA CUBILLOS CADENA ERIKA LILIANA ROCCA RIVERA LUIS ALFONSO JOSE FELIPE ACEVEDO PEÑALOZA LUIS FERNANDO CERTIFICA: REPRESENTACIÓN LEGAL : EL PRESIDENTE SERÁ EL!",
+      "score": 0.968308,
+      "arguments": [
+        {
+          "text": "000000052215819",
+          "location": [
+            213,
+            228
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000052215819",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C",
+          "location": [
+            209,
+            212
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE EOGOTA de Comercio sEDE virtuaL CODIGO VERIFICACION: A18509839CC7A5 17 DE MAYO DE 2018 AA1 8 5 0 9839 ORA 11:50:31 PAGINA: 2 de 3 DENTIFICACION c.c」 000000051749199 C.C」 000000052476358 C.C 000000052215819 C.C 000000019455186 C.C 000001018420445 NOMBRE MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA GARZON SALINAS NUBIA YOLANDA GOMEZ PATIÑO DILIA PAOLA CUBILLOS CADENA ERIKA LILIANA ROCCA RIVERA LUIS ALFONSO JOSE FELIPE ACEVEDO PEÑALOZA LUIS FERNANDO CERTIFICA: REPRESENTACIÓN LEGAL : EL PRESIDENTE SERÁ EL!",
+      "score": 0.980202,
+      "arguments": [
+        {
+          "text": "000000019455186",
+          "location": [
+            233,
+            248
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000019455186",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C",
+          "location": [
+            229,
+            232
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "CAMARA DE COMERCIO DE EOGOTA de Comercio sEDE virtuaL CODIGO VERIFICACION: A18509839CC7A5 17 DE MAYO DE 2018 AA1 8 5 0 9839 ORA 11:50:31 PAGINA: 2 de 3 DENTIFICACION c.c」 000000051749199 C.C」 000000052476358 C.C 000000052215819 C.C 000000019455186 C.C 000001018420445 NOMBRE MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA GARZON SALINAS NUBIA YOLANDA GOMEZ PATIÑO DILIA PAOLA CUBILLOS CADENA ERIKA LILIANA ROCCA RIVERA LUIS ALFONSO JOSE FELIPE ACEVEDO PEÑALOZA LUIS FERNANDO CERTIFICA: REPRESENTACIÓN LEGAL : EL PRESIDENTE SERÁ EL!",
+      "score": 0.978566,
+      "arguments": [
+        {
+          "text": "000001018420445",
+          "location": [
+            253,
+            268
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000001018420445",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C",
+          "location": [
+            249,
+            252
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) ŅΦΜΒRADO (S) ; NOMBRE DENTIFICACION PRESI DENTE PABON MORA ALBERTO C.CI 000000005554790 VICEPRESIDENTE GARZON SALINAS NUBIA YOLANDA C.C 000000051749199 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: EL DIRECTOR EJECUTIVO TeNDRA LAS FUNCIONES DE: 1.",
+      "score": 0.930249,
+      "arguments": [
+        {
+          "text": "PABON MORA ALBERTO",
+          "location": [
+            962,
+            980
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "PABON MORA ALBERTO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_OTRA_PERSONA"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.CI",
+          "location": [
+            981,
+            985
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.CI",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) ŅΦΜΒRADO (S) ; NOMBRE DENTIFICACION PRESI DENTE PABON MORA ALBERTO C.CI 000000005554790 VICEPRESIDENTE GARZON SALINAS NUBIA YOLANDA C.C 000000051749199 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: EL DIRECTOR EJECUTIVO TeNDRA LAS FUNCIONES DE: 1.",
+      "score": 0.922021,
+      "arguments": [
+        {
+          "text": "PABON MORA ALBERTO",
+          "location": [
+            962,
+            980
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "PABON MORA ALBERTO",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_OTRA_PERSONA"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "000000005554790",
+          "location": [
+            986,
+            1001
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000005554790",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documento_identidad_tiene_tipo_documento_identidad",
+      "sentence": "DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) ŅΦΜΒRADO (S) ; NOMBRE DENTIFICACION PRESI DENTE PABON MORA ALBERTO C.CI 000000005554790 VICEPRESIDENTE GARZON SALINAS NUBIA YOLANDA C.C 000000051749199 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: EL DIRECTOR EJECUTIVO TeNDRA LAS FUNCIONES DE: 1.",
+      "score": 0.977953,
+      "arguments": [
+        {
+          "text": "000000005554790",
+          "location": [
+            986,
+            1001
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "000000005554790",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.CI",
+          "location": [
+            981,
+            985
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.CI",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persona_tiene_tipo_documento_identidad",
+      "sentence": "DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) ŅΦΜΒRADO (S) ; NOMBRE DENTIFICACION PRESI DENTE PABON MORA ALBERTO C.CI 000000005554790 VICEPRESIDENTE GARZON SALINAS NUBIA YOLANDA C.C 000000051749199 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: EL DIRECTOR EJECUTIVO TeNDRA LAS FUNCIONES DE: 1.",
+      "score": 0.938541,
+      "arguments": [
+        {
+          "text": "GARZON SALINAS NUBIA YOLANDA",
+          "location": [
+            1017,
+            1045
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "GARZON SALINAS NUBIA YOLANDA",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_OTRA_PERSONA"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "C.C",
+          "location": [
+            1046,
+            1049
+          ],
+          "entities": [
+            {
+              "type": "TIPO_DOCUMENTO_IDENTIDAD",
+              "text": "C.C",
+              "disambiguation": {
+                "subtype": [
+                  "CEDULA_CIUDADANIA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "17 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "17 DE MAYO DE 2018",
+          "location": [
+            91,
+            109
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "c.c」",
+      "mentions": [
+        {
+          "text": "c.c」",
+          "location": [
+            167,
+            171
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000001018420445",
+      "mentions": [
+        {
+          "text": "000001018420445",
+          "location": [
+            253,
+            268
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GARZON SALINAS NUBIA YOLANDA",
+      "mentions": [
+        {
+          "text": "GARZON SALINAS NUBIA YOLANDA",
+          "location": [
+            396,
+            424
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GOMEZ PATIÑO DILIA PAOLA",
+      "mentions": [
+        {
+          "text": "GOMEZ PATIÑO DILIA PAOLA",
+          "location": [
+            425,
+            449
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "CUBILLOS CADENA ERIKA LILIANA",
+      "mentions": [
+        {
+          "text": "CUBILLOS CADENA ERIKA LILIANA",
+          "location": [
+            450,
+            479
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "ROCCA RIVERA LUIS ALFONSO",
+      "mentions": [
+        {
+          "text": "ROCCA RIVERA LUIS ALFONSO",
+          "location": [
+            480,
+            505
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "JOSE FELIPE ACEVEDO PEÑALOZA",
+      "mentions": [
+        {
+          "text": "JOSE FELIPE ACEVEDO PEÑALOZA",
+          "location": [
+            506,
+            534
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "LUIS FERNANDO",
+      "mentions": [
+        {
+          "text": "LUIS FERNANDO",
+          "location": [
+            535,
+            548
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            606,
+            625
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "22 DE JunIO DE 2011",
+      "mentions": [
+        {
+          "text": "22 DE JunIO DE 2011",
+          "location": [
+            777,
+            796
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "29 DE AGOSTO DE 2011",
+      "mentions": [
+        {
+          "text": "29 DE AGOSTO DE 2011",
+          "location": [
+            810,
+            830
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000051749199",
+      "mentions": [
+        {
+          "text": "000000051749199",
+          "location": [
+            172,
+            187
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "PABON MORA ALBERTO",
+      "mentions": [
+        {
+          "text": "PABON MORA ALBERTO",
+          "location": [
+            962,
+            980
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.CI",
+      "mentions": [
+        {
+          "text": "C.CI",
+          "location": [
+            981,
+            985
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000005554790",
+      "mentions": [
+        {
+          "text": "000000005554790",
+          "location": [
+            986,
+            1001
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GARZON SALINAS NUBIA YOLANDA",
+      "mentions": [
+        {
+          "text": "GARZON SALINAS NUBIA YOLANDA",
+          "location": [
+            1017,
+            1045
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C",
+      "mentions": [
+        {
+          "text": "C.C",
+          "location": [
+            1046,
+            1049
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000051749199",
+      "mentions": [
+        {
+          "text": "000000051749199",
+          "location": [
+            1050,
+            1065
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTANTE LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTANTE LEGAL",
+          "location": [
+            1092,
+            1111
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "17 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "17 DE MAYO DE 2018",
+          "location": [
+            2222,
+            2240
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+      "mentions": [
+        {
+          "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+          "location": [
+            2812,
+            2843
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "INSCRIPCION",
+      "mentions": [
+        {
+          "text": "INSCRIPCION",
+          "location": [
+            2844,
+            2855
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C」",
+      "mentions": [
+        {
+          "text": "C.C」",
+          "location": [
+            188,
+            192
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "7 DE MARZO DE 2003",
+      "mentions": [
+        {
+          "text": "7 DE MARZO DE 2003",
+          "location": [
+            2873,
+            2891
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "N.I.T.",
+      "mentions": [
+        {
+          "text": "N.I.T.",
+          "location": [
+            2892,
+            2898
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NIT"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "830117181-1",
+      "mentions": [
+        {
+          "text": "830117181-1",
+          "location": [
+            2901,
+            2912
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "22 DE FEBRERO DE 2018",
+      "mentions": [
+        {
+          "text": "22 DE FEBRERO DE 2018",
+          "location": [
+            3279,
+            3300
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE FEBRERO DE 2003",
+      "mentions": [
+        {
+          "text": "18 DE FEBRERO DE 2003",
+          "location": [
+            3691,
+            3712
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "7 DE MARZO DE 2003",
+      "mentions": [
+        {
+          "text": "7 DE MARZO DE 2003",
+          "location": [
+            3791,
+            3809
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+      "mentions": [
+        {
+          "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+          "location": [
+            3921,
+            3952
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "Constanza def Plar Trujillo",
+      "mentions": [
+        {
+          "text": "Constanza def Plar Trujillo",
+          "location": [
+            4057,
+            4084
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE ABRIL DE 2007",
+      "mentions": [
+        {
+          "text": "18 DE ABRIL DE 2007",
+          "location": [
+            4104,
+            4123
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+      "mentions": [
+        {
+          "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+          "location": [
+            4229,
+            4260
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000052476358",
+      "mentions": [
+        {
+          "text": "000000052476358",
+          "location": [
+            193,
+            208
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "DE:COLEGIO DE ABOGADOS DE COLOMBIA",
+      "mentions": [
+        {
+          "text": "DE:COLEGIO DE ABOGADOS DE COLOMBIA",
+          "location": [
+            4268,
+            4302
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2005/09/15",
+      "mentions": [
+        {
+          "text": "2005/09/15",
+          "location": [
+            4455,
+            4465
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2005/10/04",
+      "mentions": [
+        {
+          "text": "2005/10/04",
+          "location": [
+            4488,
+            4498
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2007/03/26",
+      "mentions": [
+        {
+          "text": "2007/03/26",
+          "location": [
+            4516,
+            4526
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2007/04/18",
+      "mentions": [
+        {
+          "text": "2007/04/18",
+          "location": [
+            4549,
+            4559
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_VIGENCIA",
+      "text": "VIGENCIA",
+      "mentions": [
+        {
+          "text": "VIGENCIA",
+          "location": [
+            4602,
+            4610
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE FEBRERO DE 2103",
+      "mentions": [
+        {
+          "text": "18 DE FEBRERO DE 2103",
+          "location": [
+            4667,
+            4688
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_VIGENCIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+      "mentions": [
+        {
+          "text": "COLEGIO DE ABOGADOS DE COLOMBIA",
+          "location": [
+            4711,
+            4742
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            6632,
+            6651
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "8424 (ADMINISTRACION DE JUSTICIA)",
+      "mentions": [
+        {
+          "text": "8424 (ADMINISTRACION DE JUSTICIA)",
+          "location": [
+            6653,
+            6686
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C",
+      "mentions": [
+        {
+          "text": "C.C",
+          "location": [
+            209,
+            212
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "24 DE ABRIL De 2015",
+      "mentions": [
+        {
+          "text": "24 DE ABRIL De 2015",
+          "location": [
+            6774,
+            6793
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "25 DE JUNIO DE 2015",
+      "mentions": [
+        {
+          "text": "25 DE JUNIO DE 2015",
+          "location": [
+            6807,
+            6826
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "17 DE MAYO DE 2018",
+      "mentions": [
+        {
+          "text": "17 DE MAYO DE 2018",
+          "location": [
+            7002,
+            7020
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE NOVIEMBRE | DE 1996",
+      "mentions": [
+        {
+          "text": "18 DE NOVIEMBRE | DE 1996",
+          "location": [
+            7303,
+            7328
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "18 DE FEBRERO DE 2003",
+      "mentions": [
+        {
+          "text": "18 DE FEBRERO DE 2003",
+          "location": [
+            7406,
+            7427
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "7 DE MARZO DE 2003",
+      "mentions": [
+        {
+          "text": "7 DE MARZO DE 2003",
+          "location": [
+            7441,
+            7459
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "FONSECA PINEDA WILSON ERNESTO",
+      "mentions": [
+        {
+          "text": "FONSECA PINEDA WILSON ERNESTO",
+          "location": [
+            7594,
+            7623
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C.",
+      "mentions": [
+        {
+          "text": "C.C.",
+          "location": [
+            7624,
+            7628
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000C19493655",
+      "mentions": [
+        {
+          "text": "000000C19493655",
+          "location": [
+            7629,
+            7644
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000052215819",
+      "mentions": [
+        {
+          "text": "000000052215819",
+          "location": [
+            213,
+            228
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C",
+      "mentions": [
+        {
+          "text": "C.C",
+          "location": [
+            229,
+            232
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "000000019455186",
+      "mentions": [
+        {
+          "text": "000000019455186",
+          "location": [
+            233,
+            248
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_DOCUMENTO_IDENTIDAD",
+      "text": "C.C",
+      "mentions": [
+        {
+          "text": "C.C",
+          "location": [
+            249,
+            252
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "CEDULA_CIUDADANIA"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CAMARA DE COMERCIO DE EOGOTA de Comercio sEDE virtuaL CODIGO VERIFICACION: A18509839CC7A5 17 DE MAYO DE 2018 AA1 8 5 0 9839 ORA 11:50:31 PAGINA: 2 de 3 DENTIFICACION c.c」 000000051749199 C.C」 000000052476358 C.C 000000052215819 C.C 000000019455186 C.C 000001018420445 NOMBRE MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA MIEMBRO JUNTA DIRECTIVA GARZON SALINAS NUBIA YOLANDA GOMEZ PATIÑO DILIA PAOLA CUBILLOS CADENA ERIKA LILIANA ROCCA RIVERA LUIS ALFONSO JOSE FELIPE ACEVEDO PEÑALOZA LUIS FERNANDO CERTIFICA: REPRESENTACIÓN LEGAL : EL PRESIDENTE SERÁ EL! REPRESENTANTE LEGAL TENDRÁ UN VICEPRESIDENTE QUE LO REEMPLAZARÀ EN SUS FALTAS TEMPORALES ABSOLUTAS CERTIFICA: *NOMBRAMIENTOS ** QUE POR ACTA No. 01 DE JuNTA DE Socios DEL 22 DE JunIO DE 2011, INSCRITA EL 29 DE AGOSTO DE 2011 BAJO EL NUMERф 00196420 DEL LIBRO ! DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) ŅΦΜΒRADO (S) ; NOMBRE DENTIFICACION PRESI DENTE PABON MORA ALBERTO C.CI 000000005554790 VICEPRESIDENTE GARZON SALINAS NUBIA YOLANDA C.C 000000051749199 CERTIFICA: FACULTADES DEL REPRESENTANTE LEGAL: EL DIRECTOR EJECUTIVO TeNDRA LAS FUNCIONES DE: 1. REPRESENTAR LEGALMENTE AL COLEGIO DE ABOGADOS DE COLoMBIA, Tanto JuDIcIAL coMo EXTRAJUDIcIALMENTE Y OTORGAR LOs pODERES GENErALES Y ESPECIALES NECESARIOS. 2. ABRIR Y MANEJAR LAS cuentAS BANCARIAS DEL COLEGIO.3. EJERCER LA SUPREMA INSPECCION VIGILANCIA DE TOD LOS ASUNTOS CONCERNIENTES AL COLEGIO. 4 BİANUAL A LA ASAMBLEA GENERAL, 5. PARTICIPAR Pok DERECHO PROPIO EN CUALQUIER COMISION E INTERVENIR CON VOZ УОТ DE ACUERDO CON EL TESORERO EL SISTEMA CONTABLE Y! DE RECAUDO DE LOS DINEROS DE LA SECCIONAL. 7. CONTROLAR Y D SUBALTERNO AL SERVICIO DEL COLEGIO COLOMBIA. 8. enVIAR MENSUALMENTE AL cOLEGIO D coLOMBIA EL POrCenTaJE SOBRE LOS INGRESOS pRDENADO POR LA JUNTA DIRECTIVA SEcCIONAL. 9. LAS DEMASs ESTATUTOs, LA ASAMBLEA GENERAL, EL cONSEJO EL CONSEJO DIRECTIVO NACIONAL DEL COLEGIO DE ABOGA COLOMBIA PRESENTAR UN|INFORME ESCRITO 6. ORGANIZA!R IRIGIR AL PERSONAL DE ABOGADOS ABOGADOS DE DE E SEÑALENLOs FUNDADORES O DOS DE CERTIFICA:  CAMARA DE COMERCIO DEBOGOTA Cámara de Comercio coDiGo vErificaciON: ahB5o9839cc7as SEDE VIRTUAL 8509839CC7A5 CO de Bogotá 17 DE MAYO DE 2018 ORA 11:50:31 AA18509839 PAGINA: 1 de 3 ESTE CERTIFICADO FUE GENERADO ELECTRÓNICAMENTE Y CUENTA CON UN CÓDIGO DE VERIFICACIÓN QUE LE PERMITE SER VALIDADO SOLO UNA VeZ, INGRESaNDO A WWw.cCB. ORG.CO RECUERDE QUE ESTE CERTIFICADO LO PUEDE ADQUIRIR DESDE SU CASAU OFICINA DE FORMA FÁCIL, RÁPIDA Y SEGURA EN Www.CCB. ORG.co PARA SU SEGURIDAD DEBE VERIFICAR LAVAL 1 DE AUTENTICIDAD DE ESTE CERTIFICADO SIN COSTO ALGUNO DE FORMA FACI WWW.CCB. ORG. CO/CERTIFICADOSELECTRONICOS/ RAPIDA Y SEGURA EN CERTIFICADO DE EXISTENCIA Y REPRESENTACION LEGAL DE LA ENTIDAD SIN ANIMO DE LUCRO: COLEGIO DE ABOGADOS DE COLOMBIA INSCRIPCION NO: S0019287 DEL 7 DE MARZO DE 2003 N.I.T. : 830117181-1 ADMINISTRACION : DIRECCION SECCIONAL DE IMPUESTOS DE BOGOTA TIPO ENTIDAD FUNDACIONES Y ENTIDADES DOMICILIO : BOGOTA D. C OTRAS ORGANIZACIONES CIVILES CORPORACIONES, EL SUSCRITO SECRETARIO DE LA CAMARA DE COMERCIO DE BOGOTA, EN EI EJERCICIO DE LA FACULTAD CONFERİDA POR LOS ARTÍCULOS 43 Y 144 DEL DECRETO NUMERO 2150 DE 1995 CERTIFICA: RENOVACION DE LA INSCRIPCION : 22 DE FEBRERO DE 2018 ULTIMO AÑO RENOVADO: ACTIVO TOTAL: 2,586, 830 PATRIMONIO 0 2018 CERTIFICA: 37-06 OF 202 DIRECCION DE NOTIFICACION JUDICIAL : CALLE 59 MUNICIPIO BOGOTA D.C EMAIL DE NOTIFICACION JUDICIAL : conciliacion.colabogados@gmai1.com DIRECCION COMERCIAL : CALLE 59 NO 37-06 OF 202 MUNICIPIO: BOGOTA D.C EMAIL: conciliacion.colabogados@gmail. com CERTIFICA: CONSTITUCION : QUE POR ACTA NO . 0000001 DE 18 DE FEBRERO DE 2003 OTORGADO (A) EN ASAMBLEA DE ASOCIADOS, INSC !TA EN ESTA CAMARA DE COMERCIO EL 7 DE MARZO DE 2003 BAJO EL NUMERO 00057667 DEL LIBrO I DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE CƠNSTITUÏDA LA ENTIDAD DENOMINADA COLEGIO DE ABOGADOS DE COLOMBIA CERTIFICA: QUE POR ACTA NO. 0000018 DE ASAMBLEA DE ASOC 1 DOS DEL 26 DE MARZO DE Signature Not Verified Constanza def Plar Trujillo  2007, INSCRITA EL 18 DE ABRIL DE 2007 BAJO EL NÚMERO 00115689 DEL LIBRO 1 DE LAS ENTIDADES SIN ANIMO DE LUCRO, LA ENTIDAD CAMBIO SU NOMBRE DE: COLEGIO DE ABOGADOS DE COLOMBIA POR EL DE:COLEGIO DE ABOGADOS DE COLOMBIA CERTIFICA: ENTIDAD QUE EJERCE LA FUNCION DE INSPECCION, VIGILANCIA Y CONTROL: ALCALDIA MAYOR DE BOGOTA CERTIFICA: REFORMAS: DOCUMENTO NO. FECHA 0000001 2005/09/15 ASAMBLEA DE ASOCIADOS 2005/10/04 00090414 0000018 2007/03/26 ASAMBLEA DE ASOCIADOS 2007/04/18 00115689 ORIGEN FECHA NO. INSC CERTIFICA: VIGENCIA: QUE LA ENTIDAD NO SE HALLA DISUELTA. DURACION HASTA EL 18 DE FEBRERO DE 2103 CERTIFICA: OBJETO: EL COLEGIO DE ABOGADOS DE COLOMBIA TIENE POR OBJETOVELAR POR LA VIGENCIA DEL ESTADO SOCIAL DE DERECHO EN EL PAIS, LA DEFENSA, PROTECCION PROMOCION DE LOS DERECHOS HUMANOS Ý EL ACCESO A LA JUSTICIA. ASIMISMO, PROMOVER EL DESARROLLO, LA PROTECCION Y EL PRESTIGIO DE LA PROFESION DE ABOGADO, LA INVESTIGACION CIENTIFICA DEL DERECHO Y EL BIENESTAR DE SUS MIEMBROS. PARA EL CUMPLIMIENTO DEL OBJETO ANTES DESCRITO, EL COLEGIO TENDRA, ENTRE OTRAS, LAS SIGUIENTES ACTIVIDADES DEFENDER Y FORTALECER EL ESTADO SOCIAL DE DERECHO. 2. DEFENDER, PROTEGER Y PROMOVER LOS DERECHOS HUMANOS Y EL ACCESO A LA JUSTICIA. 3. EJERCER LAS FUNCIONES PUBLICAS QUE LE ASIGNE LA LEY Y ACTUAR COMO ORGANO DE CONSULTA DE LAS RAMAS DEL PODER PUBLICO 4 PROMOVER EL ESTUDIO DE LOS PROBLEMAS QUE SE RELACIONAN cON LAS DISCIPLINAS JURIDICAS CORRESPONDA, PROYECTOS DE MODIFICACIONES LEGALES O REGLAMENTARIA!S Y FORMULAR RECOMENDACIONES PARA EL MEJORAMIENTODE LA ADMINISTRACION DE JUSTICIA. 5, RECOMENDAR NOrMAS QUE REGULEN LAS RELACIONES DEL ABOGADO CON SU CLIENTE Y ESTABLECER BAREMOS ORIENTADORES SOBRE HONORARIOS PROFESIONALES. 6, VELAR POR UN COMPORTAMIENTO ETICO DE LoS ABOGADOS.7. REPRESENTAR A LOS COLEGIADOS QUE Lo SOLICITEN EN LOS RECURSos o RECLAMACIONES QUE PRESENTEN ANTE LOS TRIBUNALES DE JUSTICIA o ANTE LAS AUTORIDADES ADMINISTRATIVAS, CUANDO EN EL EJERCICIO DE LA PROFESION SEAN OBJETO DE ABUsOs o MALOS TRATOS. ASIMISMO, TOMAR LA VOcERIA DE LOS COLEGIADOS EN DEFENSA DE sus INTERESES ANTE CUALQUIER ENTIDAD PUBLICA O PRIVADA. 8. FOMENTAR LA CONCIENCIA GREMIAL DEL ABOGADO Y PrOCURAR SU BIENESTAR. LOS COLEGIADOS MEDIANTE SEMINARIOS, CURSOS DE ESPECIALIZACION CONFERENCIAS, PUBLICACIONES PERIODICAS DEMAS ACTIVIDADES DE ESTE GENERO. 10. cuaNTas oTRAS FUNcIONES REDUNDEN en BENEFICIO DE LOS INTERESES DE LA PROFESION, DE LOS COLEGIADOS Y DEMAS FINES DE LA ABOGACIA PROPONER ALAS AUTORIDADES QUE 9. PROCURAR EL PROGRESO INTELECTUAL DE CERTIFICA: ACTIVIDAD PRINCIPAL: 8424 (ADMINISTRACION DE JUSTICIA) CERTIFICA: ** ORGANOS DE ADMINISTRACION ** QUE POR ACTA NO. 01 DE AsAMBLEA GENERAL DeL 24 DE ABRIL De 2015, INSCRITA EL 25 DE JUNIO DE 2015 BAJO EL NuMERO 00251288 DEL LIBRO I DE LAS ENTIDADES SIN ANIMO DE LUCRO, FUE (RON) NOMBRADO (S) :  CAMARA DE COMERCIO DE EOGOTA SEDE VIRTUAL CODIGO VERIFICACION: 8509839CC7A5 17 DE MAYO DE 2018 HORA 11:50:31 AA18509839 Cámara de Comercio PAGINA: 3 de 3 CUENTA con PLENA validez JUridica coNFOrME A LA LEY 527 DE 1999. FIRMA MECANICA DE CONFORMIDAD CON EL DECRETO 2150 DE 1995 Y LA AUTORIZACION IMPARTIDA POR LA SUPERINTENDENCIA DE INDUSTRIA Y COMERCIO, MEDIANTE EL OFICIO DEL 18 DE NOVIEMBRE | DE 1996.  *REVISORIA FISCAL ** QUE POR ACTA NO. 0000001 DE ASAMBLEA DF ASOCIADOS DEL 18 DE FEBRERO DE 2003, INSCRITA EL 7 DE MARZO DE 2003 BAJO EL NUMERO 00057667 DEL LIBRO I DE LAS ENTIDADES SIN ANIMO DE LUCRQ, FUE (RON) NOMBRADO (S): NOMBRE IDENTIFICACION REVISOR FiSCAL FONSECA PINEDA WILSON ERNESTO C.C. 000000C19493655 CERTIFICA: QUE EN ESTA CAMARA DE COMERCIO NO APARECEN INSCRIPCIONES POSTERIORES DE DOCUMENTOSREFERENTES A REFORMA, DISOLUCION LIQUIDACION O NOMBRAMIENTOS DE REPRESENTANTES LEGALES DE LA MENCIONADA ENTIDAD CERTIFICA EL REGISTRO ANTE LAS CAMARAS DE COMERCIO NO CONSTITUYE APROBACION DE ESTATUTOS. (DECRETC 2150 DE Í995 Y DECRETO 427 DE 1996 LA ?ERSONA JURIDICA DE QUE TRATA ESTE CERTIFICADO SE ENCUENTRA SUJETA A LA INSPECCION, VIGILANCIA Y CONTROL DE LAS AUTORIDADES QUE EJERCEN ESTA FUNCION, POR LO TANTO DEBERA PRESENTAR ANTE LA AUTORIDAD CORRESPONDIENTE, EL CERTIFICADO DE REGISTRO RESPECTIVO, EXPEDIDO POR LA CAMARA DE COMERCIO, DENTRO DE LOS 1G DIAS HABILES SIGUIENTES A LA FECHA DE INSCRIPCION, MAS EL TERMINO DE LA DISTANCIA CUANDO EL DOMICILIO DE LA PERSONA JURIDICA SIN ANIMO DE LUCRO QỤE SE REGISTRA ES DIFERENTE AL DE LA CAMARA DE COMEPCIO QUE LE CORRESPONDE. EN EL CASO DE REFORMAS ESTATUTARIAS ADEMAS SE AL.LEGARA COPIA DE LOS ESTATUTOS TCDA AUTORIZACION, FERMISO, LICENCIP. O RECONOCIMIENTO DE CARACTER OFICIAL, SE TRAMITARA CON POSTERIORIDAD A LA INSCRIPCION DE LAS PERSONAS JURIDICAS SIN ANIMO DE LUCRO EN LA RESPECTIVA CAMARA DE COMERCTO CERTIFICA: DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCiOSO ADMINISTRATIVO Y DE LA LEY 962 DE 2005, LOS ACTOS ADMINISTRATIVOS DE REGISTRO AQUI CERTIFICADOS QUEDAN EN FIRME DIEZ (10) DIAS HABILES DESPUES DE LA FECHA DE LA CORRESPONDIENTE ANOTACTÃ\"N· SIEMPRE QUE NO SEAN OBJETO DE RECURSO (LOS SABADOS NO SON TENIDOS EN CUENTA CCMO DIAS HABILES PARA LA CAMARA DE COMERCIO DE BOGOTA *EL PRESENTE CERTIFICADC NO CONSTITUYE PERMISO DE FUNCIONAMIENTO EN NINGUN CASO ESTE CERTIFICADO REFLEJA LA SITUACION JURIDICA DE LA ENTIDAD SIN ANIMO DE LUCRO HASTA LA FECHA Y HORA DE SJ EXPEDICION. ** EL SECRETARIO DE LA CAMARA DE COMERCIO DE BOGOTA, VALOR : $ 5, 500 PARA VERIFICAR QUE EL coNTENIDO DE ESTE CeRtIFICAdo corRESPONDA con LA INFORMACION QUE REPOSA EN LOS REGISTROS PUBLICOS DE LA CAMARA DE coMERCIO DE BOGoTA, EL coDiGo DE vERIFICACION PUEDE SER ValIDADO POR SU DESTINATARIO SOLO UNA VEZ, INGRESANDO A WWW. CCB.ORG . CO ESTE CERTIFICADo FUE GENERADO ELECTRONICaMente coN FIrMA DIGITAL y "
+}

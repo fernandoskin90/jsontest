@@ -1,0 +1,593 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 9344,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "es_titulo_de_fecha_matricula",
+      "sentence": "Este certificado, que podrá ser validado por una única vez, corresponde a la imagen y contenido del certificado creado en el momento en que se generó en las taquillas o a través de la plataforma virtual de la Cámara CERTIFICADO DE REGISTRO MERCANTIL CERTIFICA NOMBRE IDENTIFICACION MATRICULA NUMERO ACTIVOS CORREO ELECTRONICO GONZALEZ VILLADIEGO HAROLD ENRIQUE N 1143350006 5 09-345482-01 de Mayo 27 de 2015 $1,400,000 hgonzalez0420@hotmail.com CERTIFICA Fecha de Renovación: Enero 17 de 2017 ACTIVIDAD ECONOMICA CODIGO CIIU VERSION 4.0 A.C 4752: Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados CERTIFICA PEQUEÑA EMPRESA: De conformidad con lo declarado en el formulario de matrícula y su anexo, el comerciante manifestó cumplir con los requisitos de diciembre 29 de 2010 previstos en el numeral 1° del Articulo 2°",
+      "score": 0.72838,
+      "arguments": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            715,
+            724
+          ],
+          "entities": [
+            {
+              "type": "TITULO_FECHA_MATRICULA",
+              "text": "MATRICULA",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Mayo 27 de 2015",
+          "location": [
+            825,
+            840
+          ],
+          "entities": [
+            {
+              "type": "FECHA",
+              "text": "Mayo 27 de 2015",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_FECHA_MATRICULA"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": "J LOTE 12 TURBACO, BOLIVAR, COLOMBIA CERTIFICA Páglna: 1de 3 Scanned by CamScanner  CAMARA DE COMERCIO DE CARTAGENA Certificado generado a través de taquillas Lugar y fecha: Número de radicado: Cartagena, 2018/03/20 Hora: 11:20 0005409383 - KBOSSIO Página:2 Cámara de Comercio de Cartagena Código de verificación: VoKCTdYlnmbaflik Copia: 1 de 1 DIRECCIÓN (ES) ELECTRONICA PARA NOTIFICACION JUDICIAL hgonzalez0420@hotmail.com CERTIFICA ESTABLECIMIENTO (S) DE COMERCIO NOMBRE FERRERGONZALEZ Establecimiento-Principal CARRETERA TRONCAL K 014 A 028 030 FRENTE LA BOMBA ESSO TURBACO 09-345483-02 de Mayo 27 de 2015 Enero 22 de 2018 DIRECCIÓN CIUDAI MATRICULA NUMERO RENOVACION MATRÍCULA ACTIVOS CORREO ELECTRONICO $1,500,000 hgonzalez0420@hotmail.com ACTIVIDAD ECONÓMICA CÓDIGO CIIU yERSTỔN 4.0 A.C Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados 4752:",
+      "score": 0.96287,
+      "arguments": [
+        {
+          "text": "COMERCIO NOMBRE",
+          "location": [
+            3517,
+            3532
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "COMERCIO NOMBRE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "FERRERGONZALEZ",
+          "location": [
+            3533,
+            3547
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "FERRERGONZALEZ",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "2018/01/17",
+      "mentions": [
+        {
+          "text": "2018/01/17",
+          "location": [
+            134,
+            144
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            715,
+            724
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Enero 22 de 2018",
+      "mentions": [
+        {
+          "text": "Enero 22 de 2018",
+          "location": [
+            2560,
+            2576
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACTIVIDAD ECONÓMICA CóDIGo CIIU VERSIÓN 4.0 A.c 4752: Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD ECONÓMICA CóDIGo CIIU VERSIÓN 4.0 A.c 4752: Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+          "location": [
+            2577,
+            2746
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "diciembre 29 de 2010",
+      "mentions": [
+        {
+          "text": "diciembre 29 de 2010",
+          "location": [
+            2903,
+            2923
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2018/03/20",
+      "mentions": [
+        {
+          "text": "2018/03/20",
+          "location": [
+            3264,
+            3274
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "COMERCIO NOMBRE",
+      "mentions": [
+        {
+          "text": "COMERCIO NOMBRE",
+          "location": [
+            3517,
+            3532
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "FERRERGONZALEZ",
+      "mentions": [
+        {
+          "text": "FERRERGONZALEZ",
+          "location": [
+            3533,
+            3547
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Mayo 27 de 2015",
+      "mentions": [
+        {
+          "text": "Mayo 27 de 2015",
+          "location": [
+            3653,
+            3668
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Enero 22 de 2018",
+      "mentions": [
+        {
+          "text": "Enero 22 de 2018",
+          "location": [
+            3669,
+            3685
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACTIVIDAD ECONÓMICA CÓDIGO CIIU yERSTỔN 4.0 A.C Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados 4752",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD ECONÓMICA CÓDIGO CIIU yERSTỔN 4.0 A.C Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados 4752",
+          "location": [
+            3805,
+            3973
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2018/01/17",
+      "mentions": [
+        {
+          "text": "2018/01/17",
+          "location": [
+            5144,
+            5154
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GONZALEZ VILLADIEGO HAROLD ENRIQUE",
+      "mentions": [
+        {
+          "text": "GONZALEZ VILLADIEGO HAROLD ENRIQUE",
+          "location": [
+            759,
+            793
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2018/03/20",
+      "mentions": [
+        {
+          "text": "2018/03/20",
+          "location": [
+            6194,
+            6204
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2018/01/17",
+      "mentions": [
+        {
+          "text": "2018/01/17",
+          "location": [
+            7477,
+            7487
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "FERRERGONZALEZ",
+      "mentions": [
+        {
+          "text": "FERRERGONZALEZ",
+          "location": [
+            7664,
+            7678
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Mayo 27 de 2015",
+      "mentions": [
+        {
+          "text": "Mayo 27 de 2015",
+          "location": [
+            7785,
+            7800
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Enero 17 de 2017",
+      "mentions": [
+        {
+          "text": "Enero 17 de 2017",
+          "location": [
+            7801,
+            7817
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACTIVIDAD ECONÓMICA CÓDIGOo CIIU VERSIÓN 4.0 A.C Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados 4752 Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD ECONÓMICA CÓDIGOo CIIU VERSIÓN 4.0 A.C Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados 4752 Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+          "location": [
+            7938,
+            8223
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Mayo 27 de 2015",
+      "mentions": [
+        {
+          "text": "Mayo 27 de 2015",
+          "location": [
+            825,
+            840
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Enero 17 de 2017",
+      "mentions": [
+        {
+          "text": "Enero 17 de 2017",
+          "location": [
+            909,
+            925
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "ACTIVIDAD ECONOMICA CODIGO CIIU VERSION 4.0 A.C 4752: Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD ECONOMICA CODIGO CIIU VERSION 4.0 A.C 4752: Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados",
+          "location": [
+            926,
+            1095
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "diciembre 29 de 2010",
+      "mentions": [
+        {
+          "text": "diciembre 29 de 2010",
+          "location": [
+            1252,
+            1272
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2018/03/20",
+      "mentions": [
+        {
+          "text": "2018/03/20",
+          "location": [
+            1644,
+            1654
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "GONZALEZ VILLAD",
+      "mentions": [
+        {
+          "text": "GONZALEZ VILLAD",
+          "location": [
+            2359,
+            2374
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_PERSONA_NATURAL"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Mayo 27 de 2015",
+      "mentions": [
+        {
+          "text": "Mayo 27 de 2015",
+          "location": [
+            2428,
+            2443
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " DAVIVIENDA 09 08 003DN03121123 DE CARTAGENA Certificado generado a través de taquillas Lugar y fecha: Número de radicado: Cartagena, 2018/01/17 Hora: 13:58 0005223926KBOSSIOPágina: 1 Camara de ComErcio Código de verificación: eljjaokoljJclnjd de Cartagena 1 Copia: 1 de Para verificar el contenido y confiabilidad de este certificado, ingrese a http://serviciosvirtuales.cccartagena.org.co/e-cer y digite el código de verificación. Este certificado, que podrá ser validado por una única vez, corresponde a la imagen y contenido del certificado creado en el momento en que se generó en las taquillas o a través de la plataforma virtual de la Cámara CERTIFICADO DE REGISTRO MERCANTIL CERTIFICA NOMBRE IDENTIFICACION MATRICULA NUMERO ACTIVOS CORREO ELECTRONICO GONZALEZ VILLADIEGO HAROLD ENRIQUE N 1143350006 5 09-345482-01 de Mayo 27 de 2015 $1,400,000 hgonzalez0420@hotmail.com CERTIFICA Fecha de Renovación: Enero 17 de 2017 ACTIVIDAD ECONOMICA CODIGO CIIU VERSION 4.0 A.C 4752: Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados CERTIFICA PEQUEÑA EMPRESA: De conformidad con lo declarado en el formulario de matrícula y su anexo, el comerciante manifestó cumplir con los requisitos de diciembre 29 de 2010 previstos en el numeral 1° del Articulo 2° de la Ley 1429 CERTIFICA DIRECCIóN (Es) pArA NOTIFICACIÓN JUDICIAL URB. LA GRANJA CL 34 MZ. J LOTE 12 TURBACO, BOLIVAR, COLOMBIA CERTIFICA DIRECCIóN (ES) ELECTRONICA PARA NOTIFICACIÓN JUDICIAL hgonzalez0420@hotmail.com Página: 1de 3  DE COMERCIO Dz CaRTAGENA Certificado generado a través de taquillas Lugar y £echa: Cartagena, 2018/03/20 Hora: 11:20 0005405383-..20SSIO Pagina : Código de verificación: V0%CTdT Inmbatlik Copia: СЕ Para ソerificar el contenido y confiabilidad de este certificado , ingrese a http://serviciosvirtuales.cccartagena.org.co/e-cer y digite ei cóaigo de verificación. Este certificado, que podrá ser valicado por una áinica vez, corresponde a la imagen y contenido del certificado creaáo en ei momento en que se generó en las taquillas o a través de la pla-aforma :virtual de la Cámara. LA MATRÍCULA MERCANTIL PROPORCIONA SEGURIDAD ỵ CONFIANZA EX LOS NEGOCIOS. RENUEVE SU MATRÍCULA A MAS TARDAR EL 21 DE MARZO 727172 SANCIOiES DE HASTh 17 S.M.L.M.V CERTIPICADO DE REGISTRO MERCHNTIL CERTIFICA NOMBR!E IDENTIFICKCION GONZALEZ VILLAD 1 EGO HAROLD ENP. QŪE N 1143350006-5 09-345482-01 de Mayo 27 de 2015 | MATRICULA NUMERO ACTIVOS CORREO ELECTRONICO $1,500, 000 hgonzalez04203hotmail.com CERTIFICA Fecha de Ren vación : Enero 22 de 2018 ACTIVIDAD ECONÓMICA CóDIGo CIIU VERSIÓN 4.0 A.c 4752: Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados CERTIFICA PEQUENA EMPRESA: De conformidad con lo declarado en el formulario de matricula y su anexo, el comerciante manifestó cumplir con los requisltos de diciembre 29 de 2010 previstos en el numeral 1° del Articulo 2° de la Ley 1429 CERTIFICA DIRECCIÓN (ES) pARA NOTIFICACIÓN JUDICIAL URB. LA GRANJA CL 34 MZ. J LOTE 12 TURBACO, BOLIVAR, COLOMBIA CERTIFICA Páglna: 1de 3 Scanned by CamScanner  CAMARA DE COMERCIO DE CARTAGENA Certificado generado a través de taquillas Lugar y fecha: Número de radicado: Cartagena, 2018/03/20 Hora: 11:20 0005409383 - KBOSSIO Página:2 Cámara de Comercio de Cartagena Código de verificación: VoKCTdYlnmbaflik Copia: 1 de 1 DIRECCIÓN (ES) ELECTRONICA PARA NOTIFICACION JUDICIAL hgonzalez0420@hotmail.com CERTIFICA ESTABLECIMIENTO (S) DE COMERCIO NOMBRE FERRERGONZALEZ Establecimiento-Principal CARRETERA TRONCAL K 014 A 028 030 FRENTE LA BOMBA ESSO TURBACO 09-345483-02 de Mayo 27 de 2015 Enero 22 de 2018 DIRECCIÓN CIUDAI MATRICULA NUMERO RENOVACION MATRÍCULA ACTIVOS CORREO ELECTRONICO $1,500,000 hgonzalez0420@hotmail.com ACTIVIDAD ECONÓMICA CÓDIGO CIIU yERSTỔN 4.0 A.C Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados 4752: Comercio al por menor de artículos de ferreteria, pinturas y productos de vidrio en establecimientos especializados CERTIFICA PROCEDENCIA DE LOs ANTERIORES DATOS: Que la informacion anterior ha sido tomada directamente del formulario de atricula, y sus renovaciones posteriores diligenciado por el comerciante De conformidad con lo establecido en el articulo 76 del código de procedimiento administrativo y de lo contencioso y de la ley 962 de 2005, 1os actos administrativos de registro aquí certificados quedan en firme transcurridos diez (10) días hábiles contados a partir del dia siguiente de la fecha de inscripción, siempre que no sean objeto de recursos en via gubernativa. La información sobre contratos sujetos a registro se suministra en Certificado Especial. El secretario de la Cámara de Comercio de Cartagena autoriza con su firma el presente certificado De conformidad con el decreto 2150 de 1995, la firma mecánica que aparece a continuación tiene plena validez para todos los efectos legales. Página: 2 de 3 Scanned by CamScanner  CâMara DE COMERCIO De CarTAGENA Certificado generado a través de taquillas Lugar y fecha: Número de radicado: Cartagena, 2018/01/17 Hora: 13:58 0005223926 - KBOSSIO Página: 3 Cámara de Comercio de Cartagena Código de verificación: eljjaokoljJclnjd Copia: 1 de1 Comercio de Cartagena, como la firma digital y la respectiva estamp cronológica, las cuales podrá verificar a través de su aplicativo visor de documentos PDF Si usted expidió el certificado a través de la plataforma virtual puede imprimirlo con la certeza de que fue expedido por la Cámara de Comercio de Cartagena. La persona o entidad a la que usted le va a entregar el certificado puede verificar, por una sola vez, su contenido ingresando a http://serviciosvirtuales.cccartagena.org.co/e-cer y digitando el código de verificación que se encuentra en el encabezado del presente documento. El certificado a validar corresponde a la imagen y contenido del certificado creado en el momento en que se generó en las taquillas o a través de la plataforma virtual de la Cámara Página: 3de 3  CAMARA DE COMERCIO DE CARTAGENA Certificado generado a través de taquillais Lugar y fecha: Número de radicado: Cartagena, 2018/03/20 Hora: 11:20 0005409383 - KBOSSIO Página: Cánara de Comercio de Cartegsna Código de verificación: VoKCTdYlnmbaflik Copia: 1 de 1 Este certificado cuenta con plena validez juridica según lo dispuesto ern la ley 527 de 1999. En él se incorporan tanto la firma mecánica que es una representación gráfica de la firma del Secretario de la cámara de Comercio de Cartagena, como la firma digital y la respectiva estampa cronológica, las cuales podrá verificar a través de su aplicativo visoir de documentos PDF Si usted expidió el certificado a través de la plataforma virtual puede imprimirlo con la certeza de que fue expedido por la Cámara de Comercio de Cartagena. La persona o entidad a la que usted le va a entregar el certificado puede verificar, por una sola vez, su contenido ingresando a http: //serviciosvirtuales.cccartagena.org.co/e-cer y digitando el código de verificación que se encuentra en el encabezado del presente documento. El certificado a validar corresponde a la imagen y contenido del certificado cread en el momento en gue se generó en las taquillas a través de la plataforma virtual de la Cámara. Página: 3de 3 Scanned by CamScanner  CAMARA DE COMERCIODE CARTAGENA Certificado generado a través de taquillas Lugar y fecha: Númerode radicado Cartagena, 2018/01/17 Hora: 13:58 0005223926 KBOSSIO Página 2 Cámara de Comercio Código de verificación: eljjaOkoljJclnjd de Cartagena 1 Copia: 1 de CERTIFICA ESTABLECIMIENTO (S) DE COMERCIO NOMBRE FERRERGONZALEZ Establecimiento- Principal CARRETERA TRONCAL K 014 A 028 030 FRENTE LA BOMBA ESSO TURBACO 09-345483-02 de Mayo 27 de 2015 Enero 17 de 2017 DIRECCIÓN CIUDAID MATRICULA NUMERO RENOVACION MATRICULA ACTIVOS CORREO ELECTRONICO $1,400,000 hgonzalez0420@hotmail.com ACTIVIDAD ECONÓMICA CÓDIGOo CIIU VERSIÓN 4.0 A.C Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados 4752 Comercio al por menor de articulos de ferretería, pinturas y productos de vidrio en establecimientos especializados CERTIFICA PROCEDENCIA DE LOS ANTERIORES DATOS : Que 1a1nformaci n anterior ha sidotomada directamente del renovaciones posteriores diligenciado por el comerciante formulario de matricula, y sus De conformidad con lo establecido en el articulo 76 del código de procedimiento administrativo y de lo contencioso y de la ley 962 de 2005, los actos administrativos de registro aqui certificados quedan en firme transcurridos diez (10) dias hábiles contados a partir del dia siguiente de la fecha de inscripción, siempre que no sean objeto de recursos en via gubernativa La información sobre contratos sujetos a registro se suministra en Certificado Especial El secretario de la Cámara de Comercio de Cartagena autoriza con su firma el presente certificado De conformidad con el decreto 2150 de 1995, la firma mecánica que aparece a continuación tiene plena validez para todos los efectos legales Este certificado cuenta con plena validez juridica según lo dispuesto en la ley 527 de 1999. En él se incorporan tanto la firma mecánica que es una representación gráfica de la firma del Secretario de la Cámara de Página: 2 de 3 "
+}

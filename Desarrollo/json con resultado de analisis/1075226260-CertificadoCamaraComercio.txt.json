@@ -1,0 +1,546 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 5051,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "es_actividad_principal",
+      "sentence": "1-21 TELEFONO 1: 8361010 BARRIO NOTIFICACION: CENTRO MUNICIPIO : PITALITO E-MAIL COMERCIAL sandra.plazas@hotmail.com E-MAIL NOTIFICACION JUDICIAL sandra.plazas@hotmail.com CERTIFICA RENOVACION DE LA MATRICULA: EL 22 DE MARZO DE 2016 ULTIMO ANO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4541 ACCESORIOS COMERCIO DE MOTOCICLETAS DE SUS PARTES PIEZAS Y TOTAL ACTIVOS: $ 8,000,000.00 CERTIFICA PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE: MOTOS Y REPUESTOS PITALITO DIRECCION: CARRERA 4 NO.",
+      "score": 0.989076,
+      "arguments": [
+        {
+          "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS DE SUS PARTES PIEZAS Y",
+          "location": [
+            1201,
+            1264
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS DE SUS PARTES PIEZAS Y",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1180,
+            1199
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_titulo_de_empresa",
+      "sentence": "1-21 TELEFONO 1: 8361010 BARRIO NOTIFICACION: CENTRO MUNICIPIO : PITALITO E-MAIL COMERCIAL sandra.plazas@hotmail.com E-MAIL NOTIFICACION JUDICIAL sandra.plazas@hotmail.com CERTIFICA RENOVACION DE LA MATRICULA: EL 22 DE MARZO DE 2016 ULTIMO ANO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4541 ACCESORIOS COMERCIO DE MOTOCICLETAS DE SUS PARTES PIEZAS Y TOTAL ACTIVOS: $ 8,000,000.00 CERTIFICA PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE: MOTOS Y REPUESTOS PITALITO DIRECCION: CARRERA 4 NO.",
+      "score": 0.991524,
+      "arguments": [
+        {
+          "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+          "location": [
+            1335,
+            1371
+          ],
+          "entities": [
+            {
+              "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+              "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "MOTOS Y REPUESTOS PITALITO",
+          "location": [
+            1373,
+            1399
+          ],
+          "entities": [
+            {
+              "type": "EMPRESA",
+              "text": "MOTOS Y REPUESTOS PITALITO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "1 de 3  Camara de Comercio de Neiva CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES (SII) CERTIFICADO DE MATRICULA MERCANTIL EDUARD ANCIZAR PLAZAS GUTIERREZ Fecha expedición: 2016/03/22 -15:41:25, Recibo No. R002425641, Operación No. 01KDV0322031 Cámara CODIGO DE VERIFICACIÓN: jhQ2CRgB2nm LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIoS RENUEVE SU MATRÍCULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.v dh Comrch de Neva ACTIVIDAD PRINCIPAL: 4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y NOMBRE MOTO JAPONESA AUTECO ORIGINAL DIRECCION: CARRERA 4 NO.",
+      "score": 0.965127,
+      "arguments": [
+        {
+          "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y NOMBRE MOTO JAPONESA AUTECO",
+          "location": [
+            2192,
+            2286
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y NOMBRE MOTO JAPONESA AUTECO",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2171,
+            2190
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "es_actividad_principal",
+      "sentence": "1-70 TELEFONO 1: 8360902 BARRIO: MUNICIPIO : PITALITO MATRICULA NO: 00252152 DEL 29 DE ENERO DE 2014 RENOVO EL ANO 2016 EL 22 DE MARZO DE 2016 ACTIVOS VINCULADOS AL ESTABLECIMIENTO : $ 3,000, 000 ACTIVIDAD PRINCIPAL: 4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y CERTIFICA: LA INFORMACION ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRICULA DILIGENCIADO POR EL COMERCIANTE DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSo Y DE LA LEY 962 DE 2005, LOS ACTOS ADMINISTRATIVOS DE REGISTRO AQUÍ CERTIFICADOS QUEDAN EN FIRME DIEZ (10) DIAS HABILES DESPUES DE LA FECHA DE INSCRIPCION SIEMPRE QUE NO SEAN OBJETO DE RECURSOS VALOR DEL CERTIFICADO: $2,400 IMPORTANTE:",
+      "score": 0.99802,
+      "arguments": [
+        {
+          "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y",
+          "location": [
+            2538,
+            2604
+          ],
+          "entities": [
+            {
+              "type": "ACTIVIDAD",
+              "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2517,
+            2536
+          ],
+          "entities": [
+            {
+              "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+              "text": "ACTIVIDAD PRINCIPAL",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "2016/03/22",
+      "mentions": [
+        {
+          "text": "2016/03/22",
+          "location": [
+            184,
+            194
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "00001075226260-3",
+      "mentions": [
+        {
+          "text": "00001075226260-3",
+          "location": [
+            677,
+            693
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "22 DE MARZO DE 2016",
+      "mentions": [
+        {
+          "text": "22 DE MARZO DE 2016",
+          "location": [
+            1597,
+            1616
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2016/03/22",
+      "mentions": [
+        {
+          "text": "2016/03/22",
+          "location": [
+            1876,
+            1886
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2171,
+            2190
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y NOMBRE MOTO JAPONESA AUTECO",
+      "mentions": [
+        {
+          "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y NOMBRE MOTO JAPONESA AUTECO",
+          "location": [
+            2192,
+            2286
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "29 DE ENERO DE 2014",
+      "mentions": [
+        {
+          "text": "29 DE ENERO DE 2014",
+          "location": [
+            2402,
+            2421
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_FECHA_MATRICULA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "22 DE MARZO DE 2016",
+      "mentions": [
+        {
+          "text": "22 DE MARZO DE 2016",
+          "location": [
+            2444,
+            2463
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            2517,
+            2536
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y",
+      "mentions": [
+        {
+          "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y",
+          "location": [
+            2538,
+            2604
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2016/03/22",
+      "mentions": [
+        {
+          "text": "2016/03/22",
+          "location": [
+            4744,
+            4754
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_FECHA_MATRICULA",
+      "text": "MATRICULA",
+      "mentions": [
+        {
+          "text": "MATRICULA",
+          "location": [
+            716,
+            725
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "25 DE JULIO DE 2006",
+      "mentions": [
+        {
+          "text": "25 DE JULIO DE 2006",
+          "location": [
+            743,
+            762
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "22 DE MARZO DE 2016",
+      "mentions": [
+        {
+          "text": "22 DE MARZO DE 2016",
+          "location": [
+            1135,
+            1154
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_ACTIVIDAD_PRINCIPAL",
+      "text": "ACTIVIDAD PRINCIPAL",
+      "mentions": [
+        {
+          "text": "ACTIVIDAD PRINCIPAL",
+          "location": [
+            1180,
+            1199
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "ACTIVIDAD",
+      "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS DE SUS PARTES PIEZAS Y",
+      "mentions": [
+        {
+          "text": "4541 ACCESORIOS COMERCIO DE MOTOCICLETAS DE SUS PARTES PIEZAS Y",
+          "location": [
+            1201,
+            1264
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TITULO_NOMBRE_O_RAZON_SOCIAL",
+      "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+      "mentions": [
+        {
+          "text": "ESTABLECIMIENTOS DE COMERCIO: NOMBRE",
+          "location": [
+            1335,
+            1371
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "MOTOS Y REPUESTOS PITALITO",
+      "mentions": [
+        {
+          "text": "MOTOS Y REPUESTOS PITALITO",
+          "location": [
+            1373,
+            1399
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "25 DE JULIO DE 2006",
+      "mentions": [
+        {
+          "text": "25 DE JULIO DE 2006",
+          "location": [
+            1504,
+            1523
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " Camara de Comercio de Neiva CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES (SIl) CERTIFICADO DE MATRICULA MERCANTIL EDUARD ANCIZAR PLAZAS GUTIERREZ Fecha expedición: 2016/03/22 -15:41:25, Recibo No. R002425641, Operación No. 01KDV0322031 Cámara de Comec d Neva CODIGO DE VERIFICACIÓN: jhQ2CRgB2m LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRÍcULA A MAS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.\\v CERTIFICADO DE MATRICULA DE PERSONA NATURAL LA CAMARA DE COMERCIO DE NEIVA , CON FUNDAMENTO EN LAS MATRICULAS DEL REGISTRO MERCANTIL, CERTIFICA: NOMBRE : PLAZAS GUTIERREZ EDUARD ANCI ZAR С.С N. I.T. :00001075226260-3 ADMINISTRACION: NEIVA MATRICULA NO: 00162994 DEL 25 DE JULIO DE 2006 DIRECCION: CARRERA 4 NO. 1-21 TELEFONO 1 8361010 BARRIO: MUNICIPIO : PITALITO 01075226260 : CENTRO CERTIFICA: DIRECCION DE NOTIFICACION JUDICIAL CARRERA 4 NO. 1-21 TELEFONO 1: 8361010 BARRIO NOTIFICACION: CENTRO MUNICIPIO : PITALITO E-MAIL COMERCIAL sandra.plazas@hotmail.com E-MAIL NOTIFICACION JUDICIAL sandra.plazas@hotmail.com CERTIFICA RENOVACION DE LA MATRICULA: EL 22 DE MARZO DE 2016 ULTIMO ANO RENOVADO 2016 ACTIVIDAD PRINCIPAL: 4541 ACCESORIOS COMERCIO DE MOTOCICLETAS DE SUS PARTES PIEZAS Y TOTAL ACTIVOS: $ 8,000,000.00 CERTIFICA PROPIETARIO DE LOS SIGUIENTES ESTABLECIMIENTOS DE COMERCIO: NOMBRE: MOTOS Y REPUESTOS PITALITO DIRECCION: CARRERA 4 NO. 1-21 TELEFONO 1 : 8361010 BARRIO MUNICIPIO PITALITO MATRICULA NO: 00162996 DEL 25 DE JULIO DE 2006 RENOVO EL AÑO 2016 ACTIVOs VINCULADOS AL ESTABLECIMIENTO : $ : CENTRO EL 22 DE MARZO DE 2016 5,000,000 Fecha de Certificación: Tue Mar 22 15:41:27 COT 2016 Pag. 1 de 3  Camara de Comercio de Neiva CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES (SII) CERTIFICADO DE MATRICULA MERCANTIL EDUARD ANCIZAR PLAZAS GUTIERREZ Fecha expedición: 2016/03/22 -15:41:25, Recibo No. R002425641, Operación No. 01KDV0322031 Cámara CODIGO DE VERIFICACIÓN: jhQ2CRgB2nm LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIoS RENUEVE SU MATRÍCULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 S.M.L.M.v dh Comrch de Neva ACTIVIDAD PRINCIPAL: 4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y NOMBRE MOTO JAPONESA AUTECO ORIGINAL DIRECCION: CARRERA 4 NO. 1-70 TELEFONO 1: 8360902 BARRIO: MUNICIPIO : PITALITO MATRICULA NO: 00252152 DEL 29 DE ENERO DE 2014 RENOVO EL ANO 2016 EL 22 DE MARZO DE 2016 ACTIVOS VINCULADOS AL ESTABLECIMIENTO : $ 3,000, 000 ACTIVIDAD PRINCIPAL: 4541 ACCESORIOS COMERCIO DE MOTOCICLETAS Y DE SUS PARTES, PIEZAS Y CERTIFICA: LA INFORMACION ANTERIOR HA SIDO TOMADA DIRECTAMENTE DEL FORMULARIO DE MATRICULA DILIGENCIADO POR EL COMERCIANTE DE CONFORMIDAD CON LO ESTABLECIDO EN EL CODIGO DE PROCEDIMIENTO ADMINISTRATIVO Y DE LO CONTENCIOSo Y DE LA LEY 962 DE 2005, LOS ACTOS ADMINISTRATIVOS DE REGISTRO AQUÍ CERTIFICADOS QUEDAN EN FIRME DIEZ (10) DIAS HABILES DESPUES DE LA FECHA DE INSCRIPCION SIEMPRE QUE NO SEAN OBJETO DE RECURSOS VALOR DEL CERTIFICADO: $2,400 IMPORTANTE: La firma digital del secretario de la Camara de Comercio de Neiva contenida en este certificado electrónico se encuentra emitida por una entidad de certificación abierta autorizada y vigilada por la Superintendencia de Industria y Comercio, de conformidad con las exigencias establecldas en la Ley 527 de 1999 para validez juridica y probatoria de los documentos electrónicos La firma digital no es una firma digitalizada o escaneada, por lo tanto, la firma digital que acompaña este documento la podrá verificar a través de su aplicativo visor de documentos pdf No obstante, si usted va a imprimir este certificado, lo puede hacer desde su computador, con la certeza de que el mismo fue expedido a través del canal virtual de la cámara de comercio y que la persona o entidad a la que usted le va a entregar el certificado impreso, puede verlficar por una sola vez el contenido del mismo, ingresando al enlace http:/lsii.ccneiva.org:81/cv.php seleccionando allá la cámara de comercio e indicando el código de verificación jhQ2CRgB2m Al realizar la verificación podrá visualizar (y descargar) una imagen exacta del certificado que fue entregado al usuario en el momento que se realizó la transacción La firma mecánica que se muestra a continuación es la representación gráfica de la firma del secretario jurídico (o que haga sus veces) de la cámara de comercio quien avala este certificado. La firma mecánica no reemplaza la firma digital en los documentos electrónicos **t****CONTINUA Pag. 2 de 3  Camara de Comerclo de Neiva CERTIFICADO EXPEDIDO A TRAVES DEL PORTAL DE SERVICIOS VIRTUALES (SII) CERTIFICADO DE MATRICULA MERCANTIL EDUARD ANCIZAR PLAZAS GUTIERREZ Fecha expedición: 2016/03/22 - 15:41:25, Recibo No. R002425641, Operación No. 01KDV0322031 Cámarda do Comacio de Ne CODIGO DE VERIFICACIÓN: jhQ2CRgB2m LA MATRICULA MERCANTIL PROPORCIONA SEGURIDAD Y CONFIANZA EN LOS NEGOCIOS RENUEVE SU MATRÍCULA A MÁS TARDAR EL 31 DE MARZO Y EVITE SANCIONES DE HASTA 17 s.M.L.M.v Pag. 3 de 3 "
+}

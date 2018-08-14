@@ -1,0 +1,141 @@
+
+
+Sacar todo lo encontrado.  Pero eliminar lo repetido.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+BUSCAR EL DOCUMENTO_IDENTIDAD DE UNA PERSONA NATURAL
+
+Documento de identidad (Entidad "type": "DOCUMENTO_IDENTIDAD"):
+
+- Buscamos los documentos de identidad asociados a las personas naturales (Entidad: "subtype": "SUBTIPO_PERSONA_NATURAL")
+
+BUSQUEDA 1:   (SI IMPLEMENTAR)
+
+Relacion directa entre DOCUMENTO_IDENTIDAD y SUBTIPO_PERSONA_NATURAL:   RELACION -> "type": "persona_tiene_documento_identidad"  BASTA CON LA RELACION, pero asegurarse que la persona tiene este subtipo: SUBTIPO_PERSONA_NATURAL. 
+
+BUSQUEDA 2:   (ESPERAR)
+
+Relacion indirecta:
+
+A. Buscar una relacion de la PERSONA NATURAL con un TIPO DE DOCUMENTO DE IDENTIDAD.  ---> "persona_tiene_tipo_documento_identidad"
+
+B. Buscar una relacion  del TIPO DOCUMENTO DE IDENTIDAD con el DOCUMENTO_IDENTIDAD.  ----> "documento_identidad_tiene_tipo_documento_identidad"
+
+C. Hemos llegado al DOCUMENTO IDENTIDAD.
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+BUSCAR EL DOCUMENTO_IDENTIDAD DE UNA EMPRESA
+
+
+Documento de identidad (Entidad "type": "DOCUMENTO_IDENTIDAD"):
+
+- Buscamos los documentos de identidad asociados a las personas naturales (Entidad: "subtype": "SUBTIPO_PERSONA_NATURAL")
+
+BUSQUEDA 1:   (SI IMPLEMENTAR)
+
+Relacion directa entre DOCUMENTO_IDENTIDAD y una entidad EMPRESA:   RELACION -> "type": "empresa_tiene_documento_identidad"  BASTA CON LA RELACION. 
+
+BUSQUEDA 2:   (ESPERAR).
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+BUSCAR FECHA MATRICULA
+
+Buscar una Entidad "FECHA" con subtipo: SUBTIPO_FECHA_MATRICULA.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR CODIGO DE ACTIVDAD ECONOMICA DE LA EMPRESA CONSULTADA
+
+BUSQUEDAS:
+
+1. Existe una relacion que se llama "es_actividad_principal".   En ese caso la ACTIVIDAD es la aparece en la relacion.
+
+Extraer de cualquier parte:
+
+- número.
+- letra.  Ej:  G7373
+- Si eso no se cumple, entonces no extraer nada.
+
+2. Si no existe una relacion que se llama "es_actividad_principal" y no existe la relacion "es_actividad_secundaria" y no existe la relacion "es_actividad_otra",  pero si existe una entidad "ACTIVIDAD", entonces esa la actividad principal.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR NOMBRE DEL REPRESENTANTE LEGAL:
+
+Buscar una Entidad "PERSONA" con subtipo: SUBTIPO_PERSONA_REPRESENTANTE_LEGAL.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR EL DOCUMENTO DEL REPRESENTANTE LEGAL:
+
+Documento de identidad (Entidad "type": "DOCUMENTO_IDENTIDAD"):
+
+- Buscamos los documentos de identidad asociados a las personas representante legal (Entidad: "subtype": "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL")
+
+BUSQUEDA 2:   (ESPERAR).
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR LAS LIMITACIONES DEL REPRESENTANTE LEGAL:
+
+Relacion directa "representante_tiene_limitacion", que es una relacion entre LIMITACION y una entidad PERSONA con "subtype": "SUBTIPO_PERSONA_REPRESENTANTE_LEGAL"  ---> BASTA CON LA RELACION. 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR FECHA VIGENCIA
+
+Buscar una Entidad "FECHA" con subtipo: SUBTIPO_FECHA_VIGENCIA.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR CODIGO DE ACTIVIDAD SECUNDARIA
+
+Existe una relacion que se llama "es_actividad_secundaria".   En ese caso la ACTIVIDAD es la aparece en la relacion.
+
+Extraer de cualquier parte:
+
+- número.
+- letra + número.  Ej:  G7373
+- Si eso no se cumple, entonces no extraer nada.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR CODIGO DE ACTIVIDAD SECUNDARIA
+
+Existe una relacion que se llama "es_actividad_otra".   En ese caso la ACTIVIDAD es la aparece en la relacion.
+
+Extraer de cualquier parte:
+
+- número.
+- letra + número.  Ej:  G7373
+- Si eso no se cumple, entonces no extraer nada.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR NOMBRE DEL SUPLENTE:
+
+Buscar una Entidad "PERSONA" con subtipo: SUBTIPO_PERSONA_SUPLENTE.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR EL DOCUMENTO DEL SUPLENTE:
+
+Documento de identidad (Entidad "type": "DOCUMENTO_IDENTIDAD"):
+
+- Buscamos los documentos de identidad asociados a las personas suplentes (Entidad: "subtype": "SUBTIPO_PERSONA_SUPLENTE").
+
+BUSQUEDA 2:   (ESPERAR).
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+BUSCAR LAS LIMITACIONES DEL SUPLENTE:
+
+Relacion directa "suplente_tiene_limitacion", que es una relacion entre LIMITACION y una entidad PERSONA con "subtype": "SUBTIPO_PERSONA_SUPLENTE"  ---> BASTA CON LA RELACION. 

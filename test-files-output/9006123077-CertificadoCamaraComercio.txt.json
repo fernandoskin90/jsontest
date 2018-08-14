@@ -1,0 +1,626 @@
+{
+  "usage": {
+    "text_units": 2,
+    "text_characters": 17245,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "persona_tiene_documento_identidad",
+      "sentence": "La sociedad tendrá un Gerente, que podrá ser o no accionistas, con opción de un Subgerente que reemplazara al principal, en sus temporales o absolutas El Gerente, o quien haga sus veces es el representante legal de la sociedad para todos los efectos CERTIFICA NOMBRAMIENTOS: CARGO GERENTE NOMBRE IDENTIFICACION 98.647.938 JOSE ALEXANDER VELASQUEZ OCHOA DESIGNACION Por Documento Privado del 5 de abril de 2013, de los Accionistas, registrado (a) en esta Cámara el 24 de abril de 2013, en el libro 9, bajo el número 7441  CAMARA DE COMERCIO DE MEDELLIN PARA ANTIOQUIA Certificado generado a través de la plataforma virtual Lugar y fecha: Número de radicado: Medellin, 2017/03/03 Horal: 14:20 cAMARADE COMERCio 6DE MEDELLIN PARA ANTIOQUiA 0014527605 - SISSBA Página: Código de verificación: PdkpacckfLNijvlw Copia: 1 de 1",
+      "score": 0.845469,
+      "arguments": [
+        {
+          "text": "JOSE ALEXANDER VELASQUEZ OCHOA",
+          "location": [
+            11396,
+            11426
+          ],
+          "entities": [
+            {
+              "type": "PERSONA",
+              "text": "JOSE ALEXANDER VELASQUEZ OCHOA",
+              "disambiguation": {
+                "subtype": [
+                  "SUBTIPO_OTRA_PERSONA"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "98.647.938",
+          "location": [
+            11385,
+            11395
+          ],
+          "entities": [
+            {
+              "type": "DOCUMENTO_IDENTIDAD",
+              "text": "98.647.938",
+              "disambiguation": {
+                "subtype": [
+                  "NONE"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "es",
+  "entities": [
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            148,
+            158
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "VELASQUEZ & ASOCIADOS ABOGADOS Y",
+      "mentions": [
+        {
+          "text": "VELASQUEZ & ASOCIADOS ABOGADOS Y",
+          "location": [
+            857,
+            889
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "29 de Septiembre de 2014",
+      "mentions": [
+        {
+          "text": "29 de Septiembre de 2014",
+          "location": [
+            2080,
+            2104
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "1 de Octubre de 2014",
+      "mentions": [
+        {
+          "text": "1 de Octubre de 2014",
+          "location": [
+            2178,
+            2198
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "VELASQUEZ & ZULUAGA ABOGADOS S.A.S",
+      "mentions": [
+        {
+          "text": "VELASQUEZ & ZULUAGA ABOGADOS S.A.S",
+          "location": [
+            2327,
+            2361
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "02 de mayo de 2016",
+      "mentions": [
+        {
+          "text": "02 de mayo de 2016",
+          "location": [
+            2377,
+            2395
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "05 de mayo de 2016",
+      "mentions": [
+        {
+          "text": "05 de mayo de 2016",
+          "location": [
+            2469,
+            2487
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "VELASQUEZ & ASOCIADOS ABOGADOS Y CONTADORES S.A.S",
+      "mentions": [
+        {
+          "text": "VELASQUEZ & ASOCIADOS ABOGADOS Y CONTADORES S.A.S",
+          "location": [
+            2635,
+            2684
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            4167,
+            4177
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            7131,
+            7141
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            9739,
+            9749
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "CARGO_REPRESENTANTE_LEGAL",
+      "text": "REPRESENTACION LEGAL",
+      "mentions": [
+        {
+          "text": "REPRESENTACION LEGAL",
+          "location": [
+            11044,
+            11064
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "Marzo 31 de 2016",
+      "mentions": [
+        {
+          "text": "Marzo 31 de 2016",
+          "location": [
+            999,
+            1015
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "DOCUMENTO_IDENTIDAD",
+      "text": "98.647.938",
+      "mentions": [
+        {
+          "text": "98.647.938",
+          "location": [
+            11385,
+            11395
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "JOSE ALEXANDER VELASQUEZ OCHOA",
+      "mentions": [
+        {
+          "text": "JOSE ALEXANDER VELASQUEZ OCHOA",
+          "location": [
+            11396,
+            11426
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "5 de abril de 2013",
+      "mentions": [
+        {
+          "text": "5 de abril de 2013",
+          "location": [
+            11465,
+            11483
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "24 de abril de 2013",
+      "mentions": [
+        {
+          "text": "24 de abril de 2013",
+          "location": [
+            11538,
+            11557
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            11741,
+            11751
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "24 de mayo de 2016",
+      "mentions": [
+        {
+          "text": "24 de mayo de 2016",
+          "location": [
+            11935,
+            11953
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "26 de mayo de 2016",
+      "mentions": [
+        {
+          "text": "26 de mayo de 2016",
+          "location": [
+            12019,
+            12037
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            14065,
+            14075
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "PERSONA",
+      "text": "SANDRA MILENA MONTES PALACIO",
+      "mentions": [
+        {
+          "text": "SANDRA MILENA MONTES PALACIO",
+          "location": [
+            15138,
+            15166
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_PERSONA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            15346,
+            15356
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "diciembre 29 de 2010",
+      "mentions": [
+        {
+          "text": "diciembre 29 de 2010",
+          "location": [
+            1312,
+            1332
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "febrero 25 de 2011",
+      "mentions": [
+        {
+          "text": "febrero 25 de 2011",
+          "location": [
+            1371,
+            1389
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "abril 05 de 2013",
+      "mentions": [
+        {
+          "text": "abril 05 de 2013",
+          "location": [
+            1447,
+            1463
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "abril 24 de 2013",
+      "mentions": [
+        {
+          "text": "abril 24 de 2013",
+          "location": [
+            1515,
+            1531
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "TIPO_ORGANIZACION",
+      "text": "Sociedad Comercial Por Acciones Simplificada",
+      "mentions": [
+        {
+          "text": "Sociedad Comercial Por Acciones Simplificada",
+          "location": [
+            1583,
+            1627
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SOCIEDAD_POR_ACCIONES_SIMPLIFICADA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "FECHA",
+      "text": "2017/03/03",
+      "mentions": [
+        {
+          "text": "2017/03/03",
+          "location": [
+            1787,
+            1797
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "SUBTIPO_OTRA_FECHA"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "EMPRESA",
+      "text": "J&G ABOGADOS CONSULTORES S.A.S",
+      "mentions": [
+        {
+          "text": "J&G ABOGADOS CONSULTORES S.A.S",
+          "location": [
+            1936,
+            1966
+          ]
+        }
+      ],
+      "disambiguation": {
+        "subtype": [
+          "NONE"
+        ]
+      },
+      "count": 1
+    }
+  ],
+  "analyzed_text": " CÁMARA DE COMERCIO DE MEDELLiN ParA ANTIOQUIA Certificado generado a través de la plataforma virtual Lugar y fecha: Núme ro de radicado: Medellín, 2017/03/03 Hora: 14 :20 cAMARADE COMERCIO* 0014527605 - SISSBA DE MEDELLIN PARA ANTIOQUIA Página: Código de verificación: PdkpacckfLNijVlw Copia 1 de 1 Para verificar el contenido y confiabilidad de este certificado, ingrese a www.certificadoscamara.com y digite el código de verificación. Este certificado, que podrá ser validado por una única vez, corresponde a la imagen y contenido del certificado creado en el momento en que se generó en las taquillas o a través de la plataforma virtual .de la Cámara CERTIFICADO DE EXISTENCIA Ý REPRESENTAC ION El SECRETARIO DE LA CAMARA DE COMERCIO DE MEDELLÍN PARA ANTIOQUIA, con fundamento en las matrículas e inscripciones del Registro Mercantil, CERTIFICA NOMBRE: VELASQUEZ & ASOCIADOS ABOGADOS Y MATRICULA: DOMICILIO: NIT CONTADORES S.A.!S 21-487582-12 MEDELLIN 900612307-7 CERTIFICA Fecha de Renovación: Marzo 31 de 2016 CERTIFICA DIRECCIÓN DEL DOMICILIO PRINCIPAL: Calle 52 MEDELLÍN, ANTIOQUIA, COLOMBIA 47 28 OFICINA 912 CERTIFICA PEQUEÑA EMPRESA: De conformidad con lo declarado en el formulario de matrícula y su anexo, el comerciante manifestó cumplir con requisitos previstos en el artículo 2 de la ley 1429 de diciembre 29 de 2010 y en el artículo 1 del decreto 545 de febrero 25 de 2011 los CERTIFICA CONSTITUCION: Que por Documento Privado de abril 05 de 2013, de los Accionistas, registrado en esta Entidad en abril 24 de 2013, en el libro 9, bajo el No.7441, se constituyó una Sociedad Comercial Por Acciones Simplificada denominada:  CAMARA DE COMERCIO DE MEDELLIN PARA ANTIOQUIA Certificado generado a través de la plataforma virtual Lugar y fecha: Número de radicado: Medellin, 2017/03/03 Hora: 14:20 caMARADE COMEKCiO* 0014527605 SISSBA DE MEDELLIN PARA ANTIOQUIA Pagina: Código de verificación: PdkpacckfLNijVlw 1 de1 Copia: J&G ABOGADOS CONSULTORES S.A.S CERTIFICA REFORMA Que hasta la fecha la sociedad ha sido reformada por los siguientes documentos: Acta No.04 del 29 de Septiembre de 2014, de la Asamblea de Accionistas, registrada en esta Cámara de Comercio el 1 de Octubre de 2014, en el libro 9o., bajo el No.18649, mediante la cual sej aprobó el cambio de nombre de la sociedad y en adelante se denominará: VELASQUEZ & ZULUAGA ABOGADOS S.A.S Acta No.06 del 02 de mayo de 2016, de la Asamblea de Accionistas, registrada en esta Cámara de Comercio el 05 de mayo de 2016, en el libro 90., bajo ei No. 11275, mediante cual entre otras reformas, se aprobó el cambio de nombre de la sociedad y en adelante seldenominará: VELASQUEZ & ASOCIADOS ABOGADOS Y CONTADORES S.A.S CERTIFICA VIGENCIA: Que la sociedad no se halla disueltaj y su duración es indefinida CERTIFICA OBJETO SOCIAL: La Sociedad tendrá como objeto social a) La prestación de servicios profesionales en todas las áreas del derecho y la contaduría pública, sin excluir ļotras áreas del conocimiento humano. Dentro de las áreas de prestación de servicios esta la seguridad de la información, la propiedad intelectual; la gestión del conocimiento; la gestión de la innovación; la valoración de activos; el tratamiento de incidentes de seguridad que tengan vocación judicial; las tecnologias de la información; los requerimientos ante estales; las conciliaciones judiciales o extrajudiciales; el trámite de entidades sucesiones; asesoria para función de empresas; manejo de libros contables; compra y venta de acciones; asesoria pára constitución de empresas; y sin excluir otras actividades propias lde las profesiones propias de la abogacía o las ciencias jurídicas y la contaduria pública o ciencias contables públicos. De conformidad con lal ley que regula las sociedades por acciones simplificadas se podrá realizar cualquier actividad licita, sea con particulares y contrataciónl con el Estado DESARROLLO DEL OBJETO SOCIAL: En desarrollo de su objeto la sociedad podr a) Explotar diversos nombres comerciales, marcas o enseñas, nombres de  CAMARA DE COMERCIO DE MEDELLIN PARA ANTIOQUIA Certificado generado a través de la plataforma virtual Lugar y. fecha: Número de radicado: Medellín, 2017/03/03 Hora: 14:20 CAMARA DE COMERCIO 0014527605- SISSBA DE MEDELLIN PARA ANTIOQUIA Página: Código de verificación: PdkpacckfLNijVlvw Copia: 1 de 1 dominio, u otros bienes o derechos amparados bajo la propiedad intelectual que permitan la identificación de sus bienes, servicios, establecimientos de comercio o sitios virtuales. Igualmente podrá explotar otros bienes cobijados bajo el régimen de la propiedad industrial, como patentes, diseños industriales, entre otros b) La sociedad podrá comprar o vender toda clase de bienes materiales inmateriales, así como representar firmas nacionales y extranjera:s relacionadas con los ramos antes descritos c) Adquirir bienes muebles e inmuebles para usufructuarlos, enajenarlos, arrendarlos, gravarlos, limitar el dominio y en términos generales disponer de ellos según sus necesidades d) Efectuar el montaje y la organización, administración, explotación económica y enajenación, a título oneroso, cuando fuere el caso, establecimientos de comercio conexos, complementarios o afines a las actividades descritas en este articulo e) La celebración de contratos de corretaje, suministro, distribución, agencia comercial, cuentas en participación, de comisión, maquila, franquicia y de representación de personas o firmas nacionales o extranjeras, u otros contratos típicos o atipicos necesarios para la celebración de negocios comerciales relativos a las descritas en este artículo y para la distribución, venta, importación y exportación de sus bienes o servicios actividades f) Concurrir a la constitución de otras empresas o sociedades, con o sin el carácter de filiales, o vincularse a empresas o sociedades ya existentes, mediante aportes en dinero, en bienes o en servicios, incorporarlas o incorporarse a ellas; siempre que aquellas empresas o sociedades tengan por objeto la explotación de actividades similares o conexas a las que constituyen el objeto societario o que de algún modo se relacionen directamente con sus servicios, bienes o actividades. En desarrollo de este literal la sociedad solo podrá hacer parte de otras sociedades en las que no comprometa su responsabilidad de solidaria e ilimitada forma g)Llevar a cabo todo tipo de operaciones de crédito y de actos jurídicos con títulos valores, sea dentro o fuera del pais, con sujeción a la ley h) Celebrar y desarrollar todo tipo de contrato o acto, operaciones o negociaciones que tengan que ver con su objeto social principal o cuya finalidad sea ejercer los derechos o cumplir las obligaciones legales o convencionalmente derivadas de la existencia y el funcionamiento de la empresa, bien sea con entidades privadas así como entidades públicas, en cuyo caso está facultada la sociedad para licitar y contratar dentro de los lineamientos de la contratación estatal bien sea dentro fuera de pals  CAMARA DE COMERCIO DE MEDELLIN PARA ANTIOQUIA Certificado generado a través de la plataforma virtual Lugar y fecha: Número de radicado: Medellín, 2017/03/03 Hora: 14:20 CAMARÁDE COMERCIO 0014527605 - SISSBAPágina:4DE MEDELUIN PARA ANTIOQUIA Código de verificación: PdkpacckfLNijVlw Copiá: 1 de1 ї)Aplicar, manejar e interpretar la contabilidad de una organización persona, con la finalidad de producir informes para la gerencia y para terceros (tanto de manera independiente como dependiente), que sirvan para la toma de decisiones j)Llevar los libros o registros de contabilidad de una empresa, registrando los movimientos monetarios de bienes y derechos k) Registrar conforme a la normativa aplicable los movimientos u operaciones económicos que hace las compañias que contraten nuestros servicios, de forma que se puedan publicar esos resultados con vistas a informar a accionistas, inversores, proveedores y demás personas interesadas (como trabajadores, financieras, etc.) entidades públicas entidades 1) Realizar liquidación de impuestos y de la revisión de informes financieros elaborados por otros colegas, tarea conocida como 〈auditoria de estados contables m) También suele realizar otros tipos de auditorías así como tareas periciales, liquidación de siniestros para compañias aseguradoras y cálculos actuariales n) Dar fe pública respecto de los hechos conocidos por él y propios del ámbito de su profesión o) Dar información esencial del funcionamiento y estado financiero de las empresas todos los agentes económicos intçresados (clientes, inversores, proveedores, etc.) p) Dar asesorías sobre normas NIIF y acompañar a las empresas en el proceso de aplicación de dichas normas q) Generar el cálculo de los costos y movimientos. económicos productivos en el interior de las empresas que adquieran nuestros serv1c1oS r)Calculo de impuestos y presentación de declaraciones de renta anta la DIAN Para la cabal realización de su objeto, la compañía podrá adquirir, usufructuar, gravar, o limitar, dar o tomar en arréndamiento o a otro titulo toda clase de bienes muebles o inmuebles, y enajenados cuando por razones de necesidad o conveniencia fuere aconsejable su disposición, tomar dinero en muto, dar en garantía sus bienes muebles o inmuebles y celebrar todas las operaciones de crédito que le permita obtener los fondos y otros activos necesarios para el desarrollo de la empresa; constituir compañias filiales para el establecimiento y explotación de empresas destinadas a la realización de cualquier actividad comprendidas en el objeto social, y tomar intereses como participe, asociada o  CÁMARA DE COMERCIO DE MEDELLiN PARA ANTIOQUIA Certificado generado a través de la plataforma virtual Lugar y. fecha: Número de radicado: Medellín, 2017/03/03 Hora: 14:20 CAMARADE COMERCIO* 0014527605 - SISSBA DE MEDELLIN PARA ANTIOQUIA Página: Código de verificación: PdkpacckfLNijVlw Copia: 1 de 1 accionista, fundador o no en otras empresas de objeto análogo o complementario al suyo, hacer aportes en dinero, en especie, o en servicios a esas empresas, enajenar sus cuotas derechos o acciones en ellas, fusionarse con tales empresas o absorberlas: adquirir patentes nombres comerciales y demás derechos de propiedad industrial y adquirir u otorgar concesiones para su explotación, y en general celebrar o ejecutar toda clase de contratos, actos u operaciones bienes muebles e inmuebles, de carácter civil o comercial que guarden relación de medio a fin con el objeto social expresado en el presente artículo, y todas aquellas que tengan como finalidad ejercer derechos y cumplir las obligaciones, legal o convencionalmente derivados de la existencia y de las actividades desarrolladas por la compañía Por autorización expresa del articulo 5 de la ley 1258 de 2008, la sociedad está facultada para realizar cualquier acto licito comercial o civil CERTIFICA QUE EL CAPITAL DE LA SOCIEDAD ES: NRO. ACCIONES VALOR NOMINA AUTORIZADG SUSCRITO PAGADO $15.000.000,00 $15.000.000,00 $15.000.000,00 15.000 15.00 15.000 $1.000,00 $1.000,00 $1.000,00 CERTIFICA REPRESENTACION LEGAL GERENTE. La sociedad tendrá un Gerente, que podrá ser o no accionistas, con opción de un Subgerente que reemplazara al principal, en sus temporales o absolutas El Gerente, o quien haga sus veces es el representante legal de la sociedad para todos los efectos CERTIFICA NOMBRAMIENTOS: CARGO GERENTE NOMBRE IDENTIFICACION 98.647.938 JOSE ALEXANDER VELASQUEZ OCHOA DESIGNACION Por Documento Privado del 5 de abril de 2013, de los Accionistas, registrado (a) en esta Cámara el 24 de abril de 2013, en el libro 9, bajo el número 7441  CAMARA DE COMERCIO DE MEDELLIN PARA ANTIOQUIA Certificado generado a través de la plataforma virtual Lugar y fecha: Número de radicado: Medellin, 2017/03/03 Horal: 14:20 cAMARADE COMERCio 6DE MEDELLIN PARA ANTIOQUiA 0014527605 - SISSBA Página: Código de verificación: PdkpacckfLNijvlw Copia: 1 de 1 SUBGERENTE VACANTE Por Acta número 7 del 24 de mayo de 2016, de la Asamblea de Accionistas, registrado (a) en esta Cámara el 26 de mayo de 2016, en el libro 9, bajo el número 12890 CERTIFICA FUNCIONES El Gerente ejercerá todas las funciones propias de la naturaleza de su cargo, y en especial, las siguientes: 1. Representar a la sociedad ante los accionistas, ante terceros y ante toda clase de autoridades de orden administrativo y jurisdiccional Ejecutar todos los actos u operaciones correspondientes al objeta social, de conformidad con lo previsto en las leyes y en los estatutos 3. Autorizar con su firma todos los documentos públicos o privados que deban otorgarse en desarrollo de las actividades sociales o en su interés 4. inventario o un b escrito sobre la situación de la sociedad, un detalle completo de la cuenta de pérdidas y ganancias y un proyecto de distribución de utilidades obtenidas Presentar a la Asamblea General en sus reuniones ordinarias, un alance de fin de ejercicio, junto con un informe Nombrar y remover los empleados de la sociedad cuyo nombramiento y remoción no corresponda a la Asamblea General 6. Tomar todas las medidas que reclame la conservación de los bienes sociales, vigilar la actividad de los empleados de la administración de la sociedad e impartibles las órdenes e instrucciones que exija la buena marcha de la Compañía 7. Convocar a la Asamblea General a reuniones extrabrdinarias cuando lo juzgue conveniente o necesario y hacer las convocatorias del caso lo ordene los estatutos 8. Podrá contratar sin la autorización de la asamblea general por un máximo de hasta cinco mil (5.000) SMLMV, y con una limitante para realizar prestamos sin autorización de la Asamblea General de hasta cuatro mil quinientos (4.500) SMLMV 9. Convocar a la asamblea general para llevar a cabo reuniones extraordinarias con quince días hábiles de anticipación con indicacióin del orden del día, cuando lo considere necesarioo conveniente y mantenerla informada del curso de los negocios sociales  cÁMARA De coMERCio DE MEDELLin parA ANTIoQuiA Certificado generado a través de la plataforma virtual Lugar y fecha: Número de radicado: Medellin, 2017/03/03 Hora 14:20 CAMARA DE COMERCIO 0014527605 - SISSBA DE MEDELLIN PARA ANTIOQUIA Página: Código de verificación: PdkpacckfLNijVlw Copia: 1 de 1 una representación gráfica de la firma del Secretario de la Cámara de Comercio de Medellin para Antioquia, como la firma digital y la respectiva estampa cronológica, las cuales podrá verificar a través de su aplicativo visor de documentos PDF Si usted expidió el certificado a través de la plataforma virtual, puede imprimirlo con la certeza de que fue expedido por la Cámara de Comercio de Medellin para Antioquia. La persona o entidad a la que usted le va a entregar el certificado puede verificar su contenido, por una sola vez y en un plazo no mayor a 30 dias contados desde el momento de su expedición, ingresando a www.certificadoscamara.com y digitando código de verificación que se encuentra en el encabezado del presente documento. El certificado a validar corresponde a la imagen y contenido del certificado creado en el momento en que se generó en las taquillas o a través de la plataforma virtual de la Cámara SANDRA MILENA MONTES PALACIO DIRECTORA DE REGISTROS PÚBIcos  CAMARA DE COMERCIO DE MEDELLIN PARA ANTIOQUIA 'Certificado generado a través de la plataforma virtual Lugat y fecha: Número de radicado: Medellín, 2017/03/03 Hora: 14:20 cAMARADE COMERCIO* 0014527605- SISSBA DE MEDELLIN PARA ANTIOQUIA Página: Código de verificación: PdkpacckfLNijVlw Copia: 1 de 1 10. Cumplir las órdenes e instrucciones que le impartan la Asamblea General y, que deban aprobar previamente la Asamblea según lo disponen las normas correspondientes del presente estatuto en particular, solicitar autorizaciones para los negocios 11. Cumplir o hacer que se cumplan oportunamente todos los requisitos c exigencias legales que se relacionen con el funcionamiento y actividades de la Sociedad CERTIFICA PROHIBICIONES, AUTORIZACIONES ESTABLECIDAS SEGUN LOS LIMITACIONES ESTATUTOS Que dentro de las funciones de la Asamblea General de Accionistas, se encuentra la de Autorizar al Gerente para realizar contratos cuando su valor exceda de cinco mil (5.000) SMLMV, y para celebrar actos financieros como prestamos u otros similares cuvos valores no excedan de cuatro mil quinientos ($4.500) SMLMV CERTIFICA DIRECCION(ES) PARA NOTIFICAC ION JUDICIAL Calle 52 47 28 OFICINA 912 MEDELLÍN, ANTIOQUIA, COLOMBIA CERTIFICA DIRECCIÓN (ES) ELECTRONICA PARA NOTIFICACION JUDICIAL contactos@velasquezasociados.net CERTIFICA Que en la CAMARA DE COMERCIO DE MEDELLIN PARA ANTIOQUIA, no aparece inscripción posterior a la anteriormente mencionada, de documentos referentes a reforma, disolución, representantes legales de la expresada entidad liquidación o nombramiento de Los actos de inscripción aqui certificados quedan en firme diez (10) días hábiles después de la fecha de su notificación, siempre que los mismos no hayan sido objeto de los recursos, en los términos y en la oportunidad establecidas en los articulos 74 y 76 del Código de Procedimiento Administrativo y de lo Contencioso Administrativo Este certificado cuenta con plena validez jurídica según lo dispuesto en la ley 527 de 1999. En él se incorporan tanto la firma mecánica que es "
+}
