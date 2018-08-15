@@ -327,7 +327,7 @@
       ],
       "disambiguation": {
         "subtype": [
-          "NONE"
+          "SUBTIPO_PERSONA_SUPLENTE"
         ]
       },
       "count": 1

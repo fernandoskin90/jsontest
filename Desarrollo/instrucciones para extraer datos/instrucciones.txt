@@ -19,9 +19,9 @@ BUSQUEDA 2:   (ESPERAR)
 
 Relacion indirecta:
 
-A. Buscar una relacion de la PERSONA NATURAL con un TIPO DE DOCUMENTO DE IDENTIDAD.  ---> "persona_tiene_tipo_documento_identidad"
+A. Buscar una relacion de la PERSONA_NATURAL con un TIPO_DE_DOCUMENTO_DE_IDENTIDAD.  ---> "persona_tiene_tipo_documento_identidad"
 
-B. Buscar una relacion  del TIPO DOCUMENTO DE IDENTIDAD con el DOCUMENTO_IDENTIDAD.  ----> "documento_identidad_tiene_tipo_documento_identidad"
+B. Buscar una relacion  del TIPO_DOCUMENTO_DE_IDENTIDAD con el DOCUMENTO_IDENTIDAD.  ----> "documento_identidad_tiene_tipo_documento_identidad"
 
 C. Hemos llegado al DOCUMENTO IDENTIDAD.
 
