@@ -1,11 +1,13 @@
-// const json = require('../../fernando/Descargas/test-files-output/9006123077-CertificadoCamaraComercio.txt.json')
-// const json = require('../../fernando/Descargas/Desarrollo/json con resultado de analisis/1076658130-CertificadoCamaraComercio.txt.json')
-// const json = require('../../fernando/Descargas/test-files-output/8301171811-CertificadoCamaraComercio.txt.json')
-// const json = require('../../fernando/Descargas/Desarrollo/json con resultado de analisis/1053780671-CertificadoCamaraComercio.txt.json')
-// const json = require('../../fernando/Descargas/Desarrollo/json con resultado de analisis/1060268413-CertificadoCamaraComercio.txt.json')
+// const json = require('./test-files-output/9006123077-CertificadoCamaraComercio.txt.json')
+// const json = require('./Desarrollo/json con resultado de analisis/1076658130-CertificadoCamaraComercio.txt.json')
+// const json = require('./test-files-output/8301171811-CertificadoCamaraComercio.txt.json')
+// const json = require('./Desarrollo/json con resultado de analisis/1053780671-CertificadoCamaraComercio.txt.json')
+// const json = require('./Desarrollo/json con resultado de analisis/1060268413-CertificadoCamaraComercio.txt.json')
 // const json = require('./Desarrollo/json con resultado de analisis/1062290703-CertificadoCamaraComercio.txt.json')
 // const json = require('./test-files-output/8300343636-CertificadoCamaraComercio.txt.json')
-const json = require('./test-files-output/8300860231-CertificadoCamaraComercio.txt.json')
+// const json = require('./test-files-output/8300860231-CertificadoCamaraComercio.txt.json')
+// const json = require('./Desarrollo/json con resultado de analisis/1076658130-CertificadoCamaraComercio.txt.json')
+const json = require('./test-files-output/8301171811-CertificadoCamaraComercio.txt.json')
 
 /**
  * Constantes de relaciones y entidades para las busquedas
@@ -22,10 +24,12 @@ const types = {
         alternatePerson: 'SUBTIPO_PERSONA_SUPLENTE',
         typePerson: 'SUBTIPO_PERSONA_NATURAL',
         subDate: 'SUBTIPO_FECHA_MATRICULA',
-        legalPerson: 'SUBTIPO_PERSONA_REPRESENTANTE_LEGAL'
+        legalPerson: 'SUBTIPO_PERSONA_REPRESENTANTE_LEGAL',
+        effectiveDate: 'SUBTIPO_FECHA_VIGENCIA'
     }
 }
 
+// Contiene las constantes con los tipos de relaciones
 const relations = {
   documentPerson: 'persona_tiene_documento_identidad',
   documentCompany: 'empresa_tiene_documento_identidad',
@@ -40,6 +44,7 @@ const relations = {
  * @returns {string} texto con la información deseada
  */
 
+// Obtiene el documento de la empresa consultada
 const getIdCompany = (data) => {
   let companyId
   const dato = data.relations
@@ -54,6 +59,7 @@ const getIdCompany = (data) => {
   return companyId = textId
 }
 
+// Obtiene el nombre de la compañia consultada
 const getComapanyName = (data) => {
   let company
   const entities = data.entities
@@ -64,6 +70,7 @@ const getComapanyName = (data) => {
   return company = item[0].text
 }
 
+// Obtiene el tipo de compañia consultada en el archivo
 const getTypeCompany = (data) => {
   let typeCompany
   const entitie = data.entities
@@ -74,6 +81,7 @@ const getTypeCompany = (data) => {
   return typeCompany =  company[0].text
 }
 
+// Obtiene el estado de la matrícula de la compañía consultada
 const registerCompany = (data) => {
   let register
   const entities = data.entities
@@ -86,6 +94,7 @@ const registerCompany = (data) => {
   return register = registerCompany[0].text
 }
 
+// Obitiene la fecha de matrícula de la empresa consultada
 const getDateRegister = (data) => {
   let dateRefister
   const entities = data.entities
@@ -97,27 +106,16 @@ const getDateRegister = (data) => {
   return dateRefister = infoJson
 }
 
-// falta por terminar
+// Obtiene el nombre del representante legal
 const getNameLegalPerson = (data) => {
   let nameLegalPerson
 
-  const entities = data.entities
-
-  const x = entities.filter(item => item.type === types.PERSON)
-
-  const y = x.filter(data => data.disambiguation.subtype.filter(x => x === types.subTypes.legalPerson))
-
-  // if (!infoEntities.length) {
-  //   return nameLegalPerson = ''
-  // }
-
-  // const infoLegalPerson = infoEntities.filter(item => item.disambiguation)
-
-  // if(!infoLegalPerson.length) return null
-
-  return y
+  return data.entities
+            .filter(item => item.type === types.PERSON)
+            .filter(ent => ent.disambiguation.subtype[0] === types.subTypes.alternatePerson)[0].text
 }
 
+// Obtiene el documento de identidad del representante legal
 const getIdPerson = (data) => {
 
   let idPerson
@@ -145,6 +143,14 @@ const getIdPerson = (data) => {
 
 }
 
+// Obtiene la fecha de vigencia de la matricula
+const getEffectiveDate = (data) =>
+    data.entities
+        .filter(item => item.type === types.DATE)
+        .filter(sub => sub.disambiguation.subtype[0] === types.subTypes.effectiveDate)[0].text
+
+
+// Eliminca los registros repetidos dentro de un array
 function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
 }
@@ -203,16 +209,18 @@ const filterCodesFromActivities = (data) => {
     };
 };
 
+// Obtiene el nombre de la persona suplente
 const getAlternatePeople = (data) =>
     data.entities
         .filter(ent => ent.type === types.PERSON)
         .filter(ent => ent.disambiguation.subtype.indexOf(types.subTypes.alternatePerson) >= 0)
         .map(person => person.text);
 
+// Obtiene el documento de identidad de la persona suplente
 const getAlternateId = (data) =>
     data.entities
         .filter(ent => ent.type === types.DOCUMENT)
         .filter(ent => ent.disambiguation.subtype.indexOf(types.subTypes.alternatePerson) >= 0)
         .map(person => person.text);
 
-console.log(getAlternateId(json));
+console.log(getEffectiveDate(json));
